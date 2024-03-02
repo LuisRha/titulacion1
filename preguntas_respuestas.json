@@ -1,0 +1,216 @@
+{
+  "Las Bases de Datos en la actualidad son muy importantes debido a que en ellas:": {
+    "question": "Las Bases de Datos en la actualidad son muy importantes debido a que en ellas:",
+    "answers": [
+      "a. Se guarda gran información de suma importancia ",
+      "b. Se estructuran datos del mismo tipo",
+      "c. Se relacionan los datos mediante varias claves",
+      "d. Se guarda los datos que siempre son del mismo tipo"
+    ]
+  },
+  "Las principales funciones que debe cumplir un SGBD se relacionan con:": {
+    "question": "Las principales funciones que debe cumplir un SGBD se relacionan con:",
+    "answers": [
+      "a. Permitir la configuración de toda la información ingresada",
+      "b. Permitir la manipulación de datos por todos",
+      "c. La creación y mantenimiento de la base de datos ",
+      "d. Administrar los recursos que dispondrá la base de datos"
+    ]
+  },
+  "Dentro de las funciones y arquitectura de un SGBDD, no se encuentra:": {
+    "question": "Dentro de las funciones y arquitectura de un SGBDD, no se encuentra:",
+    "answers": [
+      "a. Permitir la definición de todos los datos",
+      "b. Establecer controles de seguridad",
+      "c. Bloquear los accesos concurrentes ",
+      "d. Permitir operaciones de intercambio de datos entre las tablas"
+    ]
+  },
+  "El SGBD debe garantizar que los datos sigan siendo coherentes después de las diversas manipulaciones realizadas, cuál de las siguientes opciones no corresponde:": {
+    "question": "El SGBD debe garantizar que los datos sigan siendo coherentes después de las diversas manipulaciones realizadas, cuál de las siguientes opciones no corresponde:",
+    "answers": [
+      "a. La redundancia de datos",
+      "b. Incoherencia en los datos",
+      "c. Pérdida de datos",
+      "d. Configuración de las tablas "
+    ]
+  },
+  "Al hablar de un SGBD distribuido, una definición correcta sería:": {
+    "question": "Al hablar de un SGBD distribuido, una definición correcta sería:",
+    "answers": [
+      "a. La base de datos se almacena en varios computadores, que se pueden comunicar por distintos medios de comunicación. ",
+      "b. La base de datos se almacena en un servidor y se brinda el servicio a varios computadores por distintos medios de comunicación.",
+      "c. La base de datos se almacena temporalmente en varios computadores",
+      "d. La base de datos crea una copia en todas las computadoras de la red para ser utilizadas en algún momento."
+    ]
+  },
+  "En las definiciones de una base de datos distribuida, cuál de las opciones siguientes no se puede:": {
+    "question": "En las definiciones de una base de datos distribuida, cuál de las opciones siguientes no se puede:",
+    "answers": [
+      "a. No estar duplicada",
+      "b. Parcialmente duplicada",
+      "c. Medianamente duplicada ",
+      "d. Totalmente duplicada"
+    ]
+  },
+  "En una base de datos relacional la estructura de las tablas viene dado por la forma de:": {
+    "question": "En una base de datos relacional la estructura de las tablas viene dado por la forma de:",
+    "answers": [
+      "a. Datos consecutivos",
+      "b. Datos consecutivos",
+      "c. Archivo plano ",
+      "d. Datos anidados"
+    ]
+  },
+  "Son reglas de las bases de datos distribuidas, cuál de las siguientes no es una de ellas:": {
+    "question": "Son reglas de las bases de datos distribuidas, cuál de las siguientes no es una de ellas:",
+    "answers": [
+
+      "RESPUESTA 1",
+      "a. Autonomía Local",
+      "b. Operación Continua",
+      "c. No dependencia de un sitio central",
+      "d. Dependencia con respecto a la red ",
+
+      "RESPUESTA 2",
+        "a. Compartimiento de datos",
+        "b. Manejo Distribuido de Transacciones ",
+        "c. Disponibilidad",
+        "d. Mayor probabilidad de errores"
+      
+    ]
+
+    
+  },
+  "En el caso de aplicaciones que manejan un gran volumen de información y datos muy compartidos permitiendo crear estructuras estables y de gran rendimiento. Lo más aconsejable es utilizar": {
+    "question": "En el caso de aplicaciones que manejan un gran volumen de información y datos muy compartidos permitiendo crear estructuras estables y de gran rendimiento. Lo más aconsejable es utilizar",
+    "answers": [
+      "a. Bases de datos distribuidas",
+      "b. Bases de datos transaccionales",
+      "c. Bases de datos jerárquicas ",
+      "d. Bases de datos de red"
+    ]
+    
+  },
+  
+  "Es una ventaja de las bases de datos distribuidas:": {
+    "question": "Es una ventaja de las bases de datos distribuidas:",
+    "answers": [
+      "a. Autonomía ",
+      "b. Coste de desarrollo del software",
+      "c. Mayor probabilidad de errores",
+      "d. Mayor sobrecarga de procesamiento"
+    ]
+  },
+  "Es una característica de una base de datos distribuida": {
+    "question": "Es una característica de una base de datos distribuida",
+    "answers": [
+      "a. Control centralizado",
+      "b. Replicación de datos ",
+      "c. Reducción de redundancia",
+      "d. Estructuras físicas complejas"
+    ]
+  },
+  "Cuando se modela una base de datos relacional es importante tener en cuenta que se debe utilizar el modelo entidad – relación que permite realizar el diseño formalmente. Dentro de este modelo el primer paso es:": {
+    "question": "Cuando se modela una base de datos relacional es importante tener en cuenta que se debe utilizar el modelo entidad – relación que permite realizar el diseño formalmente. Dentro de este modelo el primer paso es:",
+    "answers": [
+      "a. Definir las tablas que se requieren",
+      "b. Identificar los tipos de datos a utilizar",
+      "c. Elaborar el diagrama o diagramas ",
+      "d. Definir la lista de atributos y restricciones"
+    ]
+  },
+  "Es una característica de una base de datos centralizado": {
+    "question": "Es una característica de una base de datos centralizado",
+    "answers": [
+      "a. Control jerárquico",
+      "b. Replicación de datos",
+      "c. Seguridad ",
+      "d. No hay estructuras intersitios"
+    ]
+  },
+  "La distribución óptima de datos y de las aplicaciones en los diferentes sitios, es una característica de una:": {
+    "question": "La distribución óptima de datos y de las aplicaciones en los diferentes sitios, es una característica de una:",
+    "answers": [
+      "a. Bases de Datos Centralizadas (BDC)",
+      "b. Bases de Datos Distribuidas (BDD) ",
+      "c. Bases de Datos jerárquicas (BDJ)",
+      "d. Bases de Datos Estructurales (BDE)"
+    ]
+  },
+  "Pregunta: ¿Cuál es el propósito principal de la sección de conclusiones en un proyecto de titulación?": {
+    "question": "¿Cuál es el propósito principal de la sección de conclusiones en un proyecto de titulación?",
+    "answers": [
+      "a. Presentar datos brutos.",
+      "b. Resumir hallazgos clave y evaluar el éxito del proyecto. "
+    ]
+  },
+  "Pregunta: ¿Cuál es uno de los requisitos comunes para iniciar el proceso de titulación?": {
+    "question": "¿Cuál es uno de los requisitos comunes para iniciar el proceso de titulación?",
+    "answers": [
+      "a. Haber completado un número mínimo de créditos. ",
+      "b. Haber trabajado en la industria por al menos 5 años",
+      "c. Haber participado en actividades extracurriculares"
+    ]
+  },
+  "¿Qué papel juega el proyecto de titulación en el proceso de graduación?": {
+    "question": "¿Qué papel juega el proyecto de titulación en el proceso de graduación?",
+    "answers": [
+      "a. Es opcional y no afecta la obtención del título.",
+      "b. Es un requisito fundamental que demuestra la aplicación práctica de los conocimientos adquiridos. ",
+      "c. Solo es necesario si el estudiante elige una especialización."
+    ]
+  },
+  "¿Cuál es la función principal de un cronograma en la gestión de proyectos de titulación?": {
+    "question": "¿Cuál es la función principal de un cronograma en la gestión de proyectos de titulación?",
+    "answers": [
+      "a. Registrar los logros alcanzados durante el proyecto.",
+      "b. Establecer fechas límite y secuencia de actividades ",
+      "c. Documentar observaciones y reflexiones del equipo."
+    ]
+  },
+  "¿Por qué es esencial llevar a cabo pruebas y validaciones en un proyecto tecnológico?": {
+    "question": "¿Por qué es esencial llevar a cabo pruebas y validaciones en un proyecto tecnológico?",
+    "answers": [
+      "a. Para aumentar el costo del proyecto.",
+      "b. Para garantizar la funcionalidad y calidad del producto final. ",
+      "c. Solo es necesario si el proyecto implica software."
+    ]
+  },
+  "¿Cuál es la importancia de la documentación en un proyecto de titulación?": {
+    "question": "¿Cuál es la importancia de la documentación en un proyecto de titulación?",
+    "answers": [
+      "a. No es necesaria, ya que el proyecto puede explicarse verbalmente.",
+      "b. Facilita la comprensión, replicación y evaluación del proyecto. ",
+      "c. Solo es obligatoria si el proyecto es presentado en conferencias."
+    ]
+  },
+  "Por qué es importante relacionar los resultados con la literatura existente en la sección de conclusiones?": {
+    "question": "Por qué es importante relacionar los resultados con la literatura existente en la sección de conclusiones?",
+    "answers": [
+      "a. Para agregar páginas al informe final.",
+      "b. Para comparar hallazgos con teorías y estudios previos. "
+    ]
+  },
+  "¿Cuál es el objetivo principal de proporcionar recomendaciones al final de un proyecto de titulación?": {
+    "question": "¿Cuál es el objetivo principal de proporcionar recomendaciones al final de un proyecto de titulación?",
+    "answers": [
+      "a. Rellenar espacio en la sección de conclusiones.",
+      "b. Sugerir posibles mejoras y direcciones para futuras investigaciones. "
+    ]
+  },
+  "¿En qué sección se reflexiona sobre las experiencias personales y lecciones aprendidas durante el proyecto?": {
+    "question": "¿En qué sección se reflexiona sobre las experiencias personales y lecciones aprendidas durante el proyecto?",
+    "answers": [
+      "a. Introducción.",
+      "b. Reflexiones personales. "
+    ]
+  },
+  "¿Por qué es importante evaluar el impacto potencial del proyecto en la disciplina en la sección de conclusiones?": {
+    "question": "¿Por qué es importante evaluar el impacto potencial del proyecto en la disciplina en la sección de conclusiones?",
+    "answers": [
+      "a. Para hacer que la presentación sea más larga.",
+      "b. Para destacar cómo los resultados contribuyen al avance del campo de estudio. "
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Preguntas y Respuestas</title>
+    <style>
+        /* Estilo para resaltar la respuesta correcta */
+        .correct-answer {
+            color: #60e215; /* Color verde agua */
+            font-weight: bold;
+        }
+        
+        /* Estilo para alinear los botones */
+        #questionForm button {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body class="">
+     <div>
+    <h1>Titulación Examen Complexivo</h1>
+    <h2>Consulta de Preguntas y Respuestas</h2>
+
+    <!-- Formulario para buscar una pregunta -->
+    <form id="questionForm">
+        <label for="question">Buscar pregunta:</label>
+        <input type="text" id="question" required>
+        <button type="button" id="updateButton">Reset</button>
+        <button type="submit">Buscar</button>
+        
+    </form>
+
+    <!-- Contenedor para mostrar la respuesta -->
+    <div id="answerContainer"></div>
+
+    <script>
+        // Función para cargar el archivo JSON de preguntas y respuestas
+        function cargarPreguntasYRespuestas() {
+            return fetch('preguntas_respuestas.json')
+                .then(response => response.json())
+                .catch(error => console.error('Error al cargar el archivo JSON:', error));
+        }
+
+        // Función para manejar el envío del formulario
+        document.getElementById('questionForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Evitar que el formulario se envíe automáticamente
+
+            const question = document.getElementById('question').value;
+            const answerContainer = document.getElementById('answerContainer');
+
+            // Cargar las preguntas y respuestas desde el archivo JSON
+            cargarPreguntasYRespuestas().then(data => {
+                // Verificar si la pregunta existe en el objeto 'data'
+                let questionFound = false;
+                Object.keys(data).forEach(key => {
+                    if (data[key].question.toLowerCase().includes(question.toLowerCase())) {
+                        questionFound = true;
+                        const answers = data[key].answers;
+                        let answerHTML = `<h2>${data[key].question}</h2><ul>`;
+
+                        // Recorremos las respuestas de la pregunta
+                        answers.forEach(answer => {
+                            // Verificamos si esta respuesta está marcada como correcta
+                            const isCorrect = answer.includes("");
+                            // Si es correcta, la resaltamos
+                            if (isCorrect) {
+                                answerHTML += `<li class="correct-answer">${answer}</li>`;
+                            } else {
+                                answerHTML += `<li>${answer}</li>`;
+                            }
+                        });
+
+                        answerHTML += '</ul>';
+                        answerContainer.innerHTML = answerHTML;
+                    }
+                });
+
+                if (!questionFound) {
+                    // Si la pregunta no se encuentra en el objeto 'data', mostramos un mensaje de error
+                    answerContainer.innerHTML = "<p>No se encontró una respuesta para esa pregunta.</p>";
+                }
+            });
+        });
+
+        // Función para actualizar la página
+        document.getElementById('updateButton').addEventListener('click', function() {
+            location.reload();
+        });
+    </script>
+
+</div>
+</body>
+</html>
