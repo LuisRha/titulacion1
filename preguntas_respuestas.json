@@ -8,7 +8,8 @@
       "d. Se guarda los datos que siempre son del mismo tipo"
     ]
   },
-  "Las principales funciones que debe cumplir un SGBD se relacionan con:": {
+
+    "Las principales funciones que debe cumplir un SGBD se relacionan con:": {
     "question": "Las principales funciones que debe cumplir un SGBD se relacionan con:",
     "answers": [
       "a. Permitir la configuración de toda la información ingresada",
@@ -206,11 +207,239 @@
       "b. Reflexiones personales. "
     ]
   },
+
   "¿Por qué es importante evaluar el impacto potencial del proyecto en la disciplina en la sección de conclusiones?": {
     "question": "¿Por qué es importante evaluar el impacto potencial del proyecto en la disciplina en la sección de conclusiones?",
     "answers": [
       "a. Para hacer que la presentación sea más larga.",
       "b. Para destacar cómo los resultados contribuyen al avance del campo de estudio. "
     ]
+  },
+  "Cuando pensamos en el diseño de las bases de datos centralizadas debemos tener en cuenta:": {
+    "question": "Cuando pensamos en el diseño de las bases de datos centralizadas debemos tener en cuenta:",
+    "answers": [
+      "a. El nivel de compartición",
+      "b. Características de acceso",
+      "c. Habrá una sola copia de datos que se comparta",
+      "d. Habrá una sola copia de datos que se comparta "
+    ]
+  },
+  "Al diseñar las tablas en una base de datos relacional, los campos son los distintos tipos de datos que componen la tabla y su descripción abarca:": {
+    "question": "Al diseñar las tablas en una base de datos relacional, los campos son los distintos tipos de datos que componen la tabla y su descripción abarca:",
+    "answers": [
+      "a. Nombre, extensión e identificación del campo",
+      "b. Nombre, valores y vínculos del campo",
+      "c. Nombre, tipo y ancho del campo ",
+      "d. Tipo, ancho y descripción del campo"
+    ]
+  },
+  "Un Sistema de Base de Datos debe permitir": {
+    "question": "Un Sistema de Base de Datos debe permitir",
+    "answers": [
+      "a. Que tengamos un control sobre la seguridad de los datos ",
+      "b. Que la información sea de acceso temporal",
+      "c. Que las tablas se distribuyan uniformemente",
+      "d. Que tengamos el acceso sobre las tablas de forma total"
+    ]
+  },
+
+  "La duplicación de los datos ocurre en sistemas de bases de datos distribuidos cuando:": {
+    "question": "La duplicación de los datos ocurre en sistemas de bases de datos distribuidos cuando:",
+    "answers": [
+      "a. El sistema mantiene varias copias de una relación ",
+      "b. La estructura física es compleja para el acceso",
+      "c. Utiliza un solo DBA",
+      "d. Realiza una sola copia que se comparta"
+    ]
+  },
+  "Es una característica de sistemas de base de datos distribuidos:": {
+    "question": "Es una característica de sistemas de base de datos distribuidos:",
+    "answers": [
+      "a. El proceso lo realiza un solo servidor",
+      "b. Se brinda el acceso sólo a usuarios locales",
+      "c. Se comparten datos y no programas ",
+      "d. La accesibilidad esta determinada por el servidor central"
+    ]
+  },
+  "Al desarrollar un proyecto de software se debe tomar en cuenta los estudios de viabilidad, cuales son ellos.": {
+    "question": "Al desarrollar un proyecto de software se debe tomar en cuenta los estudios de viabilidad, cuales son ellos.",
+    "answers": [
+      "a. Económica",
+      "b. Económica, táctica",
+      "c. Operativa, descriptiva, monetaria",
+      "d. Económica, técnica, operativa "
+    ]
+  },
+  "La modularización tiene relación con:": {
+    "question": "La modularización tiene relación con:",
+    "answers": [
+      "a. La división de un sistema operativo en partes",
+      "b. Crear módulos en base a UML",
+      "c. Desarrollar módulos con Scrum",
+      "d. La división de un sistema de software en módulos "
+    ]
+  },
+  "Para el desarrollo de diagramas de flujo se puede usar:": {
+    "question": "Para el desarrollo de diagramas de flujo se puede usar:",
+    "answers": [
+      "a. Java",
+      "b. JavaScript",
+      "c. FreDFD ",
+      "d. PSeint"
+    ]
+  },
+  "El diccionario de datos es conocido también como:": {
+    "question": "El diccionario de datos es conocido también como:",
+    "answers": [
+      "a. Diccionario general de programación",
+      "b. Base de desarrollo",
+      "c. Metadato ",
+      "d. Diccionario especializado"
+    ]
+  },
+  "En Ingeniería del Software- Base de datos: El modelo Top-down": {
+    "question": "En Ingeniería del Software- Base de datos: El modelo Top-down",
+    "answers": [
+      "a. Empieza con los componentes más básicos y continúa creando componentes para lograr alto nivel de abstracción.",
+      "b. Empieza con una vista general del sistema y lo descompone en unidades específicas ",
+      "c. Empieza con el análisis de requerimientos",
+      "d. Empieza con la toma de datos"
+    ]
+  },
+  "El tipo de mantenimiento de software que corresponde a la extracción de errores descubiertos por el usuario": {
+    "question": "El tipo de mantenimiento de software que corresponde a la extracción de errores descubiertos por el usuario",
+    "answers": [
+      "a. Correctivo ",
+      "b. Adaptativo",
+      "c. Perfectivo",
+      "d. Preventivo"
+    ]
+  },
+  "El proceso para actualizar la tecnología en la que el software se construye sin cambiar la funcionalidad del software es:": {
+    "question": "El proceso para actualizar la tecnología en la que el software se construye sin cambiar la funcionalidad del software es:",
+    "answers": [
+      "a. Software correctivo",
+      "b. Reingeniería de software ",
+      "c. Software predictivo",
+      "d. Software de revisión"
+    ]
+  },
+  "Qué significa CASE en ingeniería de software": {
+    "question": "Qué significa CASE en ingeniería de software",
+    "answers": [
+      "a. Computer Aided Software Engineering. ",
+      "b. Computer Action Software Engineering",
+      "c. Computer Aided Software Engineering.",
+      "d. Computer Action System Engineering."
+    ]
+  },
+  "En el modelo E-R, se incluyen los siguientes componentes básicos:": {
+    "question": "En el modelo E-R, se incluyen los siguientes componentes básicos:",
+    "answers": [
+      "a. Datos, objeto, entidad",
+      "b. Control, relación, objeto",
+      "c. Entidad, relación, atributo ",
+      "d. Entidad, atributo, control"
+    ]
+  },
+  "El objeto de la gestión de la ingeniería de software es": {
+    "question": "El objeto de la gestión de la ingeniería de software es",
+    "answers": [
+      "a. Desarrollador de software",
+      "b. Proyecto de ingeniería de software ",
+      "c. Proceso de desarrollo de software",
+      "d. Costos de desarrollo de software"
+    ]
+  },
+  "La tarea de análisis de requisitos de software no incluye": {
+    "question": "La tarea de análisis de requisitos de software no incluye",
+    "answers": [
+      "a. Determine la estructura lógica",
+      "b. Análisis del dominio de la información",
+      "c. Diseño estructurado "
+    ]
+  },
+  "El propósito de las pruebas de software es": {
+    "question": "El propósito de las pruebas de software es",
+    "answers": [
+      "a. Demuestre que el software es correcto",
+      "b. Errores de software encontrados ",
+      "c. Encontrar todos los errores en el software",
+      "d. Información del software de evaluación"
+    ]
+  },
+  "El modelo de trabajo del método de desarrollo orientado a objetos es": {
+    "question": "El modelo de trabajo del método de desarrollo orientado a objetos es",
+    "answers": [
+      "a. Modelo de cascada",
+      "b. Modelo de fuente ",
+      "c. Modelo inteligente",
+      "d. Modelo de estimación"
+    ]
+  },
+  "En UML, un paquete es un tipo": {
+    "question": "En UML, un paquete es un tipo",
+    "answers": [
+      "a. Algoritmo",
+      "b. Estructura de datos",
+      "c. Mecanismo de agrupación ",
+      "d. Acción de desarrollo"
+    ]
+  },
+  "El método de caja blanca también se denomina método de cobertura lógica, y se utiliza principalmente en": {
+    "question": "El método de caja blanca también se denomina método de cobertura lógica, y se utiliza principalmente en",
+    "answers": [
+      "a. Prueba de confirmación",
+      "b. Prueba del sistema",
+      "c. Prueba Alfa",
+      "d. Prueba unitaria "
+    ]
+  },
+  "La una medida de la longitud promedio de las palabras y las frases en los documentos. Cuanto más grande sea el índice de Fog, el documento será mas difícil de comprender.": {
+    "question": "La una medida de la longitud promedio de las palabras y las frases en los documentos. Cuanto más grande sea el índice de Fog, el documento será mas difícil de comprender.",
+    "answers": [
+      "a. Longitude de código",
+      "b. Complejidad ciclomática",
+      "c. Indice de fog ",
+      "d. Longitud de los indicadores"
+    ]
+  },
+  "En ingeniería de software de sala limpia que cajas se utilizan": {
+    "question": "En ingeniería de software de sala limpia que cajas se utilizan",
+    "answers": [
+      "a. caja blanca",
+      "b. caja negra, caja de estado, caja transparente ",
+      "c. caja de software, caja de revisión, caja de UML",
+      "d. caja de pruebas"
+    ]
+  },
+  "En Ing. del Software,   Elija un modelo basado en procesos": {
+    "question": "En Ing. del Software, Elija un modelo basado en procesos",
+    "answers": [
+      "a. ISO 15504 ",
+      "b. ISO 7001",
+      "c. Stanley",
+      "d. Moderna"
+    ]
+  },
+  "La herramienta CASE ERwin permite:": {
+    "question": "La herramienta CASE ERwin permite:",
+    "answers": [
+      "a. Genera caja amarilla",
+      "b. Visualizar la estructura, los elementos importantes, y optimizar el diseño de la base de datos. ",
+      "c. Codifica usando Python",
+      "d. Genera la tabla de datos desde un análisis recursivo de los diferentes objetos del sistema"
+    ]
+  },
+  "En que época empezó a utilizarse el criterio de ingeniería de software": {
+    "question": "En que época empezó a utilizarse el criterio de ingeniería de software",
+    "answers": [
+      "a. 1968 ",
+      "b. 1950",
+      "c. 1982",
+      "d. 1990"
+    ]
   }
+
+  
 }

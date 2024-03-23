@@ -1,0 +1,11 @@
+{
+  "La una medida de la longitud promedio de las palabras y las frases en los documentos. Cuanto más grande sea el índice de Fog, el documento será mas difícil de comprender.": {
+    "question": "La una medida de la longitud promedio de las palabras y las frases en los documentos. Cuanto más grande sea el índice de Fog, el documento será mas difícil de comprender.",
+    "answers": [
+      "A) Longitude de código",
+      "B) Complejidad ciclomática",
+      "C) Indice de fog ",
+      "D) Longitud de los indicadores"
+    ]
+  }
+}
