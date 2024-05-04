@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   width: auto;
-  height: 100%;
+  height: 700px;
   padding-left: 20px; /* Espacio en el lado izquierdo */
   border: 5px solid rgb(41, 29, 219); /* Borde alrededor de toda la hoja */
   border-radius: 15px;
