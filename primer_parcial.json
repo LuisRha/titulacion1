@@ -1,0 +1,91 @@
+{
+  "La una medida de la longitud promedio de las palabras y las frases en los documentos. Cuanto más grande sea el índice de Fog, el documento será mas difícil de comprender.": {
+    "question": "La una medida de la longitud promedio de las palabras y las frases en los documentos. Cuanto más grande sea el índice de Fog, el documento será mas difícil de comprender.",
+    "answers": [
+      "A) Longitude de código",
+      "B) Complejidad ciclomática",
+      "C) Indice de fog ",
+      "D) Longitud de los indicadores"
+    ]
+  },
+  "S1_Qué implica la estrategia de escalabilidad horizontal?": {
+    "question": "S1_Qué implica la estrategia de escalabilidad horizontal?",
+    "answers": [
+      "a. Distribuir la carga entre múltiples servidores. ",
+      "b. Añadir más recursos a un servidor.",
+      "c. Mejorar el rendimiento de un servidor existente.",
+      "d. Optimizar la eficiencia de la base de datos."
+    ],
+    "correct_answer": "a. Distribuir la carga entre múltiples servidores."
+  },
+  "S1_Qué técnica se utiliza para acelerar la entrega de contenido estático en una aplicación web?": {
+    "question": "S1_Qué técnica se utiliza para acelerar la entrega de contenido estático en una aplicación web?",
+    "answers": [
+      "a. Encriptación de datos.",
+      "b. Seguridad de capa de reD)",
+      "c. Almacenamiento en caché. ",
+      "d. Compresión de imágenes."
+    ],
+    "correct_answer": "c. Almacenamiento en caché."
+  },
+  "S2_Qué herramienta se utiliza para gestionar la configuración de servidores de manera consistente en el desarrollo web?": {
+    "question": "S2_Qué herramienta se utiliza para gestionar la configuración de servidores de manera consistente en el desarrollo web?",
+    "answers": [
+      "a. Docker Compose",
+      "b. Jenkins",
+      "c. Ansible ",
+      "d. Prettier"
+    ],
+    "correct_answer": "c. Ansible"
+  },
+  "S2_Qué tecnología se utiliza para asegurar la comunicación entre un navegador y un servidor mediante la encriptación?": {
+    "question": "S2_Qué tecnología se utiliza para asegurar la comunicación entre un navegador y un servidor mediante la encriptación?",
+    "answers": [
+      "a. OAuth",
+      "b. SSH",
+      "c. FTP",
+      "d. HTTPS "
+    ],
+    "correct_answer": "d. HTTPS"
+  },
+  "S3_Qué herramienta es útil para probar y desarrollar APIs?": {
+    "question": "S3_Qué herramienta es útil para probar y desarrollar APIs?",
+    "answers": [
+      "a. Git",
+      "b. Postman ",
+      "c. BrowserStack",
+      "d. Webpack"
+    ],
+    "correct_answer": "b. Postman"
+  },
+  "S3_Qué herramienta proporciona puntuaciones y sugerencias sobre rendimiento, accesibilidad y SEO?": {
+    "question": "S3_Qué herramienta proporciona puntuaciones y sugerencias sobre rendimiento, accesibilidad y SEO?",
+    "answers": [
+      "a. Visual Studio Code",
+      "b. Git",
+      "c. Axe",
+      "d. Lighthouse "
+    ],
+    "correct_answer": "d. Lighthouse"
+  },
+  "S4_Qué tipo de base de datos es adecuado para manejar grandes volúmenes de datos distribuidos en clústeres?": {
+    "question": "S4_Qué tipo de base de datos es adecuado para manejar grandes volúmenes de datos distribuidos en clústeres?",
+    "answers": [
+      "a. Documental",
+      "b. NoSQL",
+      "c. Columnar",
+      "d. Big Data "
+    ],
+    "correct_answer": "d. Big Data"
+  },
+  "¿S4_Qué tipo de base de datos es más adecuado para una aplicación que requiere flexibilidad en la estructura de datos y alta escalabilidad?": {
+    "question": "S4_Qué tipo de base de datos es más adecuado para una aplicación que requiere flexibilidad en la estructura de datos y alta escalabilidad?",
+    "answers": [
+      "a. Columnar",
+      "b. NoSQL ",
+      "c. Geoespacial",
+      "d. SQL"
+    ],
+    "correct_answer": "b. NoSQL"
+  }
+}
