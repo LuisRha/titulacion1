@@ -114,6 +114,30 @@
                 location.reload();
             });
         </script>
+
+<script>
+    // Establecer el tiempo de inactividad en milisegundos (5 segundos)
+    const inactivityTime = 5000;
+    let timer;
+
+    // Función para redirigir a la página de inicio de sesión después de un tiempo de inactividad
+    function redirectToLogin() {
+        window.location.href = "index.html";
+    }
+
+    // Reiniciar el temporizador cuando se detecte actividad
+    function resetTimer() {
+        clearTimeout(timer);
+        timer = setTimeout(redirectToLogin, inactivityTime);
+    }
+
+    // Detectar actividad del usuario y reiniciar el temporizador
+    document.addEventListener("mousemove", resetTimer);
+    document.addEventListener("keydown", resetTimer);
+
+    // Iniciar el temporizador al cargar la página
+    timer = setTimeout(redirectToLogin, inactivityTime);
+</script>
     </div>
 </body>
 </html>
