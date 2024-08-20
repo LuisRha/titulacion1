@@ -533,11 +533,6 @@
       "correct_answer": "b. NoSQL"
     },
 
-
-
-
-
-
     "¿_Qué es importante tener un buen conocimiento de para superar los desafíos de la tolerancia a fallos? ": {
       "question": "¿_Qué es importante tener un buen conocimiento de para superar los desafíos de la tolerancia a fallos?",
       "answers": [
@@ -641,9 +636,513 @@
             "d. Rendimiento Limitado debido a la distribución de la carga de trabajo."
           ],
           "correct_answer": "b. Mayor disponibilidad de datos al replicarlos en varios ordenadores. "
-        }
-      }
-      
+        },
+
+
+        
+          "¿Qué es la transparencia en una base de datos distribuida?": {
+            "question": "¿Qué es la transparencia en una base de datos distribuida?",
+            "answers": [
+              "a. La capacidad de visualizar todos los datos en una sola ubicación.",
+              "b. La capacidad de un sistema para ocultar la distribución física de datos a los usuarios. ",
+              "c. La capacidad de dividir datos en fragmentos.",
+              "d. La capacidad de eliminar datos redundantes."
+            ],
+            "correct_answer": "b. La capacidad de un sistema para ocultar la distribución física de datos a los usuarios. "
+          },
+          "¿Qué es el middleware en una base de datos distribuida?": {
+            "question": "¿Qué es el middleware en una base de datos distribuida?",
+            "answers": [
+              "a. Software que realiza copias de seguridad de datos.",
+              "b. Software que se encarga de la seguridad de datos.",
+              "c. Software que se encuentra entre el sistema operativo y las aplicaciones.",
+              "d. Software que permite la comunicación y gestión de datos entre nodos. "
+            ],
+            "correct_answer": "d. Software que permite la comunicación y gestión de datos entre nodos. "
+          },
+          "¿Qué es la independencia de datos?": {
+            "question": "¿Qué es la independencia de datos?",
+            "answers": [
+              "a. La capacidad de cambiar el esquema local sin afectar el esquema global.",
+              "b. La capacidad de cambiar los datos sin afectar el esquema.",
+              "c. La capacidad de cambiar el esquema sin afectar los datos.",
+              "d. La capacidad de cambiar el esquema global sin afectar el esquema local. "
+            ],
+            "correct_answer": "a. La capacidad de cambiar el esquema local sin afectar el esquema global. "
+          },
+          "¿Qué es la carga equilibrada en bases de datos distribuidas?": {
+            "question": "¿Qué es la carga equilibrada en bases de datos distribuidas?",
+            "answers": [
+              "a. La capacidad de dividir datos en fragmentos.",
+              "b. La capacidad de distribuir la carga de trabajo de manera equitativa entre los nodos. ",
+              "c. La capacidad de eliminar datos duplicados.",
+              "d. La capacidad de realizar copias de seguridad de datos."
+            ],
+            "correct_answer": "b. La capacidad de distribuir la carga de trabajo de manera equitativa entre los nodos. "
+          },
+          "¿Qué es la replicación asíncrona?": {
+            "question": "¿Qué es la replicación asíncrona?",
+            "answers": [
+              "a. La replicación de datos en una sola ubicación.",
+              "b. La replicación de datos en intervalos programados. ",
+              "c. La replicación de datos en tiempo real.",
+              "d. La replicación de datos en diferentes formatos."
+            ],
+            "correct_answer": "b. La replicación de datos en intervalos programados. "
+          },
+
+          "¿Cuál es una ventaja de una base de datos distribuida?": {
+    "question": "¿Cuál es una ventaja de una base de datos distribuida?",
+    "answers": [
+      "a. Menor requerimiento de seguridad.",
+      "b. Alta disponibilidad de datos. ",
+      "c. Menor costo de implementación.",
+      "d. Menor complejidad en el diseño."
+    ],
+    "correct_answer": "b. Alta disponibilidad de datos. "
+  },
+  "¿Qué es una transacción en una base de datos distribuida?": {
+    "question": "¿Qué es una transacción en una base de datos distribuida?",
+    "answers": [
+      "a. Una serie de operaciones que se ejecutan como una unidad. ",
+      "b. Un solo paso de una consulta.",
+      "c. El proceso de replicar datos.",
+      "d. La eliminación de datos redundantes."
+    ],
+    "correct_answer": "a. Una serie de operaciones que se ejecutan como una unidad. "
+  },
+  "¿Qué es el control de acceso en bases de datos distribuidas?": {
+    "question": "¿Qué es el control de acceso en bases de datos distribuidas?",
+    "answers": [
+      "a. El proceso de replicar datos.",
+      "b. El proceso de fragmentar datos.",
+      "c. El proceso de asegurar la integridad de datos.",
+      "d. El proceso de otorgar o denegar acceso a los datos. "
+    ],
+    "correct_answer": "d. El proceso de otorgar o denegar acceso a los datos. "
+  },
+  "¿Qué es una base de datos homogénea distribuida?": {
+    "question": "¿Qué es una base de datos homogénea distribuida?",
+    "answers": [
+      "a. Una base de datos con diferentes sistemas de gestión de bases de datos.",
+      "b. Una base de datos con el mismo sistema de gestión de bases de datos en todos los nodos. ",
+      "c. Una base de datos con diferentes fragmentos de datos.",
+      "d. Una base de datos con diferentes esquemas en cada nodo."
+    ],
+    "correct_answer": "b. Una base de datos con el mismo sistema de gestión de bases de datos en todos los nodos. "
+  },
+  "¿Qué es la sincronización de datos en bases de datos distribuidas?": {
+    "question": "¿Qué es la sincronización de datos en bases de datos distribuidas?",
+    "answers": [
+      "a. El proceso de fragmentar datos en múltiples nodos.",
+      "b. El proceso de replicar datos en intervalos programados.",
+      "c. El proceso de eliminar datos redundantes.",
+      "d. El proceso de asegurar que los datos sean consistentes en todos los nodos. "
+    ],
+    "correct_answer": "d. El proceso de asegurar que los datos sean consistentes en todos los nodos. "
+  },
+  "¿Qué es la consistencia en bases de datos distribuidas?": {
+    "question": "¿Qué es la consistencia en bases de datos distribuidas?",
+    "answers": [
+      "a. La capacidad de escalar el sistema.",
+      "b. La propiedad de eliminar datos duplicados.",
+      "c. La capacidad de recuperar datos rápidamente.",
+      "d. La propiedad de asegurar que todos los nodos tengan los mismos datos. "
+    ],
+    "correct_answer": "d. La propiedad de asegurar que todos los nodos tengan los mismos datos. "
+  },
+  "¿Qué es un sistema de bases de datos distribuidas heterogéneo?": {
+    "question": "¿Qué es un sistema de bases de datos distribuidas heterogéneo?",
+    "answers": [
+      "a. Un sistema con los mismos fragmentos de datos en todos los nodos.",
+      "b. Un sistema con el mismo esquema en todos los nodos.",
+      "c. Un sistema que utiliza el mismo sistema de gestión de bases de datos en todos los nodos.",
+      "d. Un sistema que utiliza diferentes sistemas de gestión de bases de datos en cada nodo. "
+    ],
+    "correct_answer": "d. Un sistema que utiliza diferentes sistemas de gestión de bases de datos en cada nodo. "
+  },
+  "¿Qué es el tiempo de respuesta en una base de datos distribuida?": {
+    "question": "¿Qué es el tiempo de respuesta en una base de datos distribuida?",
+    "answers": [
+      "a. El tiempo que tarda en fragmentar datos.",
+      "b. El tiempo que tarda en completar una transacción.",
+      "c. El tiempo que tarda en replicar datos.",
+      "d. El tiempo que tarda en recuperar los datos solicitados. "
+    ],
+    "correct_answer": "d. El tiempo que tarda en recuperar los datos solicitados. "
+  },
+  "¿Qué es un esquema global en una base de datos distribuida?": {
+    "question": "¿Qué es un esquema global en una base de datos distribuida?",
+    "answers": [
+      "a. La definición de la estructura de datos en una tabla.",
+      "b. La definición de la estructura de datos en toda la base de datos distribuida. ",
+      "c. La definición de la estructura de datos en una única ubicación.",
+      "d. La definición de la estructura de datos en una fragmento."
+    ],
+    "correct_answer": "b. La definición de la estructura de datos en toda la base de datos distribuida. "
+  },
+  "¿Qué es la disponibilidad en una base de datos distribuida?": {
+    "question": "¿Qué es la disponibilidad en una base de datos distribuida?",
+    "answers": [
+      "a. La capacidad de dividir datos en fragmentos.",
+      "b. La capacidad de proporcionar datos bajo demanda.",
+      "c. La capacidad de un sistema para estar operativo y accesible. ",
+      "d. La capacidad de realizar copias de seguridad de datos."
+    ],
+    "correct_answer": "c. La capacidad de un sistema para estar operativo y accesible. "
+  },
+  "¿Qué es la replicación de datos en una base de datos distribuida?": {
+    "question": "¿Qué es la replicación de datos en una base de datos distribuida?",
+    "answers": [
+      "a. El proceso de optimizar las consultas de datos.",
+      "b. El proceso de dividir los datos en fragmentos.",
+      "c. El proceso de asegurar que los datos estén disponibles en múltiples ubicaciones. ",
+      "d. El proceso de eliminar datos redundantes."
+    ],
+    "correct_answer": "c. El proceso de asegurar que los datos estén disponibles en múltiples ubicaciones. "
+  },
+  "¿Qué es un sistema de archivos distribuido?": {
+    "question": "¿Qué es un sistema de archivos distribuido?",
+    "answers": [
+      "a. Un sistema que fragmenta archivos en múltiples nodos.",
+      "b. Un sistema que almacena archivos en múltiples ubicaciones y permite el acceso compartido. ",
+      "c. Un sistema que almacena archivos en una sola ubicación.",
+      "d. Un sistema que replica archivos en tiempo real."
+    ],
+    "correct_answer": "b. Un sistema que almacena archivos en múltiples ubicaciones y permite el acceso compartido. "
+  },
+  "¿Qué es la redundancia de datos en bases de datos distribuidas?": {
+    "question": "¿Qué es la redundancia de datos en bases de datos distribuidas?",
+    "answers": [
+      "a. La replicación de datos en múltiples ubicaciones para mejorar la disponibilidad y confiabilidad. ",
+      "b. La partición de datos en fragmentos.",
+      "c. La sincronización de datos entre nodos.",
+      "d. La eliminación de datos duplicados."
+    ],
+    "correct_answer": "a. La replicación de datos en múltiples ubicaciones para mejorar la disponibilidad y confiabilidad. "
+  },
+  "¿Qué es una base de datos distribuida?": {
+    "question": "¿Qué es una base de datos distribuida?",
+    "answers": [
+      "a. Una base de datos donde los datos se distribuyen en múltiples ubicaciones. ",
+      "b. Una base de datos que solo se puede acceder desde una red local.",
+      "c. Una base de datos que utiliza solo un servidor central.",
+      "d. Una base de datos almacenada en una sola ubicación."
+    ],
+    "correct_answer": "a. Una base de datos donde los datos se distribuyen en múltiples ubicaciones. "
+  },
+  "¿Cuál es un desafío principal en las bases de datos distribuidas?": {
+    "question": "¿Cuál es un desafío principal en las bases de datos distribuidas?",
+    "answers": [
+      "a. La redundancia de datos.",
+      "b. La facilidad de implementación.",
+      "c. La seguridad.",
+      "d. La latencia y sincronización de datos. "
+    ],
+    "correct_answer": "d. La latencia y sincronización de datos. "
+  },
+  "¿Qué es una consulta distribuida?": {
+    "question": "¿Qué es una consulta distribuida?",
+    "answers": [
+      "a. Una consulta que solo afecta a los datos fragmentados.",
+      "b. Una consulta que se ejecuta en una sola ubicación.",
+      "c. Una consulta que se ejecuta en múltiples nodos. ",
+      "d. Una consulta que no afecta a los datos."
+    ],
+    "correct_answer": "c. Una consulta que se ejecuta en múltiples nodos. "
+  },
+  "¿Qué es un índice distribuido?": {
+    "question": "¿Qué es un índice distribuido?",
+    "answers": [
+      "a. Un índice que se encuentra en una sola ubicación.",
+      "b. Un índice que almacena datos redundantes.",
+      "c. Un índice que se encuentra en múltiples ubicaciones. ",
+      "d. Un índice que se utiliza para fragmentar datos."
+    ],
+    "correct_answer": "c. Un índice que se encuentra en múltiples ubicaciones. "
+  },
+  "¿Qué es la consistencia eventual?": {
+    "question": "¿Qué es la consistencia eventual?",
+    "answers": [
+      "a. La propiedad de que los datos sean consistentes en todo momento.",
+      "b. La propiedad de que los datos sean consistentes después de un período de tiempo. ",
+      "c. La propiedad de que los datos sean redundantes.",
+      "d. La propiedad de que los datos sean fragmentados."
+    ],
+    "correct_answer": "b. La propiedad de que los datos sean consistentes después de un período de tiempo. "
+  },
+  "¿Qué es un sistema de bases de datos distribuidas homogéneo?": {
+    "question": "¿Qué es un sistema de bases de datos distribuidas homogéneo?",
+    "answers": [
+      "a. Un sistema con diferentes fragmentos de datos.",
+      "b. Un sistema que utiliza el mismo sistema de gestión de bases de datos en todos los nodos. ",
+      "c. Un sistema que utiliza diferentes sistemas de gestión de bases de datos.",
+      "d. Un sistema con diferentes esquemas en cada nodo."
+    ],
+    "correct_answer": "b. Un sistema que utiliza el mismo sistema de gestión de bases de datos en todos los nodos. "
+  },
+  "¿Qué es un sistema de gestión de bases de datos distribuidas (DDBMS)?": {
+    "question": "¿Qué es un sistema de gestión de bases de datos distribuidas (DDBMS)?",
+    "answers": [
+      "a. Un software para gestionar bases de datos distribuidas. ",
+      "b. Un software para gestionar una base de datos centralizada.",
+      "c. Un software para crear copias de seguridad de datos.",
+      "d. Un software para eliminar datos duplicados."
+    ],
+    "correct_answer": "a. Un software para gestionar bases de datos distribuidas. "
+  },
+  "¿Qué es el particionamiento en bases de datos distribuidas?": {
+    "question": "¿Qué es el particionamiento en bases de datos distribuidas?",
+    "answers": [
+      "a. La creación de copias de seguridad de datos.",
+      "b. La división de datos en fragmentos más pequeños. ",
+      "c. La eliminación de datos duplicados.",
+      "d. La combinación de múltiples tablas en una sola."
+    ],
+    "correct_answer": "b. La división de datos en fragmentos más pequeños. "
+  },
+  "¿Qué es el particionamiento vertical en bases de datos distribuidas?": {
+    "question": "¿Qué es el particionamiento vertical en bases de datos distribuidas?",
+    "answers": [
+      "a. Dividir una tabla en varias tablas, cada una con diferentes filas.",
+      "b. Almacenar datos redundantes en múltiples ubicaciones.",
+      "c. Combinar datos de múltiples tablas en una sola tabla.",
+      "d. Dividir una tabla en varias tablas, cada una con diferentes columnas. "
+    ],
+    "correct_answer": "d. Dividir una tabla en varias tablas, cada una con diferentes columnas. "
+  },
+  "¿Qué es el escalado vertical en bases de datos distribuidas?": {
+    "question": "¿Qué es el escalado vertical en bases de datos distribuidas?",
+    "answers": [
+      "a. Eliminar datos duplicados.",
+      "b. Replicar datos en intervalos programados.",
+      "c. Aumentar la capacidad de un solo nodo, mejorando su hardware o software. ",
+      "d. Añadir más nodos al sistema."
+    ],
+    "correct_answer": "c. Aumentar la capacidad de un solo nodo, mejorando su hardware o software. "
+  },
+  "¿Qué es la replicación completa?": {
+    "question": "¿Qué es la replicación completa?",
+    "answers": [
+      "a. La replicación de una parte de los datos.",
+      "b. La replicación de datos en tiempo real.",
+      "c. La replicación de todos los datos en todos los nodos. ",
+      "d. La replicación de los datos en intervalos programados."
+    ],
+    "correct_answer": "c. La replicación de todos los datos en todos los nodos. "
+  },
+  "¿Cuál es el propósito del control de concurrencia en bases de datos distribuidas?": {
+    "question": "¿Cuál es el propósito del control de concurrencia en bases de datos distribuidas?",
+    "answers": [
+      "a. Replicar datos entre nodos.",
+      "b. Optimizar el rendimiento de consultas.",
+      "c. Asegurar que las transacciones se realicen sin conflictos. ",
+      "d. Evitar el acceso no autorizado."
+    ],
+    "correct_answer": "c. Asegurar que las transacciones se realicen sin conflictos. "
+  },
+  "¿Qué significa la atomicidad en una transacción?": {
+    "question": "¿Qué significa la atomicidad en una transacción?",
+    "answers": [
+      "a. Los datos deben ser replicados.",
+      "b. Los datos pueden ser fragmentados.",
+      "c. Las transacciones pueden ejecutarse de manera independiente.",
+      "d. Todas las operaciones de una transacción deben completarse o ninguna se completa. "
+    ],
+    "correct_answer": "d. Todas las operaciones de una transacción deben completarse o ninguna se completa. "
+  },
+  "¿Qué es una base de datos heterogénea distribuida?": {
+    "question": "¿Qué es una base de datos heterogénea distribuida?",
+    "answers": [
+      "a. Una base de datos con los mismos fragmentos de datos en todos los nodos.",
+      "b. Una base de datos con el mismo sistema de gestión de bases de datos en todos los nodos.",
+      "c. Una base de datos con el mismo esquema en todos los nodos.",
+      "d. Una base de datos con diferentes sistemas de gestión de bases de datos en cada nodo. "
+    ],
+    "correct_answer": "d. Una base de datos con diferentes sistemas de gestión de bases de datos en cada nodo. "
+  },
+  "¿Qué es un nodo en una base de datos distribuida?": {
+    "question": "¿Qué es un nodo en una base de datos distribuida?",
+    "answers": [
+      "a. Una consulta a la base de datos.",
+      "b. Un índice de la base de datos.",
+      "c. Un servidor o sistema que almacena datos y procesa transacciones. ",
+      "d. Un fragmento de datos."
+    ],
+    "correct_answer": "c. Un servidor o sistema que almacena datos y procesa transacciones. "
+  },
+  "¿Qué es una transacción distribuida?": {
+    "question": "¿Qué es una transacción distribuida?",
+    "answers": [
+      "a. Una transacción que afecta a un solo nodo.",
+      "b. Una transacción que afecta a múltiples nodos. ",
+      "c. Una transacción que solo afecta a los datos fragmentados.",
+      "d. Una transacción que no afecta a ningún nodo."
+    ],
+    "correct_answer": "b. Una transacción que afecta a múltiples nodos. "
+  },
+  "¿Qué es la latencia en una base de datos distribuida?": {
+    "question": "¿Qué es la latencia en una base de datos distribuida?",
+    "answers": [
+      "a. El tiempo que tarda en replicar datos.",
+      "b. El tiempo que tarda en fragmentar datos.",
+      "c. El retraso en la comunicación entre nodos. ",
+      "d. El tiempo que tarda en completar una transacción."
+    ],
+    "correct_answer": "c. El retraso en la comunicación entre nodos. "
+  },
+  "¿Qué es un nodo maestro en una base de datos distribuida?": {
+    "question": "¿Qué es un nodo maestro en una base de datos distribuida?",
+    "answers": [
+      "a. Un nodo que realiza copias de seguridad de datos.",
+      "b. Un nodo que almacena datos redundantes.",
+      "c. Un nodo que fragmenta datos.",
+      "d. Un nodo que coordina y gestiona otros nodos. "
+    ],
+    "correct_answer": "d. Un nodo que coordina y gestiona otros nodos. "
+  },
+  "¿Qué es un nodo esclavo en una base de datos distribuida?": {
+    "question": "¿Qué es un nodo esclavo en una base de datos distribuida?",
+    "answers": [
+      "a. Un nodo que realiza copias de seguridad de datos.",
+      "b. Un nodo que sigue las instrucciones del nodo maestro. ",
+      "c. Un nodo que almacena datos redundantes.",
+      "d. Un nodo que fragmenta datos."
+    ],
+    "correct_answer": "b. Un nodo que sigue las instrucciones del nodo maestro. "
+  },
+  "¿Qué es el protocolo de consenso en bases de datos distribuidas?": {
+    "question": "¿Qué es el protocolo de consenso en bases de datos distribuidas?",
+    "answers": [
+      "a. Un proceso de particionamiento de datos.",
+      "b. Un esquema de control de acceso.",
+      "c. Un protocolo para asegurar la integridad de datos en transacciones distribuidas.",
+      "d. Un método para asegurar que todos los nodos estén de acuerdo en el estado de los datos. "
+    ],
+    "correct_answer": "d. Un método para asegurar que todos los nodos estén de acuerdo en el estado de los datos. "
+  },
+  "¿Qué es el procesamiento paralelo en bases de datos distribuidas?": {
+    "question": "¿Qué es el procesamiento paralelo en bases de datos distribuidas?",
+    "answers": [
+      "a. Procesar transacciones en un solo nodo.",
+      "b. Procesar transacciones en serie.",
+      "c. Procesar transacciones en tiempo real.",
+      "d. Procesar transacciones simultáneamente en múltiples nodos. "
+    ],
+    "correct_answer": "d. Procesar transacciones simultáneamente en múltiples nodos. "
+  },
+  "¿Qué es la replicación síncrona?": {
+    "question": "¿Qué es la replicación síncrona?",
+    "answers": [
+      "a. La replicación de datos en diferentes formatos.",
+      "b. La replicación de datos en una sola ubicación.",
+      "c. La replicación de datos en intervalos programados.",
+      "d. La replicación de datos en tiempo real. "
+    ],
+    "correct_answer": "d. La replicación de datos en tiempo real. "
+  },
+  "¿Qué es un fragmento en una base de datos distribuida?": {
+    "question": "¿Qué es un fragmento en una base de datos distribuida?",
+    "answers": [
+      "a. Una parte de la base de datos que se almacena en un nodo. ",
+      "b. Una consulta a la base de datos.",
+      "c. Un índice de la base de datos.",
+      "d. Una copia de la base de datos completa."
+    ],
+    "correct_answer": "a. Una parte de la base de datos que se almacena en un nodo. "
+  },
+  "¿Qué es la recuperación ante desastres en bases de datos distribuidas?": {
+    "question": "¿Qué es la recuperación ante desastres en bases de datos distribuidas?",
+    "answers": [
+      "a. El proceso de restaurar datos y sistemas después de un fallo o desastre. ",
+      "b. El proceso de replicar datos en tiempo real.",
+      "c. El proceso de eliminar datos redundantes.",
+      "d. El proceso de fragmentar datos en múltiples nodos."
+    ],
+    "correct_answer": "a. El proceso de restaurar datos y sistemas después de un fallo o desastre. "
+  },
+  "¿Qué es el protocolo de dos fases?": {
+    "question": "¿Qué es el protocolo de dos fases?",
+    "answers": [
+      "a. Un proceso de particionamiento de datos.",
+      "b. Un protocolo para asegurar la integridad de datos en transacciones distribuidas. ",
+      "c. Un esquema de control de acceso.",
+      "d. Un método de replicación de datos."
+    ],
+    "correct_answer": "b. Un protocolo para asegurar la integridad de datos en transacciones distribuidas. "
+  },
+  "¿Qué es la integridad de datos en una base de datos distribuida?": {
+    "question": "¿Qué es la integridad de datos en una base de datos distribuida?",
+    "answers": [
+      "a. La precisión y consistencia de los datos almacenados. ",
+      "b. La capacidad de fragmentar datos en múltiples nodos.",
+      "c. La capacidad de cambiar el esquema sin afectar los datos.",
+      "d. La capacidad de replicar datos en tiempo real."
+    ],
+    "correct_answer": "a. La precisión y consistencia de los datos almacenados. "
+  },
+  "¿Qué significa la escalabilidad en bases de datos distribuidas?": {
+    "question": "¿Qué significa la escalabilidad en bases de datos distribuidas?",
+    "answers": [
+      "a. La capacidad de un sistema para manejar un incremento en la carga de trabajo. ",
+      "b. La capacidad de dividir datos en fragmentos.",
+      "c. La capacidad de eliminar datos redundantes.",
+      "d. La capacidad de realizar copias de seguridad de datos."
+    ],
+    "correct_answer": "a. La capacidad de un sistema para manejar un incremento en la carga de trabajo. "
+  },
+  "¿Qué es el escalado horizontal en bases de datos distribuidas?": {
+    "question": "¿Qué es el escalado horizontal en bases de datos distribuidas?",
+    "answers": [
+      "a. Replicar datos en tiempo real.",
+      "b. Añadir más nodos al sistema para distribuir la carga de trabajo. ",
+      "c. Eliminar datos duplicados.",
+      "d. Aumentar la capacidad de un solo nodo."
+    ],
+    "correct_answer": "b. Añadir más nodos al sistema para distribuir la carga de trabajo. "
+  },
+  "¿Qué es la partición horizontal en bases de datos distribuidas?": {
+    "question": "¿Qué es la partición horizontal en bases de datos distribuidas?",
+    "answers": [
+      "a. Almacenar datos redundantes en múltiples ubicaciones.",
+      "b. Combinar datos de múltiples tablas en una sola tabla.",
+      "c. Dividir una tabla en varias tablas, cada una con diferentes filas. ",
+      "d. Dividir una tabla en varias tablas, cada una con diferentes columnas."
+    ],
+    "correct_answer": "c. Dividir una tabla en varias tablas, cada una con diferentes filas. "
+  },
+  "¿Qué significa la fragmentación horizontal en bases de datos distribuidas?": {
+    "question": "¿Qué significa la fragmentación horizontal en bases de datos distribuidas?",
+    "answers": [
+      "a. Dividir una tabla en varias tablas, cada una con diferentes columnas.",
+      "b. Combinar datos de múltiples tablas en una sola tabla.",
+      "c. Almacenar datos redundantes en múltiples ubicaciones.",
+      "d. Dividir una tabla en varias tablas, cada una con diferentes filas. "
+    ],
+    "correct_answer": "d. Dividir una tabla en varias tablas, cada una con diferentes filas. "
+  },
+  "¿Qué es el almacenamiento en caché en una base de datos distribuida?": {
+    "question": "¿Qué es el almacenamiento en caché en una base de datos distribuida?",
+    "answers": [
+      "a. El proceso de replicar datos en intervalos programados.",
+      "b. El proceso de fragmentar datos en múltiples nodos.",
+      "c. El proceso de eliminar datos redundantes.",
+      "d. El proceso de almacenar temporalmente datos en una ubicación cercana al usuario para un acceso más rápido. "
+    ],
+    "correct_answer": "d. El proceso de almacenar temporalmente datos en una ubicación cercana al usuario para un acceso más rápido. "
+  },
+  "¿Qué es la replicación parcial?": {
+    "question": "¿Qué es la replicación parcial?",
+    "answers": [
+      "a. La replicación de datos en tiempo real.",
+      "b. La replicación de una parte de los datos en algunos nodos. ",
+      "c. La replicación de los datos en intervalos programados.",
+      "d. La replicación de todos los datos en todos los nodos."
+    ],
+    "correct_answer": "b. La replicación de una parte de los datos en algunos nodos. "
+  }
+   }
+        
     
     
     
