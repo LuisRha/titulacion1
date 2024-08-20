@@ -663,12 +663,12 @@
           "¿Qué es la independencia de datos?": {
             "question": "¿Qué es la independencia de datos?",
             "answers": [
-              "a. La capacidad de cambiar el esquema local sin afectar el esquema global.",
+              "a. La capacidad de cambiar el esquema local sin afectar el esquema global. ",
               "b. La capacidad de cambiar los datos sin afectar el esquema.",
               "c. La capacidad de cambiar el esquema sin afectar los datos.",
-              "d. La capacidad de cambiar el esquema global sin afectar el esquema local. "
+              "d. La capacidad de cambiar el esquema global sin afectar el esquema local."
             ],
-            "correct_answer": "a. La capacidad de cambiar el esquema local sin afectar el esquema global. "
+            "correct_answer": "a. La capacidad de cambiar el esquema local sin afectar el esquema global. "
           },
           "¿Qué es la carga equilibrada en bases de datos distribuidas?": {
             "question": "¿Qué es la carga equilibrada en bases de datos distribuidas?",
