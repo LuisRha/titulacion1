@@ -12,15 +12,13 @@
         <h1>Titulación Examen Complexivo</h1>
         <!-- Agregamos un campo de selección para elegir el tema -->
         <label for="topic">Tema:</label>
-<select id="topic" name="topic">
-    <option value="all">Titulación</option>
-    <option value="primer-parcial">Primer Parcial DAW 5to</option>
-    <option value="segundo-parcial">Segundo Parcial Quinto Semestre</option>
-    <option value="tercer-parcial">Tercer Parcial Quinto Semestre</option>
-
-    <!-- Puedes agregar más opciones de temas aquí -->
-</select>
-
+        <select id="topic" name="topic">
+            <option value="all">Titulación</option>
+            <option value="primer-parcial">Primer Parcial DAW 5to</option>
+            <option value="segundo-parcial">Segundo Parcial Quinto Semestre</option>
+            <option value="tercer-parcial">Tercer Parcial Quinto Semestre</option>
+            <!-- Puedes agregar más opciones de temas aquí -->
+        </select>
 
         <h2>Consulta de Preguntas y Respuestas</h2>
 
@@ -80,10 +78,15 @@
 
             // Función para procesar las preguntas y respuestas
             function procesarPreguntasYRespuestas(data, question, answerContainer) {
-                // Lógica para buscar la pregunta y mostrar las respuestas
+                // Normalizar la pregunta eliminando signos de puntuación
+                const normalizedQuestion = question.replace(/[¿?.,:;!""]/g, '').toLowerCase().trim();
+
                 let questionFound = false;
                 Object.keys(data).forEach(key => {
-                    if (data[key].question.toLowerCase().includes(question.toLowerCase())) {
+                    // Normalizar la pregunta en el archivo JSON
+                    const normalizedStoredQuestion = data[key].question.replace(/[¿?.,:;!""]/g, '').toLowerCase().trim();
+
+                    if (normalizedStoredQuestion.includes(normalizedQuestion)) {
                         questionFound = true;
                         const answers = data[key].answers;
                         let answerHTML = `<h2>${data[key].question}</h2><ul>`;
@@ -115,30 +118,29 @@
             });
         </script>
 
-<script>
-    // Establecer el tiempo de inactividad en milisegundos (5 segundos)
-    const inactivityTime = 10 * 60 * 1000; // 10 minutos en milisegundos
-    // const inactivityTime = 5000;
-    let timer;
+        <script>
+            // Establecer el tiempo de inactividad en milisegundos (10 minutos)
+            const inactivityTime = 10 * 60 * 1000; // 10 minutos en milisegundos
+            let timer;
 
-    // Función para redirigir a la página de inicio de sesión después de un tiempo de inactividad
-    function redirectToLogin() {
-        window.location.href = "index.html";
-    }
+            // Función para redirigir a la página de inicio de sesión después de un tiempo de inactividad
+            function redirectToLogin() {
+                window.location.href = "index.html";
+            }
 
-    // Reiniciar el temporizador cuando se detecte actividad
-    function resetTimer() {
-        clearTimeout(timer);
-        timer = setTimeout(redirectToLogin, inactivityTime);
-    }
+            // Reiniciar el temporizador cuando se detecte actividad
+            function resetTimer() {
+                clearTimeout(timer);
+                timer = setTimeout(redirectToLogin, inactivityTime);
+            }
 
-    // Detectar actividad del usuario y reiniciar el temporizador
-    document.addEventListener("mousemove", resetTimer);
-    document.addEventListener("keydown", resetTimer);
+            // Detectar actividad del usuario y reiniciar el temporizador
+            document.addEventListener("mousemove", resetTimer);
+            document.addEventListener("keydown", resetTimer);
 
-    // Iniciar el temporizador al cargar la página
-    timer = setTimeout(redirectToLogin, inactivityTime);
-</script>
+            // Iniciar el temporizador al cargar la página
+            timer = setTimeout(redirectToLogin, inactivityTime);
+        </script>
     </div>
 </body>
 </html>

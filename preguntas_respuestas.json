@@ -439,5 +439,213 @@
       "c. 1982",
       "d. 1990"
     ]
-  }  
-}
+  }, 
+
+  "S1_Qué implica la estrategia de escalabilidad horizontal?": {
+    "question": "S1_Qué implica la estrategia de escalabilidad horizontal?",
+    "answers": [
+      "a. Distribuir la carga entre múltiples servidores. ",
+      "b. Añadir más recursos a un servidor.",
+      "c. Mejorar el rendimiento de un servidor existente.",
+      "d. Optimizar la eficiencia de la base de datos."
+    ],
+    "correct_answer": "a. Distribuir la carga entre múltiples servidores."
+  },
+  "S1_Qué técnica se utiliza para acelerar la entrega de contenido estático en una aplicación web?": {
+    "question": "S1_Qué técnica se utiliza para acelerar la entrega de contenido estático en una aplicación web?",
+    "answers": [
+      "a. Encriptación de datos.",
+      "b. Seguridad de capa de reD)",
+      "c. Almacenamiento en caché. ",
+      "d. Compresión de imágenes."
+    ],
+    "correct_answer": "c. Almacenamiento en caché."
+  },
+  "S2_Qué herramienta se utiliza para gestionar la configuración de servidores de manera consistente en el desarrollo web?": {
+    "question": "S2_Qué herramienta se utiliza para gestionar la configuración de servidores de manera consistente en el desarrollo web?",
+    "answers": [
+      "a. Docker Compose",
+      "b. Jenkins",
+      "c. Ansible ",
+      "d. Prettier"
+    ],
+    "correct_answer": "c. Ansible"
+  },
+  "S2_Qué tecnología se utiliza para asegurar la comunicación entre un navegador y un servidor mediante la encriptación?": {
+    "question": "S2_Qué tecnología se utiliza para asegurar la comunicación entre un navegador y un servidor mediante la encriptación?",
+    "answers": [
+      "a. OAuth",
+      "b. SSH",
+      "c. FTP",
+      "d. HTTPS "
+    ],
+    "correct_answer": "d. HTTPS"
+  },
+  "S3_Qué herramienta es útil para probar y desarrollar APIs?": {
+    "question": "S3_Qué herramienta es útil para probar y desarrollar APIs?",
+    "answers": [
+      "a. Git",
+      "b. Postman ",
+      "c. BrowserStack",
+      "d. Webpack"
+    ],
+    "correct_answer": "b. Postman"
+  },
+  "S3_Qué herramienta proporciona puntuaciones y sugerencias sobre rendimiento, accesibilidad y SEO?": {
+    "question": "S3_Qué herramienta proporciona puntuaciones y sugerencias sobre rendimiento, accesibilidad y SEO?",
+    "answers": [
+      "a. Visual Studio Code",
+      "b. Git",
+      "c. Axe",
+      "d. Lighthouse "
+    ],
+    "correct_answer": "d. Lighthouse"
+  },
+  "S4_Qué tipo de base de datos es adecuado para manejar grandes volúmenes de datos distribuidos en clústeres?": {
+    "question": "S4_Qué tipo de base de datos es adecuado para manejar grandes volúmenes de datos distribuidos en clústeres?",
+    "answers": [
+      "a. Documental",
+      "b. NoSQL",
+      "c. Columnar",
+      "d. Big Data "
+    ],
+    "correct_answer": "d. Big Data"
+  },
+  "S4_Qué tipo de base de datos es más adecuado para una aplicación que requiere flexibilidad en la estructura de datos y alta escalabilidad?": {
+    "question": "S4_Qué tipo de base de datos es más adecuado para una aplicación que requiere flexibilidad en la estructura de datos y alta escalabilidad?",
+    "answers": [
+      "a. Columnar",
+      "b. NoSQL ",
+      "c. Geoespacial",
+      "d. SQL"
+    ],
+    "correct_answer": "b. NoSQL"
+  },
+  
+    "¿S4_Qué tipo de base de datos es más adecuado para una aplicación que requiere flexibilidad en la estructura de datos y alta escalabilidad?": {
+      "question": "S4_Qué tipo de base de datos es más adecuado para una aplicación que requiere flexibilidad en la estructura de datos y alta escalabilidad?",
+      "answers": [
+        "a. Columnar",
+        "b. NoSQL ",
+        "c. Geoespacial",
+        "d. SQL"
+      ],
+      "correct_answer": "b. NoSQL"
+    },
+
+
+
+
+
+
+    "¿_Qué es importante tener un buen conocimiento de para superar los desafíos de la tolerancia a fallos? ": {
+      "question": "¿_Qué es importante tener un buen conocimiento de para superar los desafíos de la tolerancia a fallos?",
+      "answers": [
+        "a. El aumento del costo del sistema",
+        "b. Las técnicas de tolerancia a fallos ",
+        "c. Los recursos adicionales",
+        "d. El rendimiento del sistema"
+      ],
+      "correct_answer": "b. Las técnicas de tolerancia a fallos"
+    },    
+      "¿En qué consiste la escalabilidad en el contexto de las bases de datos distribuidas?": {
+        "question": "¿En qué consiste la escalabilidad en el contexto de las bases de datos distribuidas?",
+        "answers": [
+          "a. En reducir el tamaño de la base de datos para mejorar el rendimiento.",
+          "b. En la integración de diferentes tipos de bases de datos para diversificar los datos.",
+          "c. En la capacidad de aumentar la capacidad de almacenamiento y procesamiento agregando más nodos a la red. ",
+          "d. En la reducción de nodos para disminuir los costos operativos."
+        ],
+        "correct_answer": "c. En la capacidad de aumentar la capacidad de almacenamiento y procesamiento agregando más nodos a la red."
+      },
+      "¿Qué desafío puede surgir con la tolerancia a fallos en bases de datos distribuidas?": {
+        "question": "¿Qué desafío puede surgir con la tolerancia a fallos en bases de datos distribuidas?",
+        "answers": [
+          "a. Aumento del tiempo de respuesta",
+          "b. El sistema puede reconfigurarse automáticamente",
+          "c. La implementación de la tolerancia a fallos puede aumentar el costo del sistema ",
+          "d. Dificultad en la gestión de la replicación "
+        ],
+        "correct_answer": "d. Dificultad en la gestión de la replicación"
+      },
+      "¿Qué función tienen los SGBD distribuidos en la gestión de BDD?": {
+        "question": "¿Qué función tienen los SGBD distribuidos en la gestión de BDD?",
+        "answers": [
+          "a. Eliminar la necesidad de replicación de datos",
+          "b. Gestión de la fragmentación y replicación de datos ",
+          "c. Reducir la complejidad de las transacciones y sus propiedades",
+          "d. Centralizar los datos en una única ubicación física"
+        ],
+        "correct_answer": "b. Gestión de la fragmentación y replicación de datos"
+      },
+
+
+
+    
+        "¿Qué tipo de replicación en bases de datos distribuidas garantiza que los cambios en los datos se replican en todos los nodos de forma inmediata?": {
+          "question": "¿Qué tipo de replicación en bases de datos distribuidas garantiza que los cambios en los datos se replican en todos los nodos de forma inmediata?",
+          "answers": [
+            "a. Asíncrona",
+            "b. Multimaestro",
+            "c. Maestro-esclavo",
+            "d. Síncrona "
+          ],
+          "correct_answer": "d. Síncrona "
+        },
+        "¿Cuál es una herramienta utilizada para la tolerancia a fallos en bases de datos?": {
+          "question": "¿Cuál es una herramienta utilizada para la tolerancia a fallos en bases de datos?",
+          "answers": [
+            "a. Datamax Utility",
+            "b. MySQL Workbench ",
+            "c. Fault Tolerance GUI",
+            "d. ReliabilityToolkit"
+          ],
+          "correct_answer": "b. MySQL Workbench "
+        },
+        "¿Qué técnica de escalabilidad implica la distribución de la carga de trabajo entre los nodos para evitar sobrecargar uno solo?": {
+          "question": "¿Qué técnica de escalabilidad implica la distribución de la carga de trabajo entre los nodos para evitar sobrecargar uno solo?",
+          "answers": [
+            "a. Escalabilidad vertical",
+            "b. Load balancing ",
+            "c. Sharding",
+            "d. Replication"
+          ],
+          "correct_answer": "b. Load balancing "
+        },
+        "¿Qué es el aislamiento de fallos en una base de datos distribuida?": {
+          "question": "¿Qué es el aislamiento de fallos en una base de datos distribuida?",
+          "answers": [
+            "a. La implementación de la tolerancia a fallos puede aumentar el costo del sistema",
+            "b. El sistema puede redirigir las solicitudes al siguiente nodo disponible",
+            "c. El fallo de un nodo no debe afectar a los demás nodos del sistema ",
+            "d. La replicación de datos en varios nodos"
+          ],
+          "correct_answer": "c. El fallo de un nodo no debe afectar a los demás nodos del sistema "
+        },
+        "¿Qué función desempeñan los SGBD distribuidos en una base de datos distribuida?": {
+          "question": "¿Qué función desempeñan los SGBD distribuidos en una base de datos distribuida?",
+          "answers": [
+            "a. Realizar copias de respaldo de todos los datos almacenados en la BDD.",
+            "b. Gestión de la fragmentación y replicación de datos. ",
+            "c. Proporcionar acceso a los datos desde cualquier ordenador de la red.",
+            "d. Optimizar La velocidad de comunicación entre ordenadores interconectados."
+          ],
+          "correct_answer": "b. Gestión de la fragmentación y replicación de datos. "
+        },
+        "¿Cuál es una ventaja de las bases de datos distribuidas?": {
+          "question": "¿Cuál es una ventaja de las bases de datos distribuidas?",
+          "answers": [
+            "a. Acceso restringido a los datos desde cualquier ordenador de la red.",
+            "b. Mayor disponibilidad de datos al replicarlos en varios ordenadores. ",
+            "c. Limitación en la capacidad para crecer a medida que se agregan más ordenadores.",
+            "d. Rendimiento Limitado debido a la distribución de la carga de trabajo."
+          ],
+          "correct_answer": "b. Mayor disponibilidad de datos al replicarlos en varios ordenadores. "
+        }
+      }
+      
+    
+    
+    
+    
+

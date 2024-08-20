@@ -36,26 +36,43 @@ body {
 /* Definición de la animación de cambio de color */
 @keyframes colorChange {
   0% {
-    color: #fdf7f7; /* Color inicial */
+    color: #ff0000; /* Rojo */
   }
-  25% {
-    color: #ff5733; /* Primer color de cambio */
+  10% {
+    color: #ff7f00; /* Naranja */
+  }
+  20% {
+    color: #ffff00; /* Amarillo */
+  }
+  30% {
+    color: #00ff00; /* Verde */
+  }
+  40% {
+    color: #0000ff; /* Azul */
   }
   50% {
-    color: #33ff57; /* Segundo color de cambio */
+    color: #4b0082; /* Índigo */
   }
-  75% {
-    color: #3357ff; /* Tercer color de cambio */
+  60% {
+    color: #8b00ff; /* Violeta */
+  }
+  70% {
+    color: #00ffff; /* Cian */
+  }
+  80% {
+    color: #ff1493; /* Rosa fuerte */
+  }
+  90% {
+    color: #e711a7; /* Naranja */
   }
   100% {
-    color: #1ae9df; /* Vuelve al color inicial */
+    color: #ff0000; /* Vuelve al rojo */
   }
 }
-
 /* Estilo para el h1 */
 h1 {
   margin-top: 50px; /* Espacio entre el título y la parte superior */
-  animation: shake 0.5s infinite, colorChange 3s infinite; /* Aplica animación de temblor y cambio de color */
+  animation: shake 2s infinite, colorChange 10s infinite; /* Aplica animación de temblor y cambio de color */
 }
 
 /* Definición de la animación de temblor */
