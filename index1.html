@@ -6,6 +6,29 @@
     <title>Consulta de Preguntas y Respuestas</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="iste.png" type="image/png">
+    <style>
+        /* Añade estilos para el contenedor de sugerencias */
+        #suggestionsContainer {
+            border: 1px solid #ddd;
+            padding: 5px;
+            margin-top: 5px;
+            max-height: 150px;
+            overflow-y: auto;
+        }
+
+        .suggestion-item {
+            padding: 5px;
+            cursor: pointer;
+        }
+
+        .suggestion-item:hover {
+            background-color: #f0f0f0;
+        }
+
+        .correct-answer {
+            color: green;
+        }
+    </style>
 </head>
 <body>
     <div>
@@ -26,18 +49,80 @@
         <form id="questionForm">
             <label for="question">Buscar pregunta:</label>
             <input type="text" id="question" placeholder="Ingrese su pregunta del examen aquí" required>
-                        
+           
             <button type="button" id="updateButton">Reset</button>
             <button type="submit">Buscar</button>
 
-            <h5>¿Y estamos listos para el examen?</h5>
+            <div id="suggestionsContainer"></div> <!-- Contenedor para sugerencias -->
+
+    
         </form>
 
         <!-- Contenedor para mostrar la respuesta -->
         <div id="answerContainer"></div>
 
         <script>
-            // Función para cargar el archivo JSON de preguntas y respuestas
+            function removeAccents(str) {
+                return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+            }
+
+            function procesarPreguntasYRespuestas(data, question, answerContainer) {
+                // Normalizar la pregunta eliminando signos de puntuación y tildes
+                const normalizedQuestion = removeAccents(question.replace(/[¿?.,:;!"1234567890]/g, '').toLowerCase().trim());
+
+                let questionFound = false;
+                let answerHTML = '';
+                Object.keys(data).forEach(key => {
+                    // Normalizar la pregunta en el archivo JSON
+                    const normalizedStoredQuestion = removeAccents(data[key].question.replace(/[¿?.,:;!"1234567890]/g, '').toLowerCase().trim());
+
+                    if (normalizedStoredQuestion.includes(normalizedQuestion)) {
+                        questionFound = true;
+                        answerHTML += `<h2>${data[key].question}</h2><ul>`;
+                        // Recorremos las respuestas de la pregunta
+                        data[key].answers.forEach(answer => {
+                            // Verificamos si esta respuesta está marcada como correcta
+                            const isCorrect = answer.includes("");
+                            // Si es correcta, la resaltamos
+                            if (isCorrect) {
+                                answerHTML += `<li class="correct-answer">${answer}</li>`;
+                            } else {
+                                answerHTML += `<li>${answer}</li>`;
+                            }
+                        });
+                        answerHTML += '</ul>';
+                    }
+                });
+
+                if (!questionFound) {
+                    // Si la pregunta no se encuentra en el objeto 'data', mostramos un mensaje de error
+                    answerHTML = "<p>No se encontró una respuesta para esa pregunta o tema.</p>";
+                }
+                answerContainer.innerHTML = answerHTML;
+            }
+
+            function mostrarSugerencias(suggestions) {
+                const suggestionsContainer = document.getElementById('suggestionsContainer');
+                suggestionsContainer.innerHTML = '';
+                
+                // Limitar a 5 sugerencias
+                const limitedSuggestions = suggestions.slice(0, 5);
+                
+                if (limitedSuggestions.length > 0) {
+                    limitedSuggestions.forEach(suggestion => {
+                        const div = document.createElement('div');
+                        div.className = 'suggestion-item';
+                        div.textContent = suggestion;
+                        div.addEventListener('click', () => {
+                            document.getElementById('question').value = suggestion;
+                            suggestionsContainer.innerHTML = '';
+                            document.getElementById('questionForm').dispatchEvent(new Event('submit')); // Dispara el formulario para buscar la pregunta seleccionada
+                        });
+                        suggestionsContainer.appendChild(div);
+                    });
+                }
+            }
+
             function cargarPreguntasYRespuestas() {
                 return fetch('preguntas_respuestas.json')
                     .then(response => response.json())
@@ -49,8 +134,26 @@
                     .then(response => response.json())
                     .catch(error => console.error('Error al cargar el archivo JSON:', error));
             }
-            
-            // Función para manejar el envío del formulario
+
+            document.getElementById('question').addEventListener('input', function() {
+                const question = this.value;
+                const topic = document.getElementById('topic').value;
+                
+                // Cargar las preguntas y respuestas según el tema
+                const loadQuestions = topic === 'primer-parcial' ? cargarPreguntasYRespuestasPrimerParcial : cargarPreguntasYRespuestas;
+                
+                loadQuestions().then(data => {
+                    const suggestions = [];
+                    Object.keys(data).forEach(key => {
+                        const normalizedStoredQuestion = removeAccents(data[key].question.replace(/[¿?.,:;!"1234567890]/g, '').toLowerCase().trim());
+                        if (normalizedStoredQuestion.includes(removeAccents(question.replace(/[¿?.,:;!"1234567890]/g, '').toLowerCase().trim()))) {
+                            suggestions.push(data[key].question);
+                        }
+                    });
+                    mostrarSugerencias(suggestions);
+                });
+            });
+
             document.getElementById('questionForm').addEventListener('submit', function(event) {
                 event.preventDefault(); // Evitar que el formulario se envíe automáticamente
 
@@ -59,105 +162,35 @@
                 const answerContainer = document.getElementById('answerContainer');
 
                 // Verificar si el tema seleccionado es "primer-parcial"
-                if (topic === 'primer-parcial') {
-                    // Cargar las preguntas y respuestas del primer parcial desde el archivo JSON
-                    cargarPreguntasYRespuestasPrimerParcial().then(data => {
-                        // Procesar las preguntas y respuestas del primer parcial
-                        procesarPreguntasYRespuestas(data, question, answerContainer);
-                    });
-                } else {
-                    // Cargar las preguntas y respuestas generales desde el archivo JSON
-                    cargarPreguntasYRespuestas().then(data => {
-                        // Procesar las preguntas y respuestas generales
-                        procesarPreguntasYRespuestas(data, question, answerContainer);
-                    });
-                }
-            });
+                const loadQuestions = topic === 'primer-parcial' ? cargarPreguntasYRespuestasPrimerParcial : cargarPreguntasYRespuestas;
 
-            // Función para procesar las preguntas y respuestas
-            function procesarPreguntasYRespuestas(data, question, answerContainer) {
-                // Normalizar la pregunta eliminando signos de puntuación
-                const normalizedQuestion = question.replace(/[¿?.,:;!""1234567890]/g, '').toLowerCase().trim();
-
-                let questionFound = false;
-                Object.keys(data).forEach(key => {
-                    // Normalizar la pregunta en el archivo JSON
-                    const normalizedStoredQuestion = data[key].question.replace(/[¿?.,:;!""1234567890]/g, '').toLowerCase().trim();
-
-                    if (normalizedStoredQuestion.includes(normalizedQuestion)) {
-                        questionFound = true;
-                        const answers = data[key].answers;
-                        let answerHTML = `<h2>${data[key].question}</h2><ul>`;
-                        // Recorremos las respuestas de la pregunta
-                        answers.forEach(answer => {
-                            // Verificamos si esta respuesta está marcada como correcta
-                            const isCorrect = answer.includes("");
-                            // Si es correcta, la resaltamos
-                            if (isCorrect) {
-                                answerHTML += `<li class="correct-answer">${answer}</li>`;
-                            } else {
-                                answerHTML += `<li>${answer}</li>`;
-                            }
-                        });
-                        answerHTML += '</ul>';
-                        answerContainer.innerHTML = answerHTML;
-                    }
+                loadQuestions().then(data => {
+                    // Procesar las preguntas y respuestas según el tema
+                    procesarPreguntasYRespuestas(data, question, answerContainer);
                 });
-
-                if (!questionFound) {
-                    // Si la pregunta no se encuentra en el objeto 'data', mostramos un mensaje de error
-                    answerContainer.innerHTML = "<p>No se encontró una respuesta para esa pregunta o tema.</p>";
-                }
-            }
+            });
 
             // Función para actualizar la página
             document.getElementById('updateButton').addEventListener('click', function() {
                 location.reload();
             });
 
-            function mostrarSugerencias(suggestions) {
-    const suggestionsContainer = document.getElementById('suggestionsContainer');
-    suggestionsContainer.innerHTML = '';
-    
-    // Limitar a 5 sugerencias
-    const limitedSuggestions = suggestions.slice(0, 5);
-    
-    if (limitedSuggestions.length > 0) {
-        limitedSuggestions.forEach(suggestion => {
-            const div = document.createElement('div');
-            div.className = 'suggestion-item';
-            div.textContent = suggestion;
-            div.addEventListener('click', () => {
-                document.getElementById('question').value = suggestion;
-                suggestionsContainer.innerHTML = '';
-            });
-            suggestionsContainer.appendChild(div);
-        });
-    }
-}
-        </script>
-
-        <script>
-            // Establecer el tiempo de inactividad en milisegundos (10 minutos)
+            // Función para redirigir a la página de inicio de sesión después de un tiempo de inactividad
             const inactivityTime = 10 * 60 * 1000; // 10 minutos en milisegundos
             let timer;
 
-            // Función para redirigir a la página de inicio de sesión después de un tiempo de inactividad
             function redirectToLogin() {
                 window.location.href = "index.html";
             }
 
-            // Reiniciar el temporizador cuando se detecte actividad
             function resetTimer() {
                 clearTimeout(timer);
                 timer = setTimeout(redirectToLogin, inactivityTime);
             }
 
-            // Detectar actividad del usuario y reiniciar el temporizador
             document.addEventListener("mousemove", resetTimer);
             document.addEventListener("keydown", resetTimer);
 
-            // Iniciar el temporizador al cargar la página
             timer = setTimeout(redirectToLogin, inactivityTime);
         </script>
     </div>
