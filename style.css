@@ -124,7 +124,7 @@ button:hover {
   background-color: #e0e6f8; /* Fondo blanco para el contenedor */
   border-radius: 5px; /* Bordes redondeados */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil para el contenedor */
-  width: 52%;
+  width: 100%;
 }
 
 /* Estilos para los elementos de sugerencias */
