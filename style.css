@@ -113,3 +113,35 @@ button:hover {
     font-weight: bold;
     color: green;
 }
+
+/* Estilos para el contenedor de sugerencias */
+#suggestionsContainer {
+  border: 3px solid #4406d3;
+  padding: 5px;
+  margin-top: 5px;
+  max-height: 150px;
+  overflow-y: auto;
+  background-color: #e0e6f8; /* Fondo blanco para el contenedor */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil para el contenedor */
+  width: 52%;
+}
+
+/* Estilos para los elementos de sugerencias */
+.suggestion-item {
+  padding: 8px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+/* Efecto al pasar el cursor sobre un elemento de sugerencia */
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Estilo para la respuesta correcta */
+.correct-answer {
+  color: green;
+  font-weight: bold;
+}
