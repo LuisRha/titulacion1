@@ -30,8 +30,6 @@
             <button type="button" id="updateButton">Reset</button>
             <button type="submit">Buscar</button>
 
-            <h4>ISTE</h4>
-            <h5>¡Epa! ¡Llegamos a la semana 8!</h5>
             <h5>¿Y estamos listos para el examen?</h5>
         </form>
 
@@ -79,12 +77,12 @@
             // Función para procesar las preguntas y respuestas
             function procesarPreguntasYRespuestas(data, question, answerContainer) {
                 // Normalizar la pregunta eliminando signos de puntuación
-                const normalizedQuestion = question.replace(/[¿?.,:;!""]/g, '').toLowerCase().trim();
+                const normalizedQuestion = question.replace(/[¿?.,:;!""1234567890]/g, '').toLowerCase().trim();
 
                 let questionFound = false;
                 Object.keys(data).forEach(key => {
                     // Normalizar la pregunta en el archivo JSON
-                    const normalizedStoredQuestion = data[key].question.replace(/[¿?.,:;!""]/g, '').toLowerCase().trim();
+                    const normalizedStoredQuestion = data[key].question.replace(/[¿?.,:;!""1234567890]/g, '').toLowerCase().trim();
 
                     if (normalizedStoredQuestion.includes(normalizedQuestion)) {
                         questionFound = true;
@@ -116,6 +114,27 @@
             document.getElementById('updateButton').addEventListener('click', function() {
                 location.reload();
             });
+
+            function mostrarSugerencias(suggestions) {
+    const suggestionsContainer = document.getElementById('suggestionsContainer');
+    suggestionsContainer.innerHTML = '';
+    
+    // Limitar a 5 sugerencias
+    const limitedSuggestions = suggestions.slice(0, 5);
+    
+    if (limitedSuggestions.length > 0) {
+        limitedSuggestions.forEach(suggestion => {
+            const div = document.createElement('div');
+            div.className = 'suggestion-item';
+            div.textContent = suggestion;
+            div.addEventListener('click', () => {
+                document.getElementById('question').value = suggestion;
+                suggestionsContainer.innerHTML = '';
+            });
+            suggestionsContainer.appendChild(div);
+        });
+    }
+}
         </script>
 
         <script>

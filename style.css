@@ -88,3 +88,28 @@ button:hover {
   color: #0505c2; /* Color verde agua */
   font-weight: bold;
 }
+
+#suggestionsContainer {
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    background-color: white;
+    width: calc(100% - 22px); /* Ajusta el ancho para que coincida con el campo de entrada */
+    z-index: 1000;
+    margin-top: 5px; /* Añade un margen para separar las sugerencias del campo de entrada */
+}
+
+.suggestion-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}
+
+.correct-answer {
+    font-weight: bold;
+    color: green;
+}

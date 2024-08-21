@@ -1131,17 +1131,436 @@
     ],
     "correct_answer": "d. El proceso de almacenar temporalmente datos en una ubicación cercana al usuario para un acceso más rápido. "
   },
-  "¿Qué es la replicación parcial?": {
-    "question": "¿Qué es la replicación parcial?",
+  
+  "¿Qué significa AJAX?": {
+    "question": "¿Qué significa AJAX?",
     "answers": [
-      "a. La replicación de datos en tiempo real.",
-      "b. La replicación de una parte de los datos en algunos nodos. ",
-      "c. La replicación de los datos en intervalos programados.",
-      "d. La replicación de todos los datos en todos los nodos."
+      "a. Artificial Java and XML",
+      "b. Asynchronous JavaScript and XML ",
+      "c. Automated Java and XML",
+      "d. Advanced JavaScript and XML"
     ],
-    "correct_answer": "b. La replicación de una parte de los datos en algunos nodos. "
+    "correct_answer": "b. Asynchronous JavaScript and XML "
+  },
+  "¿Cuál es la diferencia entre HTTP y HTTPS?": {
+    "question": "¿Cuál es la diferencia entre HTTP y HTTPS?",
+    "answers": [
+      "a. HTTP es más seguro que HTTPS",
+      "b. No hay diferencia",
+      "c. HTTP usa cifrado, HTTPS no",
+      "d. HTTPS es más seguro que HTTP "
+    ],
+    "correct_answer": "d. HTTPS es más seguro que HTTP "
+  },
+  "¿Qué es 'GraphQL'?": {
+    "question": "¿Qué es 'GraphQL'?",
+    "answers": [
+      "a. Un sistema de control de versiones",
+      "b. Un lenguaje de consulta para APIs ",
+      "c. Una base de datos",
+      "d. Un framework de desarrollo web"
+    ],
+    "correct_answer": "b. Un lenguaje de consulta para APIs "
+  },
+  "¿Qué es 'SaaS'?": {
+    "question": "¿Qué es 'SaaS'?",
+    "answers": [
+      "a. Security as a Service",
+      "b. System as a Service",
+      "c. Software as a Service ",
+      "d. Storage as a Service"
+    ],
+    "correct_answer": "c. Software as a Service "
+  },
+  "¿Qué es un 'frontend'?": {
+    "question": "¿Qué es un 'frontend'?",
+    "answers": [
+      "a. La base de datos",
+      "b. El servidor web",
+      "c. La parte de una aplicación web que interactúa con el usuario ",
+      "d. El sistema de control de versiones"
+    ],
+    "correct_answer": "c. La parte de una aplicación web que interactúa con el usuario "
+  },
+  "¿Qué es un 'web socket'?": {
+    "question": "¿Qué es un 'web socket'?",
+    "answers": [
+      "a. Una técnica de diseño",
+      "b. Un protocolo de comunicación que permite interacciones bidireccionales en tiempo real ",
+      "c. Un framework de desarrollo web",
+      "d. Un tipo de base de datos"
+    ],
+    "correct_answer": "b. Un protocolo de comunicación que permite interacciones bidireccionales en tiempo real "
+  },
+  "¿Qué es 'CORS'?": {
+    "question": "¿Qué es 'CORS'?",
+    "answers": [
+      "a. Cross-Object Resource Sharing",
+      "b. Cascading Object Resource Sharing",
+      "c. Cascading-Origin Resource Sharing",
+      "d. Cross-Origin Resource Sharing "
+    ],
+    "correct_answer": "d. Cross-Origin Resource Sharing "
+  },
+  "¿Qué es un 'web component'?": {
+    "question": "¿Qué es un 'web component'?",
+    "answers": [
+      "a. Un tipo de base de datos",
+      "b. Una tecnología para crear elementos reutilizables en la web ",
+      "c. Un lenguaje de programación",
+      "d. Una técnica de SEO"
+    ],
+    "correct_answer": "b. Una tecnología para crear elementos reutilizables en la web "
+  },
+  "¿Qué es un 'static site generator'?": {
+    "question": "¿Qué es un 'static site generator'?",
+    "answers": [
+      "a. Un tipo de servidor web",
+      "b. Un sistema de control de versiones",
+      "c. Una técnica de SEO",
+      "d. Una herramienta que genera páginas web estáticas a partir de archivos fuente "
+    ],
+    "correct_answer": "d. Una herramienta que genera páginas web estáticas a partir de archivos fuente "
+  },
+  "¿Qué lenguaje se utiliza para estructurar documentos web?": {
+    "question": "¿Qué lenguaje se utiliza para estructurar documentos web?",
+    "answers": [
+      "a. HTML ",
+      "b. JavaScript",
+      "c. CSS",
+      "d. Python"
+    ],
+    "correct_answer": "a. HTML "
+  },
+  "¿Cuál de las siguientes es una ventaja del uso de microservicios?": {
+    "question": "¿Cuál de las siguientes es una ventaja del uso de microservicios?",
+    "answers": [
+      "a. Mayor escalabilidad y flexibilidad ",
+      "b. Mayor dificultad en la implementación",
+      "c. Dependencia de un solo lenguaje de programación",
+      "d. Mayor consumo de recursos"
+    ],
+    "correct_answer": "a. Mayor escalabilidad y flexibilidad "
+  },
+  "¿Qué es el 'version control'?": {
+    "question": "¿Qué es el 'version control'?",
+    "answers": [
+      "a. Un protocolo de red",
+      "b. Un sistema para diseñar interfaces de usuario",
+      "c. Un tipo de base de datos",
+      "d. Un sistema para administrar diferentes versiones de software "
+    ],
+    "correct_answer": "d. Un sistema para administrar diferentes versiones de software "
+  },
+  "¿Qué significa CSS?": {
+    "question": "¿Qué significa CSS?",
+    "answers": [
+      "a. Coded Style Sheets",
+      "b. Computer Style Sheets",
+      "c. Cascading Style Sheets ",
+      "d. Creative Style Sheets"
+    ],
+    "correct_answer": "c. Cascading Style Sheets "
+  },
+  "¿Qué es un 'backend as a service' (BaaS)?": {
+    "question": "¿Qué es un 'backend as a service' (BaaS)?",
+    "answers": [
+      "a. Un tipo de base de datos",
+      "b. Un servicio que proporciona la infraestructura de backend para aplicaciones web y móviles ",
+      "c. Un lenguaje de programación",
+      "d. Un sistema de control de versiones"
+    ],
+    "correct_answer": "b. Un servicio que proporciona la infraestructura de backend para aplicaciones web y móviles "
+  },
+  "¿Qué es el 'DOM'?": {
+    "question": "¿Qué es el 'DOM'?",
+    "answers": [
+      "a. Data Object Management",
+      "b. Document Object Model ",
+      "c. Document Object Management",
+      "d. Design Object Model"
+    ],
+    "correct_answer": "b. Document Object Model "
+  },
+  
+  "¿Qué es JSON?": {
+    "question": "¿Qué es JSON?",
+    "answers": [
+      "a. JavaScript Object Notation ",
+      "b. JavaScript Online Notation",
+      "c. Java System Oriented Network",
+      "d. Java Syntax Over Network"
+    ],
+    "correct_answer": "a. JavaScript Object Notation "
+  },
+  "¿Cuál es la principal ventaja de usar un framework de desarrollo web?": {
+    "question": "¿Cuál es la principal ventaja de usar un framework de desarrollo web?",
+    "answers": [
+      "a. Reducir la seguridad de la aplicación",
+      "b. Facilitar el desarrollo y mantenimiento de aplicaciones web ",
+      "c. Aumentar los costos de desarrollo",
+      "d. Limitar la creatividad del desarrollador"
+    ],
+    "correct_answer": "b. Facilitar el desarrollo y mantenimiento de aplicaciones web "
+  },
+  "¿Qué es una 'API'?": {
+    "question": "¿Qué es una 'API'?",
+    "answers": [
+      "a. Application Protocol Interface",
+      "b. Automated Protocol Interface",
+      "c. Application Programming Interface ",
+      "d. Automated Programming Interface"
+    ],
+    "correct_answer": "c. Application Programming Interface "
+  },
+  
+    "¿Qué es una 'web API'?": {
+      "question": "¿Qué es una 'web API'?",
+      "answers": [
+        "a. Un sistema de control de versiones",
+        "b. Un tipo de base de datos",
+        "c. Una interfaz que permite la interacción entre diferentes sistemas usando HTTP ",
+        "d. Un lenguaje de programación"
+      ],
+      "correct_answer": "c. Una interfaz que permite la interacción entre diferentes sistemas usando HTTP "
+    },
+    "¿Qué es un ORM (Object-Relational Mapping)?": {
+      "question": "¿Qué es un ORM (Object-Relational Mapping)?",
+      "answers": [
+        "a. Un framework de diseño web",
+        "b. Un sistema de control de versiones",
+        "c. Un protocolo de comunicación",
+        "d. Una técnica para convertir datos entre sistemas incompatibles "
+      ],
+      "correct_answer": "d. Una técnica para convertir datos entre sistemas incompatibles "
+    },
+    
+    "¿Qué es una 'ruta' en el contexto de una aplicación web?": {
+      "question": "¿Qué es una 'ruta' en el contexto de una aplicación web?",
+      "answers": [
+        "a. Un tipo de base de datos",
+        "b. Un framework de desarrollo web",
+        "c. Una URL que corresponde a una acción específica de la aplicación ",
+        "d. Una técnica de diseño web"
+      ],
+      "correct_answer": "c. Una URL que corresponde a una acción específica de la aplicación "
+    },
+    "¿Qué es un 'backend'?": {
+      "question": "¿Qué es un 'backend'?",
+      "answers": [
+        "a. El sistema de diseño",
+        "b. El servidor y la base de datos que manejan la lógica de la aplicación ",
+        "c. El archivo CSS",
+        "d. La interfaz de usuario"
+      ],
+      "correct_answer": "b. El servidor y la base de datos que manejan la lógica de la aplicación "
+    },
+    
+  "¿Cuál es el objetivo de una CDN (Content Delivery Network)?": {
+    "question": "¿Cuál es el objetivo de una CDN (Content Delivery Network)?",
+    "answers": [
+      "a. Mejorar la seguridad de una página web",
+      "b. Monitorear el tráfico de red",
+      "c. Administrar la base de datos",
+      "d. Acelerar la entrega de contenido a usuarios finales "
+    ],
+    "correct_answer": "d. Acelerar la entrega de contenido a usuarios finales "
+  },
+  "¿Qué es una 'PWA'?": {
+    "question": "¿Qué es una 'PWA'?",
+    "answers": [
+      "a. Progressive Web Application ",
+      "b. Public Web Application",
+      "c. Professional Web Application",
+      "d. Private Web Application"
+    ],
+    "correct_answer": "a. Progressive Web Application "
+  },
+  
+  "¿Qué es una API REST?": {
+    "question": "¿Qué es una API REST?",
+    "answers": [
+      "a. Un lenguaje de programación",
+      "b. Un servicio web que utiliza HTTP para realizar operaciones CRUD ",
+      "c. Un tipo de base de datos",
+      "d. Una técnica de diseño web"
+    ],
+    "correct_answer": "b. Un servicio web que utiliza HTTP para realizar operaciones CRUD "
+  },
+  "¿Cuál de las siguientes opciones es un framework de desarrollo web?": {
+    "question": "¿Cuál de las siguientes opciones es un framework de desarrollo web?",
+    "answers": [
+      "a. Linux",
+      "b. React ",
+      "c. Word",
+      "d. Photoshop"
+    ],
+    "correct_answer": "b. React "
+  },
+  "¿Qué es 'MVC' en el desarrollo web?": {
+    "question": "¿Qué es 'MVC' en el desarrollo web?",
+    "answers": [
+      "a. Model-View-Component",
+      "b. Model-View-Code",
+      "c. Model-View-Controller ",
+      "d. Model-View-Compilation"
+    ],
+    "correct_answer": "c. Model-View-Controller "
+  },
+  
+  "¿Qué es una 'cookie de sesión'?": {
+    "question": "¿Qué es una 'cookie de sesión'?",
+    "answers": [
+      "a. Una cookie que persiste después de cerrar el navegador",
+      "b. Una cookie que almacena la contraseña del usuario",
+      "c. Una cookie utilizada solo en dispositivos móviles",
+      "d. Una cookie que se elimina cuando el usuario cierra el navegador "
+    ],
+    "correct_answer": "d. Una cookie que se elimina cuando el usuario cierra el navegador "
+  },
+  "¿Cuál de las siguientes no es una característica de los servicios web RESTful?": {
+    "question": "¿Cuál de las siguientes no es una característica de los servicios web RESTful?",
+    "answers": [
+      "a. Utiliza HTTP",
+      "b. Sin estado (stateless)",
+      "c. Dependiente del servidor ",
+      "d. Basado en recursos"
+    ],
+    "correct_answer": "c. Dependiente del servidor "
+  },
+  "¿Qué es 'OAuth'?": {
+    "question": "¿Qué es 'OAuth'?",
+    "answers": [
+      "a. Un framework de desarrollo web",
+      "b. Un protocolo de autorización ",
+      "c. Un sistema operativo",
+      "d. Un lenguaje de programación"
+    ],
+    "correct_answer": "b. Un protocolo de autorización "
+  },
+  "¿Cuál es la función de un 'middleware' en una aplicación web?": {
+    "question": "¿Cuál es la función de un 'middleware' en una aplicación web?",
+    "answers": [
+      "a. Facilitar la interacción entre diferentes componentes de la aplicación ",
+      "b. Proporcionar acceso a la base de datos",
+      "c. Administrar la red",
+      "d. Crear la interfaz de usuario"
+    ],
+    "correct_answer": "a. Facilitar la interacción entre diferentes componentes de la aplicación "
+  },
+  "¿Qué es JavaScript?": {
+    "question": "¿Qué es JavaScript?",
+    "answers": [
+      "a. Un sistema operativo",
+      "b. Una base de datos",
+      "c. Un lenguaje de marcado",
+      "d. Un lenguaje de programación "
+    ],
+    "correct_answer": "d. Un lenguaje de programación "
+  },
+  
+  "¿Qué es un 'RESTful API'?": {
+    "question": "¿Qué es un 'RESTful API'?",
+    "answers": [
+      "a. Un protocolo de comunicación",
+      "b. Una API que sigue los principios de REST ",
+      "c. Un tipo de base de datos",
+      "d. Un sistema de control de versiones"
+    ],
+    "correct_answer": "b. Una API que sigue los principios de REST "
+  },
+  "¿Qué es un 'cookie' en el contexto del desarrollo web?": {
+    "question": "¿Qué es un 'cookie' en el contexto del desarrollo web?",
+    "answers": [
+      "a. Un software de seguridad",
+      "b. Un pequeño archivo que almacena información sobre el usuario ",
+      "c. Una técnica de diseño web",
+      "d. Un tipo de base de datos"
+    ],
+    "correct_answer": "b. Un pequeño archivo que almacena información sobre el usuario "
+  },
+  "¿Cuál es la función del protocolo HTTPS?": {
+    "question": "¿Cuál es la función del protocolo HTTPS?",
+    "answers": [
+      "a. Aumentar el ancho de banda",
+      "b. Proteger la integridad y confidencialidad de los datos de los usuarios ",
+      "c. Acelerar la carga de páginas web",
+      "d. Optimizar el SEO"
+    ],
+    "correct_answer": "b. Proteger la integridad y confidencialidad de los datos de los usuarios "
+  },
+  "¿Qué es un 'web framework'?": {
+    "question": "¿Qué es un 'web framework'?",
+    "answers": [
+      "a. Un protocolo de red",
+      "b. Un lenguaje de programación",
+      "c. Un tipo de base de datos",
+      "d. Un conjunto de herramientas y bibliotecas para facilitar el desarrollo web "
+    ],
+    "correct_answer": "d. Un conjunto de herramientas y bibliotecas para facilitar el desarrollo web "
+  },
+  "¿Qué es una 'RESTful API'?": {
+    "question": "¿Qué es una 'RESTful API'?",
+    "answers": [
+      "a. Un sistema de control de versiones",
+      "b. Un protocolo de comunicación",
+      "c. Un tipo de base de datos",
+      "d. Una API que sigue los principios de REST "
+    ],
+    "correct_answer": "d. Una API que sigue los principios de REST "
+  },
+  "¿Cuál es el protocolo utilizado para la transferencia de archivos en la web?": {
+    "question": "¿Cuál es el protocolo utilizado para la transferencia de archivos en la web?",
+    "answers": [
+      "a. FTP ",
+      "b. SMTP",
+      "c. HTTP",
+      "d. TCP"
+    ],
+    "correct_answer": "a. FTP "
+  },
+  "¿Qué es 'Node.js'?": {
+    "question": "¿Qué es 'Node.js'?",
+    "answers": [
+      "a. Un tipo de base de datos",
+      "b. Un framework de diseño web",
+      "c. Un entorno de ejecución para JavaScript en el lado del servidor ",
+      "d. Un lenguaje de programación"
+    ],
+    "correct_answer": "c. Un entorno de ejecución para JavaScript en el lado del servidor "
+  },
+  "¿Qué es un 'responsive design'?": {
+    "question": "¿Qué es un 'responsive design'?",
+    "answers": [
+      "a. Un diseño que utiliza colores brillantes",
+      "b. Un diseño con animaciones interactivas",
+      "c. Un diseño enfocado en SEO",
+      "d. Un diseño que se adapta a diferentes dispositivos y tamaños de pantalla "
+    ],
+    "correct_answer": "d. Un diseño que se adapta a diferentes dispositivos y tamaños de pantalla "
+  },
+  "¿Qué es 'HTTPS'?": {
+    "question": "¿Qué es 'HTTPS'?",
+    "answers": [
+      "a. Hypertext Transfer Protocol Secure ",
+      "b. Hyper Transfer Protocol Secure",
+      "c. Hypertext Secure Protocol",
+      "d. Hyper Transfer Secure Protocol"
+    ],
+    "correct_answer": "a. Hypertext Transfer Protocol Secure "
+  },
+  "¿Qué es una SPA (Single Page Application)?": {
+    "question": "¿Qué es una SPA (Single Page Application)?",
+    "answers": [
+      "a. Un tipo de servidor web",
+      "b. Una aplicación web que se carga y funciona en una sola página ",
+      "c. Una página web estática",
+      "d. Una técnica de SEO"
+    ],
+    "correct_answer": "b. Una aplicación web que se carga y funciona en una sola página "
   }
-   }
+} 
+  
         
     
     
