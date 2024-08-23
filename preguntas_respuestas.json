@@ -1283,7 +1283,7 @@
     "correct_answer": "b. Document Object Model "
   },
   
-  "¿Qué es JSON?": {
+  "¿Qué es JSON.?": {
     "question": "¿Qué es JSON?",
     "answers": [
       "a. JavaScript Object Notation ",
@@ -1323,18 +1323,7 @@
         "d. Un lenguaje de programación"
       ],
       "correct_answer": "c. Una interfaz que permite la interacción entre diferentes sistemas usando HTTP "
-    },
-    "¿Qué es un ORM (Object-Relational Mapping)?": {
-      "question": "¿Qué es un ORM (Object-Relational Mapping)?",
-      "answers": [
-        "a. Un framework de diseño web",
-        "b. Un sistema de control de versiones",
-        "c. Un protocolo de comunicación",
-        "d. Una técnica para convertir datos entre sistemas incompatibles "
-      ],
-      "correct_answer": "d. Una técnica para convertir datos entre sistemas incompatibles "
-    },
-    
+    },      
     "¿Qué es una 'ruta' en el contexto de una aplicación web?": {
       "question": "¿Qué es una 'ruta' en el contexto de una aplicación web?",
       "answers": [
@@ -1558,8 +1547,1723 @@
       "d. Una técnica de SEO"
     ],
     "correct_answer": "b. Una aplicación web que se carga y funciona en una sola página "
+  },
+  "¿Qué es un PWA (Progressive Web Application)?": {
+    "question": "¿Qué es un PWA (Progressive Web Application)?",
+    "answers": [
+      "a. Una técnica de diseño web",
+      "b. Una aplicación web que utiliza las características modernas para comportarse como una aplicación nativa ",
+      "c. Una aplicación móvil nativa",
+      "d. Un protocolo de seguridad web"
+    ],
+    "correct_answer": "b. Una aplicación web que utiliza las características modernas para comportarse como una aplicación nativa "
+  },
+  "¿Qué es un módulo en JavaScript?": {
+    "question": "¿Qué es un módulo en JavaScript?",
+    "answers": [
+      "a. Un archivo o conjunto de archivos que exportan funciones, objetos o valores que pueden ser importados y utilizados en otros archivos ",
+      "b. Un servidor web",
+      "c. Una biblioteca de estilos CSS",
+      "d. Un tipo de bucle"
+    ],
+    "correct_answer": "a. Un archivo o conjunto de archivos que exportan funciones, objetos o valores que pueden ser importados y utilizados en otros archivos "
+  },
+  "¿Cuál es la diferencia entre una promesa y una callback en JavaScript?": {
+    "question": "¿Cuál es la diferencia entre una promesa y una callback en JavaScript?",
+    "answers": [
+      "a. Las promesas son más rápidas que los callbacks",
+      "b. Los callbacks son más seguros que las promesas",
+      "c. Las promesas se utilizan para manejar errores y los callbacks no",
+      "d. Las promesas representan un valor que puede estar disponible ahora, en el futuro o nunca, mientras que los callbacks son funciones que se ejecutan después de que se completa una operación "
+    ],
+    "correct_answer": "d. Las promesas representan un valor que puede estar disponible ahora, en el futuro o nunca, mientras que los callbacks son funciones que se ejecutan después de que se completa una operación "
+  },
+  "¿Qué es un CSR (Client-Side Rendering)?": {
+    "question": "¿Qué es un CSR (Client-Side Rendering)?",
+    "answers": [
+      "a. Una técnica de diseño de interfaces de usuario",
+      "b. Una técnica para renderizar páginas web en el servidor antes de enviarlas al cliente",
+      "c. Un tipo de servidor de aplicaciones",
+      "d. Una técnica para renderizar páginas web en el cliente después de que el servidor haya enviado el contenido "
+    ],
+    "correct_answer": "d. Una técnica para renderizar páginas web en el cliente después de que el servidor haya enviado el contenido "
+  },
+  "¿Qué es un API Gateway?": {
+    "question": "¿Qué es un API Gateway?",
+    "answers": [
+      "a. Un servidor que actúa como punto de entrada para todas las solicitudes dirigidas a los microservicios ",
+      "b. Un protocolo de comunicación",
+      "c. Un tipo de base de datos",
+      "d. Un servidor web"
+    ],
+    "correct_answer": "a. Un servidor que actúa como punto de entrada para todas las solicitudes dirigidas a los microservicios "
+  },
+  "¿Qué es un SSR (Server-Side Rendering)?": {
+    "question": "¿Qué es un SSR (Server-Side Rendering)?",
+    "answers": [
+      "a. Una técnica para renderizar páginas web en el servidor antes de enviarlas al cliente ",
+      "b. Un tipo de servidor de bases de datos",
+      "c. Una técnica de diseño de interfaces de usuario",
+      "d. Un método para aumentar la seguridad de una aplicación web"
+    ],
+    "correct_answer": "a. Una técnica para renderizar páginas web en el servidor antes de enviarlas al cliente "
+  },
+  "¿Cuál es la diferencia principal entre cookies y localStorage?": {
+    "question": "¿Cuál es la diferencia principal entre cookies y localStorage?",
+    "answers": [
+      "a. Las cookies son más seguras que localStorage",
+      "b. localStorage tiene una capacidad de almacenamiento menor que las cookies",
+      "c. Las cookies se envían al servidor con cada solicitud HTTP, mientras que localStorage solo se almacena en el navegador del cliente ",
+      "d. localStorage se utiliza solo en aplicaciones móviles"
+    ],
+    "correct_answer": "c. Las cookies se envían al servidor con cada solicitud HTTP, mientras que localStorage solo se almacena en el navegador del cliente "
+  },
+  "¿Qué es un SPA (Single Page Application).?": {
+    "question": "¿Qué es un SPA (Single Page Application)?",
+    "answers": [
+      "a. Una biblioteca de JavaScript",
+      "b. Una aplicación que se carga y actualiza una sola vez ",
+      "c. Una aplicación que se utiliza para diseñar páginas web",
+      "d. Un tipo de servidor web"
+    ],
+    "correct_answer": "b. Una aplicación que se carga y actualiza una sola vez "
+  },
+  "¿Qué significa MVC en el contexto del desarrollo web?": {
+    "question": "¿Qué significa MVC en el contexto del desarrollo web?",
+    "answers": [
+      "a. Main-Variable-Component",
+      "b. Model-Variable-Controller",
+      "c. Model-View-Controller ",
+      "d. Multi-View-Component"
+    ],
+    "correct_answer": "c. Model-View-Controller "
+  },
+  "¿Cuál es la principal ventaja de usar WebAssembly en el desarrollo web?": {
+    "question": "¿Cuál es la principal ventaja de usar WebAssembly en el desarrollo web?",
+    "answers": [
+      "a. Ejecutar código a velocidad nativa en el navegador, permitiendo aplicaciones más rápidas y eficientes ",
+      "b. Reducir el tamaño de los archivos HTML",
+      "c. Aumentar la seguridad de la aplicación",
+      "d. Facilitar el diseño de interfaces de usuario"
+    ],
+    "correct_answer": "a. Ejecutar código a velocidad nativa en el navegador, permitiendo aplicaciones más rápidas y eficientes "
+  },
+  "¿Cuál es la principal ventaja del uso de TypeScript sobre JavaScript?": {
+    "question": "¿Cuál es la principal ventaja del uso de TypeScript sobre JavaScript?",
+    "answers": [
+      "a. Es un lenguaje más reciente que JavaScript",
+      "b. No requiere un compilador",
+      "c. Es más rápido que JavaScript",
+      "d. Proporciona tipado estático para mejorar la robustez y mantenibilidad del código "
+    ],
+    "correct_answer": "d. Proporciona tipado estático para mejorar la robustez y mantenibilidad del código "
+  },
+  "¿Qué es Docker en el contexto del desarrollo de software?": {
+    "question": "¿Qué es Docker en el contexto del desarrollo de software?",
+    "answers": [
+      "a. Una herramienta para crear, desplegar y ejecutar aplicaciones en contenedores ",
+      "b. Un servidor de bases de datos",
+      "c. Un lenguaje de programación",
+      "d. Un protocolo de comunicación"
+    ],
+    "correct_answer": "a. Una herramienta para crear, desplegar y ejecutar aplicaciones en contenedores "
+  },
+  "¿Cuál es la función de un CDN (Content Delivery Network)?": {
+    "question": "¿Cuál es la función de un CDN (Content Delivery Network)?",
+    "answers": [
+      "a. Almacenar datos en la nube",
+      "b. Crear un entorno de desarrollo virtual",
+      "c. Aumentar la seguridad de la aplicación web",
+      "d. Distribuir el contenido a través de múltiples servidores para mejorar la velocidad y disponibilidad "
+    ],
+    "correct_answer": "d. Distribuir el contenido a través de múltiples servidores para mejorar la velocidad y disponibilidad "
+  },
+  "¿Qué es WebSocket en el desarrollo de aplicaciones web?": {
+    "question": "¿Qué es WebSocket en el desarrollo de aplicaciones web?",
+    "answers": [
+      "a. Un tipo de base de datos no relacional",
+      "b. Una técnica de diseño responsivo",
+      "c. Un protocolo para la comunicación en tiempo real entre un cliente y un servidor ",
+      "d. Una biblioteca de JavaScript para manipular el DOM"
+    ],
+    "correct_answer": "c. Un protocolo para la comunicación en tiempo real entre un cliente y un servidor "
+  },
+  "¿Qué es un componente en el desarrollo de software?": {
+    "question": "¿Qué es un componente en el desarrollo de software?",
+    "answers": [
+      "a. Un tipo de base de datos",
+      "b. Un archivo de configuración",
+      "c. Un protocolo de comunicación",
+      "d. Una unidad modular e independiente de código que encapsula una funcionalidad específica "
+    ],
+    "correct_answer": "d. Una unidad modular e independiente de código que encapsula una funcionalidad específica "
+  },
+  "¿Qué es Redux en el contexto de React?": {
+    "question": "¿Qué es Redux en el contexto de React?",
+    "answers": [
+      "a. Un tipo de base de datos",
+      "b. Una biblioteca para el manejo del estado de la aplicación ",
+      "c. Una técnica de diseño responsivo",
+      "d. Un servidor web"
+    ],
+    "correct_answer": "b. Una biblioteca para el manejo del estado de la aplicación "
+  },
+  "¿Qué significa CORS en el desarrollo web?": {
+    "question": "¿Qué significa CORS en el desarrollo web?",
+    "answers": [
+      "a. Content-Oriented Resource Sharing",
+      "b. Cross-Origin Resource Sharing ",
+      "c. Client-Origin Response System",
+      "d. Code Origin Reuse System"
+    ],
+    "correct_answer": "b. Cross-Origin Resource Sharing "
+  },
+  "¿Qué es un servidor proxy?": {
+    "question": "¿Qué es un servidor proxy?",
+    "answers": [
+      "a. Un tipo de base de datos",
+      "b. Un protocolo de comunicación",
+      "c. Un servidor que actúa como intermediario entre un cliente y otro servidor ",
+      "d. Una herramienta de diseño de interfaces de usuario"
+    ],
+    "correct_answer": "c. Un servidor que actúa como intermediario entre un cliente y otro servidor "
+  },
+  "¿Qué es OAuth en el contexto de la seguridad web?": {
+    "question": "¿Qué es OAuth en el contexto de la seguridad web?",
+    "answers": [
+      "a. Un lenguaje de programación",
+      "b. Un servidor de bases de datos",
+      "c. Una biblioteca de CSS",
+      "d. Un protocolo de autorización que permite el acceso limitado a los recursos de un usuario sin compartir sus credenciales "
+    ],
+    "correct_answer": "d. Un protocolo de autorización que permite el acceso limitado a los recursos de un usuario sin compartir sus credenciales "
+  },
+  "¿Cuál de las siguientes opciones no es un método de autenticación común en aplicaciones web?": {
+    "question": "¿Cuál de las siguientes opciones no es un método de autenticación común en aplicaciones web?",
+    "answers": [
+      "a. Autenticación biométrica",
+      "b. Autenticación por cookies ",
+      "c. Autenticación por contraseña",
+      "d. Autenticación por token"
+    ],
+    "correct_answer": "b. Autenticación por cookies "
+  },
+  "¿Cuál es el objetivo principal de la técnica de lazy loading en el desarrollo web?": {
+    "question": "¿Cuál es el objetivo principal de la técnica de lazy loading en el desarrollo web?",
+    "answers": [
+      "a. Aplazar la carga de recursos hasta que sean realmente necesarios ",
+      "b. Mejorar la accesibilidad de la web",
+      "c. Aumentar la seguridad de la aplicación",
+      "d. Cargar todo el contenido de la página de una vez"
+    ],
+    "correct_answer": "a. Aplazar la carga de recursos hasta que sean realmente necesarios "
+  },
+  "¿Qué es un preprocesador CSS?": {
+    "question": "¿Qué es un preprocesador CSS?",
+    "answers": [
+      "a. Un protocolo de comunicación",
+      "b. Un tipo de base de datos",
+      "c. Una herramienta que mejora la seguridad de la aplicación web",
+      "d. Un lenguaje que extiende CSS con variables, anidamiento y funciones "
+    ],
+    "correct_answer": "d. Un lenguaje que extiende CSS con variables, anidamiento y funciones "
+  },
+  "¿Qué es un hook en el contexto de React?": {
+    "question": "¿Qué es un hook en el contexto de React?",
+    "answers": [
+      "a. Una función que permite utilizar estado y otras características de React en componentes funcionales ",
+      "b. Una biblioteca de estilos CSS",
+      "c. Una técnica de diseño de interfaces de usuario",
+      "d. Un tipo de componente de clase en React"
+    ],
+    "correct_answer": "a. Una función que permite utilizar estado y otras características de React en componentes funcionales "
+  },
+  "¿Qué herramienta se utiliza comúnmente para la gestión de paquetes en Node.js?": {
+    "question": "¿Qué herramienta se utiliza comúnmente para la gestión de paquetes en Node.js?",
+    "answers": [
+      "a. Npm ",
+      "b. Composer",
+      "c. Maven",
+      "d. Pip"
+    ],
+    "correct_answer": "a. Npm "
+  },
+  "En el contexto de RESTful APIs, ¿qué verbo HTTP se utiliza para eliminar un recurso?": {
+    "question": "En el contexto de RESTful APIs, ¿qué verbo HTTP se utiliza para eliminar un recurso?",
+    "answers": [
+      "a. POST",
+      "b. GET",
+      "c. DELETE ",
+      "d. PUT"
+    ],
+    "correct_answer": "c. DELETE "
+  },
+  "¿Qué función tiene el DOM (Document Object Model) en el desarrollo web?": {
+    "question": "¿Qué función tiene el DOM (Document Object Model) en el desarrollo web?",
+    "answers": [
+      "a. Proteger la aplicación contra ataques de inyección SQL",
+      "b. Estructurar y manipular los documentos HTML y XML ",
+      "c. Mejorar la accesibilidad de la aplicación",
+      "d. Definir el esquema de una base de datos"
+    ],
+    "correct_answer": "b. Estructurar y manipular los documentos HTML y XML "
+  },
+  "¿Cuál es la principal ventaja del uso de frameworks front-end como React o Angular?": {
+    "question": "¿Cuál es la principal ventaja del uso de frameworks front-end como React o Angular?",
+    "answers": [
+      "a. Son más rápidos que el desarrollo con HTML y CSS puros",
+      "b. Reducen el tamaño de los archivos HTML",
+      "c. Facilitan el manejo del estado de la aplicación y la creación de componentes reutilizables ",
+      "d. Aumentan la seguridad del servidor"
+    ],
+    "correct_answer": "c. Facilitan el manejo del estado de la aplicación y la creación de componentes reutilizables "
+  },
+  "¿Qué es un ORM (Object-Relational Mapping.)?": {
+    "question": "¿Qué es un ORM (Object-Relational Mapping)?",
+    "answers": [
+      "a. Un formato de archivo para intercambiar datos",
+      "b. Un tipo de servidor de aplicaciones",
+      "c. Una herramienta para mapear objetos de un lenguaje de programación a una base de datos relacional ",
+      "d. Una técnica para mejorar la seguridad en bases de datos"
+    ],
+    "correct_answer": "c. Una herramienta para mapear objetos de un lenguaje de programación a una base de datos relacional "
+  },
+  "¿Qué es un build tool en el desarrollo web?": {
+    "question": "¿Qué es un build tool en el desarrollo web?",
+    "answers": [
+      "a. Un protocolo de comunicación",
+      "b. Una herramienta que mejora la seguridad de la aplicación web",
+      "c. Un tipo de base de datos",
+      "d. Una herramienta que automatiza tareas repetitivas como la compilación, minificación y pruebas del código "
+    ],
+    "correct_answer": "d. Una herramienta que automatiza tareas repetitivas como la compilación, minificación y pruebas del código "
+  },
+  "¿Qué es una CDN (Content Delivery Network)?": {
+    "question": "¿Qué es una CDN (Content Delivery Network)?",
+    "answers": [
+      "a. Una plataforma de desarrollo de aplicaciones web en la nube.",
+      "b. Una red de servidores que distribuye contenido a usuarios para mejorar la velocidad y la disponibilidad. ",
+      "c. Un servicio de alojamiento de archivos en la nube.",
+      "d. Un sistema de gestión de bases de datos distribuido."
+    ],
+    "correct_answer": "b. Una red de servidores que distribuye contenido a usuarios para mejorar la velocidad y la disponibilidad. "
+  },
+  "¿Cuál es el propósito de un polyfill en el desarrollo web?": {
+    "question": "¿Cuál es el propósito de un polyfill en el desarrollo web?",
+    "answers": [
+      "a. Facilitar la manipulación del DOM",
+      "b. Proporcionar soporte para características de JavaScript más recientes en navegadores antiguos ",
+      "c. Mejorar la velocidad de carga de la página",
+      "d. Aumentar la seguridad de la aplicación web"
+    ],
+    "correct_answer": "b. Proporcionar soporte para características de JavaScript más recientes en navegadores antiguos "
+  },
+  "¿Cuál es la función principal de un router en una aplicación web?": {
+    "question": "¿Cuál es la función principal de un router en una aplicación web?",
+    "answers": [
+      "a. Definir y manejar las rutas de navegación de la aplicación ",
+      "b. Mejorar el rendimiento de la aplicación",
+      "c. Administrar la lógica de negocio",
+      "d. Conectar la aplicación con una base de datos"
+    ],
+    "correct_answer": "a. Definir y manejar las rutas de navegación de la aplicación "
+  },
+  "¿Qué es GraphQL en el desarrollo web?": {
+    "question": "¿Qué es GraphQL en el desarrollo web?",
+    "answers": [
+      "a. Una biblioteca de estilos CSS",
+      "b. Un lenguaje de consulta para APIs que permite solicitar datos específicos y optimizar el rendimiento de las solicitudes ",
+      "c. Un protocolo de comunicación",
+      "d. Un servidor web"
+    ],
+    "correct_answer": "b. Un lenguaje de consulta para APIs que permite solicitar datos específicos y optimizar el rendimiento de las solicitudes "
+  },
+  "¿Qué significa SEO en el contexto del desarrollo web?": {
+    "question": "¿Qué significa SEO en el contexto del desarrollo web?",
+    "answers": [
+      "a. Search Engine Optimization ",
+      "b. Secure Environment Operations",
+      "c. Service-Oriented Execution",
+      "d. Systematic Error Optimization"
+    ],
+    "correct_answer": "a. Search Engine Optimization "
+  },
+  "¿Qué es Webpack en el desarrollo web?": {
+    "question": "¿Qué es Webpack en el desarrollo web?",
+    "answers": [
+      "a. Una herramienta de empaquetado de módulos JavaScript ",
+      "b. Una biblioteca de CSS",
+      "c. Un servidor web",
+      "d. Un protocolo de comunicación"
+    ],
+    "correct_answer": "a. Una herramienta de empaquetado de módulos JavaScript "
+  },
+  "¿Cuál es el propósito de CI/CD en el desarrollo de software?": {
+    "question": "¿Cuál es el propósito de CI/CD en el desarrollo de software?",
+    "answers": [
+      "a. Crear un entorno de desarrollo virtual",
+      "b. Facilitar el manejo de bases de datos",
+      "c. Mejorar la seguridad de la aplicación web",
+      "d. Automatizar el proceso de integración y entrega continua de código "
+    ],
+    "correct_answer": "d. Automatizar el proceso de integración y entrega continua de código "
+  },
+  "¿Cuál es el propósito de un archivo .env en una aplicación web?": {
+    "question": "¿Cuál es el propósito de un archivo .env en una aplicación web?",
+    "answers": [
+      "a. Almacenar variables de entorno y configuraciones sensibles ",
+      "b. Contener los archivos de configuración del servidor",
+      "c. Almacenar los estilos CSS",
+      "d. Guardar el contenido HTML de la aplicación"
+    ],
+    "correct_answer": "a. Almacenar variables de entorno y configuraciones sensibles "
+  },
+  "¿Qué es un API REST?": {
+    "question": "¿Qué es un API REST?",
+    "answers": [
+      "a. Un tipo de base de datos",
+      "b. Un estilo de arquitectura para diseñar servicios web que utilizan HTTP para la comunicación ",
+      "c. Un protocolo de comunicación",
+      "d. Una herramienta de diseño de interfaces de usuario"
+    ],
+    "correct_answer": "b. Un estilo de arquitectura para diseñar servicios web que utilizan HTTP para la comunicación "
+  },
+  "¿Qué es un controlador en el patrón MVC?": {
+    "question": "¿Qué es un controlador en el patrón MVC?",
+    "answers": [
+      "a. Un servicio que conecta la aplicación con una base de datos",
+      "b. Una clase que representa los datos de la aplicación",
+      "c. Una plantilla que define la presentación de datos",
+      "d. Una clase que maneja la lógica de negocio y las interacciones del usuario "
+    ],
+    "correct_answer": "d. Una clase que maneja la lógica de negocio y las interacciones del usuario "
+  },
+  "¿Qué es un JWT (JSON Web Token)?": {
+    "question": "¿Qué es un JWT (JSON Web Token)?",
+    "answers": [
+      "a. Un tipo de base de datos",
+      "b. Un protocolo de red",
+      "c. Un estándar de seguridad para la autenticación y autorización de usuarios ",
+      "d. Una biblioteca de CSS"
+    ],
+    "correct_answer": "c. Un estándar de seguridad para la autenticación y autorización de usuarios "
+  },
+  "¿Qué es un callback en JavaScript?": {
+    "question": "¿Qué es un callback en JavaScript?",
+    "answers": [
+      "a. Una variable global",
+      "b. Una función que se pasa como argumento a otra función y se ejecuta después de que se complete una operación ",
+      "c. Un error de sintaxis",
+      "d. Un tipo de bucle"
+    ],
+    "correct_answer": "b. Una función que se pasa como argumento a otra función y se ejecuta después de que se complete una operación "
+  },
+  "¿Qué es AJAX en el contexto del desarrollo web?": {
+    "question": "¿Qué es AJAX en el contexto del desarrollo web?",
+    "answers": [
+      "a. Una biblioteca de CSS",
+      "b. Un lenguaje de programación",
+      "c. Una técnica para crear aplicaciones web interactivas ",
+      "d. Un tipo de base de datos"
+    ],
+    "correct_answer": "c. Una técnica para crear aplicaciones web interactivas "
+  },
+  "¿Qué es un microservicio en el desarrollo de software?": {
+    "question": "¿Qué es un microservicio en el desarrollo de software?",
+    "answers": [
+      "a. Un servicio pequeño e independiente que se comunica con otros servicios para construir una aplicación más grande ",
+      "b. Una técnica de diseño de interfaces de usuario",
+      "c. Un tipo de base de datos no relacional",
+      "d. Un protocolo de seguridad web"
+    ],
+    "correct_answer": "a. Un servicio pequeño e independiente que se comunica con otros servicios para construir una aplicación más grande "
+  },
+  "¿Cuál es la diferencia principal entre un API REST y un API SOAP?": {
+    "question": "¿Cuál es la diferencia principal entre un API REST y un API SOAP?",
+    "answers": [
+      "a. REST utiliza JSON y SOAP utiliza XML ",
+      "b. REST no soporta operaciones CRUD",
+      "c. REST es más seguro que SOAP",
+      "d. SOAP es más rápido que REST"
+    ],
+    "correct_answer": "a. REST utiliza JSON y SOAP utiliza XML "
+  },
+  "¿Cuál es el objetivo principal del diseño responsivo en el desarrollo web?": {
+    "question": "¿Cuál es el objetivo principal del diseño responsivo en el desarrollo web?",
+    "answers": [
+      "a. Adaptar la apariencia de la web a diferentes tamaños de pantalla ",
+      "b. Asegurar la accesibilidad para todos los usuarios",
+      "c. Mejorar la velocidad de carga",
+      "d. Incrementar la seguridad de la aplicación web"
+    ],
+    "correct_answer": "a. Adaptar la apariencia de la web a diferentes tamaños de pantalla "
+  },
+  "¿Qué es un CDN (Content Delivery Network)?": {
+    "question": "¿Qué es un CDN (Content Delivery Network)?",
+    "answers": [
+      "a. Un protocolo de seguridad",
+      "b. Una herramienta para gestionar bases de datos",
+      "c. Una red de servidores que distribuyen el contenido de manera eficiente a los usuarios ",
+      "d. Un servicio de almacenamiento en la nube"
+    ],
+    "correct_answer": "c. Una red de servidores que distribuyen el contenido de manera eficiente a los usuarios "
+  },
+  "¿Cuál es el propósito de un middleware en una aplicación web?": {
+    "question": "¿Cuál es el propósito de un middleware en una aplicación web?",
+    "answers": [
+      "a. Crear rutas en una aplicación",
+      "b. Mejorar el rendimiento de la aplicación",
+      "c. Proveer funcionalidades adicionales entre las solicitudes y respuestas del servidor ",
+      "d. Conectar la base de datos con el servidor"
+    ],
+    "correct_answer": "c. Proveer funcionalidades adicionales entre las solicitudes y respuestas del servidor "
+  },
+  "¿Qué es un servicio RESTful?": {
+    "question": "¿Qué es un servicio RESTful?",
+    "answers": [
+      "a. Un tipo de base de datos",
+      "b. Un servicio web que sigue los principios de la arquitectura REST ",
+      "c. Una herramienta de gestión de proyectos",
+      "d. Un protocolo de comunicación"
+    ],
+    "correct_answer": "b. Un servicio web que sigue los principios de la arquitectura REST "
+  },
+  "¿Cuál es la diferencia principal entre una base de datos relacional y una base de datos NoSQL?": {
+    "question": "¿Cuál es la diferencia principal entre una base de datos relacional y una base de datos NoSQL?",
+    "answers": [
+      "a. Las bases de datos relacionales son más rápidas que las NoSQL",
+      "b. Las bases de datos NoSQL son más seguras que las relacionales",
+      "c. Las bases de datos relacionales utilizan tablas y las NoSQL pueden utilizar documentos, gráficos o pares clave-valor ",
+      "d. Las bases de datos relacionales no soportan operaciones CRUD"
+    ],
+    "correct_answer": "c. Las bases de datos relacionales utilizan tablas y las NoSQL pueden utilizar documentos, gráficos o pares clave-valor "
+  },
+  "¿Qué es JSON en el desarrollo web?": {
+    "question": "¿Qué es JSON en el desarrollo web?",
+    "answers": [
+      "a. Una biblioteca de JavaScript",
+      "b. Un formato de intercambio de datos ligero y de fácil lectura/escritura ",
+      "c. Un lenguaje de programación",
+      "d. Un protocolo de comunicación"
+    ],
+    "correct_answer": "b. Un formato de intercambio de datos ligero y de fácil lectura/escritura "
+  },
+  "¿Qué es Docker?": {
+    "question": "¿Qué es Docker?",
+    "answers": [
+      "a. Un tipo de servidor web",
+      "b. Una plataforma para desarrollar, enviar y ejecutar aplicaciones dentro de contenedores. ",
+      "c. Un protocolo de seguridad",
+      "d. Un lenguaje de programación"
+    ],
+    "correct_answer": "b. Una plataforma para desarrollar, enviar y ejecutar aplicaciones dentro de contenedores. "
+  },
+  "¿Qué es un framework en el contexto de desarrollo web?": {
+    "question": "¿Qué es un framework en el contexto de desarrollo web?",
+    "answers": [
+      "a. Un programa antivirus para aplicaciones web",
+      "b. Un conjunto de herramientas y bibliotecas para simplificar el desarrollo de aplicaciones web. ",
+      "c. Un conjunto de reglas de diseño gráfico.",
+      "d. Una base de datos relacional."
+    ],
+    "correct_answer": "b. Un conjunto de herramientas y bibliotecas para simplificar el desarrollo de aplicaciones web. "
+  },
+  "¿Qué es 'CI/CD'?": {
+    "question": "¿Qué es 'CI/CD'?",
+    "answers": [
+      "a. Un protocolo de comunicación seguridad",
+      "b. Un modelo de desarrollo que incluye Integración Continua y Entrega Continua/Despliegue Continuo. ",
+      "c. Un tipo de base de datos.",
+      "d. Un lenguaje de programación."
+    ],
+    "correct_answer": "b. Un modelo de desarrollo que incluye Integración Continua y Entrega Continua/Despliegue Continuo. "
+  },
+  "¿Qué es la escalabilidad en el contexto del desarrollo web?": {
+    "question": "¿Qué es la escalabilidad en el contexto del desarrollo web?",
+    "answers": [
+      "a. La capacidad de un sistema para crear interfaces de usuario complejas.",
+      "b. La capacidad de un sistema para realizar análisis de datos.",
+      "c. La capacidad de un sistema para manejar un incremento en la carga de trabajo. ",
+      "d. La capacidad de un sistema para reducir el tamaño de sus archivos."
+    ],
+    "correct_answer": "c. La capacidad de un sistema para manejar un incremento en la carga de trabajo. "
+  },
+  "¿Cuál es la principal ventaja de usar un framework frontend como React?": {
+    "question": "¿Cuál es la principal ventaja de usar un framework frontend como React?",
+    "answers": [
+      "a. Simplifica la creación de interfaces de usuario interactivas. ",
+      "b. Mejora la conectividad de red",
+      "c. Aumenta la velocidad del servidor.",
+      "d. Mejora la seguridad del servidor."
+    ],
+    "correct_answer": "a. Simplifica la creación de interfaces de usuario interactivas. "
+  },
+  "¿Qué es una PWA (Progressive Web App)?": {
+    "question": "¿Qué es una PWA (Progressive Web App)?",
+    "answers": [
+      "a. Una aplicación web que utiliza tecnologías modernas para ofrecer una experiencia similar a la de una aplicación nativa. ",
+      "b. Un tipo de servidor web",
+      "c. Un software de edición de fotos.",
+      "d. Una aplicación móvil nativa"
+    ],
+    "correct_answer": "a. Una aplicación web que utiliza tecnologías modernas para ofrecer una experiencia similar a la de una aplicación nativa. "
+  },
+  "¿Cuál de las siguientes tecnologías es utilizada para el desarrollo del lado del servidor?": {
+    "question": "¿Cuál de las siguientes tecnologías es utilizada para el desarrollo del lado del servidor?",
+    "answers": [
+      "a. Vue.js",
+      "b. React",
+      "c. Angular",
+      "d. Node.js "
+    ],
+    "correct_answer": "d. Node.js "
+  },
+  "¿Cuál de los siguientes no es un lenguaje de programación utilizado comúnmente en el desarrollo web?": {
+    "question": "¿Cuál de los siguientes no es un lenguaje de programación utilizado comúnmente en el desarrollo web?",
+    "answers": [
+      "a. JavaScript",
+      "b. CSS",
+      "c. HTML",
+      "d. COBOL "
+    ],
+    "correct_answer": "d. COBOL "
+  },
+  "¿Qué es 'WebSocket'?": {
+    "question": "¿Qué es 'WebSocket'?",
+    "answers": [
+      "a. Un tipo de base de datos.",
+      "b. Un framework de desarrollo web",
+      "c. Un protocolo que proporciona comunicación full-duplex sobre una sola conexión TCP. ",
+      "d. Un lenguaje de programación."
+    ],
+    "correct_answer": "c. Un protocolo que proporciona comunicación full-duplex sobre una sola conexión TCP. "
+  },
+  "¿Qué es un contenedor en el contexto del desarrollo web?": {
+    "question": "¿Qué es un contenedor en el contexto del desarrollo web?",
+    "answers": [
+      "a. Un tipo de base de datos.",
+      "b. Un framework de desarrollo web",
+      "c. Una unidad de software que empaqueta código y sus dependencias para que una aplicación se ejecute de manera consistente en cualquier entorno. ",
+      "d. Un dispositivo de almacenamiento físico."
+    ],
+    "correct_answer": "c. Una unidad de software que empaqueta código y sus dependencias para que una aplicación se ejecute de manera consistente en cualquier entorno. "
+  },
+  
+  "¿Qué es una CDN?": {
+    "question": "¿Qué es una CDN?",
+    "answers": [
+      "a. Una red de distribución de contenido que entrega contenido web a usuarios basándose en su ubicación geográfica. ",
+      "b. Un lenguaje de programación para desarrollo web",
+      "c. Un tipo de base de datos relacional.",
+      "d. Un protocolo de comunicación segura"
+    ],
+    "correct_answer": "a. Una red de distribución de contenido que entrega contenido web a usuarios basándose en su ubicación geográfica. "
+  },
+  
+  "¿Cuál es la función principal de una API en el desarrollo web?": {
+    "question": "¿Cuál es la función principal de una API en el desarrollo web?",
+    "answers": [
+      "a. Analizar grandes volúmenes de datos.",
+      "b. Facilitar la comunicación entre diferentes aplicaciones. ",
+      "c. Diseñar la interfaz de usuario.",
+      "d. Proporcionar almacenamiento de datos."
+    ],
+    "correct_answer": "b. Facilitar la comunicación entre diferentes aplicaciones. "
+  },
+  "¿Qué es un CMS (Content Management System)?": {
+    "question": "¿Qué es un CMS (Content Management System)?",
+    "answers": [
+      "a. Un sistema para gestionar redes.",
+      "b. Un software que facilita la creación y gestión de contenidos web. ",
+      "c. Un tipo de base de datos relacional.",
+      "d. Un lenguaje de programación para el desarrollo web."
+    ],
+    "correct_answer": "b. Un software que facilita la creación y gestión de contenidos web. "
+  },
+  "¿Qué es un 'commit' en el contexto de Git?": {
+    "question": "¿Qué es un 'commit' en el contexto de Git?",
+    "answers": [
+      "a. Una copia de seguridad de un archivo.",
+      "b. Una solicitud para fusionar cambios.",
+      "c. Una acción para guardar cambios en el repositorio. ",
+      "d. Un tipo de base de datos."
+    ],
+    "correct_answer": "c. Una acción para guardar cambios en el repositorio. "
+  },
+  "¿Qué es 'WebAssembly'?": {
+    "question": "¿Qué es 'WebAssembly'?",
+    "answers": [
+      "a. Un protocolo de comunicación segura",
+      "b. Un framework de desarrollo web",
+      "c. Un tipo de base de datos.",
+      "d. Un formato binario para ejecutar código en navegadores web a velocidades cercanas a las nativas. "
+    ],
+    "correct_answer": "d. Un formato binario para ejecutar código en navegadores web a velocidades cercanas a las nativas. "
+  },
+  "¿Cuál de los siguientes es un principio de la ingeniería de software web?": {
+    "question": "¿Cuál de los siguientes es un principio de la ingeniería de software web?",
+    "answers": [
+      "a. Diseño de redes",
+      "b. Seguridad y privacidad. ",
+      "c. Realidad aumentada",
+      "d. Automatización de procesos"
+    ],
+    "correct_answer": "b. Seguridad y privacidad. "
+  },
+  "¿Qué es 'serverless computing'?": {
+    "question": "¿Qué es 'serverless computing'?",
+    "answers": [
+      "a. Un protocolo de comunicación segura",
+      "b. Un tipo de base de datos.",
+      "c. Un modelo de computación en la nube donde el proveedor ejecuta el servidor y gestiona la asignación de recursos dinámicamente. ",
+      "d. Un lenguaje de programación."
+    ],
+    "correct_answer": "c. Un modelo de computación en la nube donde el proveedor ejecuta el servidor y gestiona la asignación de recursos dinámicamente. "
+  },
+  "¿Cuál de las siguientes tecnologías se utiliza para el desarrollo de backend?": {
+    "question": "¿Cuál de las siguientes tecnologías se utiliza para el desarrollo de backend?",
+    "answers": [
+      "a. HTML",
+      "b. CSS",
+      "c. Bootstrap",
+      "d. PHP "
+    ],
+    "correct_answer": "d. PHP "
+  },
+  "¿Qué es una 'cookie' en el contexto del desarrollo web?": {
+    "question": "¿Qué es una 'cookie' en el contexto del desarrollo web?",
+    "answers": [
+      "a. Un archivo que almacena información del usuario en su dispositivo para ser utilizada por el sitio web. ",
+      "b. Un protocolo de comunicación segura",
+      "c. Un lenguaje de programación.",
+      "d. Un tipo de base de datos."
+    ],
+    "correct_answer": "a. Un archivo que almacena información del usuario en su dispositivo para ser utilizada por el sitio web. "
+  },
+  "¿Qué es la ingeniería de software web?": {
+    "question": "¿Qué es la ingeniería de software web?",
+    "answers": [
+      "a. El estudio de hardware y su interacción.",
+      "b. El desarrollo y mantenimiento de sistemas software basados en la web. ",
+      "c. El análisis de datos de redes sociales.",
+      "d. La creación de aplicaciones móviles."
+    ],
+    "correct_answer": "b. El desarrollo y mantenimiento de sistemas software basados en la web. "
+  },
+  "¿Qué es MVC en el contexto del desarrollo web?": {
+    "question": "¿Qué es MVC en el contexto del desarrollo web?",
+    "answers": [
+      "a. Un tipo de base de datos.",
+      "b. Un lenguaje de programación.",
+      "c. Una metodología de desarrollo ágil.",
+      "d. Un patrón de diseño que separa la aplicación en Modelo, Vista y Controlador. "
+    ],
+    "correct_answer": "d. Un patrón de diseño que separa la aplicación en Modelo, Vista y Controlador. "
+  },
+  "¿Qué es una API RESTful?": {
+    "question": "¿Qué es una API RESTful?",
+    "answers": [
+      "a. Una API que solo puede ser utilizada en sistemas operativos Windows.",
+      "b. Una API que sigue los principios de la arquitectura REST. ",
+      "c. Una API que utiliza XML exclusivamente.",
+      "d. Una API específica para la transferencia de archivos grandes."
+    ],
+    "correct_answer": "b. Una API que sigue los principios de la arquitectura REST. "
+  },
+  "¿Qué es un 'branch' en Git?": {
+    "question": "¿Qué es un 'branch' en Git?",
+    "answers": [
+      "a. Una base de datos NoSQL.",
+      "b. Una copia de seguridad de un archivo.",
+      "c. Un protocolo de comunicación.",
+      "d. Una rama que permite desarrollar características de manera aislada. "
+    ],
+    "correct_answer": "d. Una rama que permite desarrollar características de manera aislada. "
+  },
+  "¿Qué es la \"usabilidad\" en el contexto del desarrollo web?": {
+    "question": "¿Qué es la \"usabilidad\" en el contexto del desarrollo web?",
+    "answers": [
+      "a. La velocidad de carga de una página web.",
+      "b. La seguridad de una aplicación web.",
+      "c. La medida de cuán eficiente es el backend de una aplicación.",
+      "d. La facilidad con la que los usuarios pueden navegar y utilizar una aplicación web. "
+    ],
+    "correct_answer": "d. La facilidad con la que los usuarios pueden navegar y utilizar una aplicación web. "
+  },
+  "¿Qué significa el término 'responsive design'?": {
+    "question": "¿Qué significa el término 'responsive design'?",
+    "answers": [
+      "a. Un diseño que se adapta solo a dispositivos móviles.",
+      "b. Un diseño que se adapta automáticamente al tamaño de la pantalla y al dispositivo del usuario. ",
+      "c. Un diseño que responde automáticamente a las entradas del usuario.",
+      "d. Un diseño que se adapta solo a pantallas grandes."
+    ],
+    "correct_answer": "b. Un diseño que se adapta automáticamente al tamaño de la pantalla y al dispositivo del usuario. "
+  },
+  "¿Qué es 'SQL Injection'?": {
+    "question": "¿Qué es 'SQL Injection'?",
+    "answers": [
+      "a. Un tipo de base de datos.",
+      "b. Un protocolo de comunicación segura.",
+      "c. Un lenguaje de programación.",
+      "d. Un ataque donde un atacante puede ejecutar comandos SQL maliciosos para manipular una base de datos. "
+    ],
+    "correct_answer": "d. Un ataque donde un atacante puede ejecutar comandos SQL maliciosos para manipular una base de datos. "
+  },
+  "¿Qué es 'Cross-Site Scripting (XSS)'?": {
+    "question": "¿Qué es 'Cross-Site Scripting (XSS)'?",
+    "answers": [
+      "a. Un tipo de base de datos.",
+      "b. Un tipo de ataque donde un atacante puede inyectar scripts maliciosos en páginas web vistas por otros usuarios. ",
+      "c. Un protocolo de comunicación segura.",
+      "d. Un lenguaje de programación."
+    ],
+    "correct_answer": "b. Un tipo de ataque donde un atacante puede inyectar scripts maliciosos en páginas web vistas por otros usuarios. "
+  },
+  "¿Qué es 'SSL/TLS'?": {
+    "question": "¿Qué es 'SSL/TLS'?",
+    "answers": [
+      "a. Un tipo de base de datos",
+      "b. Un framework de desarrollo web",
+      "c. Un lenguaje de programación",
+      "d. Protocolos para establecer una conexión segura entre el cliente y el servidor "
+    ],
+    "correct_answer": "d. Protocolos para establecer una conexión segura entre el cliente y el servidor "
+  },
+  "¿Qué es un certificado SSL?": {
+    "question": "¿Qué es un certificado SSL?",
+    "answers": [
+      "a. Un componente de hardware",
+      "b. Un protocolo de transferencia de archivos",
+      "c. Un tipo de firewall",
+      "d. Un documento de identidad digital "
+    ],
+    "correct_answer": "d. Un documento de identidad digital "
+  },
+  "¿Qué es 'Headless CMS'?": {
+    "question": "¿Qué es 'Headless CMS'?",
+    "answers": [
+      "a. Un protocolo de comunicación segura",
+      "b. Un CMS que separa la gestión de contenido del frontend, permitiendo a los desarrolladores utilizar cualquier tecnología de frontend para mostrar el contenido ",
+      "c. Un framework de desarrollo web",
+      "d. Un tipo de base de datos"
+    ],
+    "correct_answer": "b. Un CMS que separa la gestión de contenido del frontend, permitiendo a los desarrolladores utilizar cualquier tecnología de frontend para mostrar el contenido "
+  },
+  "¿Qué es DevOps?": {
+    "question": "¿Qué es DevOps?",
+    "answers": [
+      "a. Un lenguaje de programación para desarrollo web",
+      "b. Una base de datos NoSQL",
+      "c. Un framework de diseño web",
+      "d. Un modelo de desarrollo de software centrado en la colaboración entre desarrolladores y operaciones "
+    ],
+    "correct_answer": "d. Un modelo de desarrollo de software centrado en la colaboración entre desarrolladores y operaciones "
+  },
+  "¿Qué es un microservicio?": {
+    "question": "¿Qué es un microservicio?",
+    "answers": [
+      "a. Una arquitectura que divide una aplicación en servicios pequeños y autónomos que se comunican entre sí ",
+      "b. Un protocolo de comunicación",
+      "c. Un tipo de base de datos",
+      "d. Un pequeño programa antivirus"
+    ],
+    "correct_answer": "a. Una arquitectura que divide una aplicación en servicios pequeños y autónomos que se comunican entre sí "
+  },
+  "¿Cuál de los siguientes no es un principio del diseño web responsivo?": {
+    "question": "¿Cuál de los siguientes no es un principio del diseño web responsivo?",
+    "answers": [
+      "a. Diseño fijo ",
+      "b. Imágenes flexibles",
+      "c. Grillas fluidas",
+      "d. Media queries"
+    ],
+    "correct_answer": "a. Diseño fijo "
+  },
+  "¿Qué es 'JAMstack'?": {
+    "question": "¿Qué es 'JAMstack'?",
+    "answers": [
+      "a. Un framework de desarrollo web",
+      "b. Una arquitectura moderna para construir sitios web y aplicaciones que se basa en JavaScript, APIs y Markup ",
+      "c. Un protocolo de comunicación segura",
+      "d. Un tipo de base de datos"
+    ],
+    "correct_answer": "b. Una arquitectura moderna para construir sitios web y aplicaciones que se basa en JavaScript, APIs y Markup "
+  },
+  "¿Qué significa 'full stack developer'?": {
+    "question": "¿Qué significa 'full stack developer'?",
+    "answers": [
+      "a. Un desarrollador que solo se especializa en diseño gráfico",
+      "b. Un desarrollador que trabaja tanto en el frontend como en el backend de una aplicación web ",
+      "c. Un desarrollador que solo trabaja con aplicaciones móviles",
+      "d. Un desarrollador que trabaja solo con bases de datos"
+    ],
+    "correct_answer": "b. Un desarrollador que trabaja tanto en el frontend como en el backend de una aplicación web "
+  },
+  "¿Qué es Kubernetes?": {
+    "question": "¿Qué es Kubernetes?",
+    "answers": [
+      "a. Un framework de desarrollo web",
+      "b. Un lenguaje de programación",
+      "c. Un tipo de base de datos NoSQL",
+      "d. Un sistema para automatizar la implementación, escalado y operación de contenedores de aplicaciones "
+    ],
+    "correct_answer": "d. Un sistema para automatizar la implementación, escalado y operación de contenedores de aplicaciones "
+  },
+  "¿Qué es JSON?": {
+    "question": "¿Qué es JSON?",
+    "answers": [
+      "a. Un framework para desarrollo web",
+      "b. Una base de datos NoSQL",
+      "c. Un lenguaje de programación",
+      "d. Un formato de intercambio de datos ligero y fácil de leer/escribir para humanos y máquinas "
+    ],
+    "correct_answer": "d. Un formato de intercambio de datos ligero y fácil de leer/escribir para humanos y máquinas "
+  },
+  "¿Qué es 'responsive web design'?": {
+    "question": "¿Qué es 'responsive web design'?",
+    "answers": [
+      "a. Un enfoque de diseño web que hace que las páginas web se vean bien en una variedad de dispositivos y tamaños de pantalla ",
+      "b. Un tipo de base de datos",
+      "c. Un protocolo de comunicación segura",
+      "d. Un lenguaje de programación"
+    ],
+    "correct_answer": "a. Un enfoque de diseño web que hace que las páginas web se vean bien en una variedad de dispositivos y tamaños de pantalla "
+  },
+  "¿Cuál de los siguientes es un componente esencial en el desarrollo de aplicaciones web modernas?": {
+    "question": "¿Cuál de los siguientes es un componente esencial en el desarrollo de aplicaciones web modernas?",
+    "answers": [
+      "a. Servicios de la nube ",
+      "b. Sistemas de cableado estructurado",
+      "c. Impresoras de red",
+      "d. Proyectores"
+    ],
+    "correct_answer": "a. Servicios de la nube "
+  },
+  "¿Qué es un 'middleware'?": {
+    "question": "¿Qué es un 'middleware'?",
+    "answers": [
+      "a. Un software que actúa como intermediario entre diferentes sistemas y aplicaciones ",
+      "b. Un lenguaje de programación",
+      "c. Un protocolo de comunicación segura",
+      "d. Un tipo de base de datos"
+    ],
+    "correct_answer": "a. Un software que actúa como intermediario entre diferentes sistemas y aplicaciones "
+  },
+  "¿Qué es REST en el contexto del desarrollo web?": {
+    "question": "¿Qué es REST en el contexto del desarrollo web?",
+    "answers": [
+      "a. Un lenguaje de programación",
+      "b. Un sistema de gestión de bases de datos",
+      "c. Un estilo de arquitectura para la creación de servicios web ",
+      "d. Un estándar de seguridad para aplicaciones web"
+    ],
+    "correct_answer": "c. Un estilo de arquitectura para la creación de servicios web "
+  },
+  "¿Qué es HTTPS?": {
+    "question": "¿Qué es HTTPS?",
+    "answers": [
+      "a. Un lenguaje de programación",
+      "b. Un tipo de base de datos",
+      "c. Un protocolo de comunicación segura para la transferencia de datos en la web ",
+      "d. Un protocolo de transferencia de archivos"
+    ],
+    "correct_answer": "c. Un protocolo de comunicación segura para la transferencia de datos en la web "
+  },
+  "¿Qué es un ORM (Object-Relational Mapping)?": {
+    "question": "¿Qué es un ORM (Object-Relational Mapping)?",
+    "answers": [
+      "a. Una técnica que permite interactuar con bases de datos relacionales usando lenguajes de programación orientados a objetos ",
+      "b. Un tipo de servidor web",
+      "c. Un protocolo de comunicación",
+      "d. Una biblioteca de diseño gráfico"
+    ],
+    "correct_answer": "a. Una técnica que permite interactuar con bases de datos relacionales usando lenguajes de programación orientados a objetos "
+  },
+  "¿Qué es un CDN en el contexto del desarrollo web?": {
+    "question": "¿Qué es un CDN en el contexto del desarrollo web?",
+    "answers": [
+      "a. Un algoritmo de encriptación",
+      "b. Una red de distribución de contenido ",
+      "c. Un tipo de base de datos",
+      "d. Un framework de desarrollo"
+    ],
+    "correct_answer": "b. Una red de distribución de contenido "
+  },
+  "¿Qué es un servidor web?": {
+    "question": "¿Qué es un servidor web?",
+    "answers": [
+      "a. Un software que proporciona servicios web a los usuarios mediante el protocolo HTTP ",
+      "b. Un dispositivo que almacena archivos de red",
+      "c. Un sistema operativo para redes",
+      "d. Un tipo de base de datos"
+    ],
+    "correct_answer": "a. Un software que proporciona servicios web a los usuarios mediante el protocolo HTTP "
+  },
+  "¿Qué es un 'pull request' en el contexto de Git?": {
+    "question": "¿Qué es un 'pull request' en el contexto de Git?",
+    "answers": [
+      "a. Una solicitud para eliminar una rama",
+      "b. Una solicitud para revertir cambios",
+      "c. Una solicitud para fusionar cambios de una rama a otra ",
+      "d. Una solicitud para crear un nuevo repositorio"
+    ],
+    "correct_answer": "c. Una solicitud para fusionar cambios de una rama a otra "
+  },
+  "¿Qué es un SPA (Single Page Application)?": {
+    "question": "¿Qué es un SPA (Single Page Application)?",
+    "answers": [
+      "a. Una página web que se recarga completamente al cambiar de sección",
+      "b. Una aplicación web que interactúa con el usuario reescribiendo la página actual en lugar de cargar páginas enteras ",
+      "c. Un protocolo de seguridad para aplicaciones web",
+      "d. Un software para diseñar páginas web"
+    ],
+    "correct_answer": "b. Una aplicación web que interactúa con el usuario reescribiendo la página actual en lugar de cargar páginas enteras "
+  },
+  "¿Qué es un \"pull request\" en el contexto de Git?": {
+    "question": "¿Qué es un \"pull request\" en el contexto de Git?",
+    "answers": [
+      "a. Una solicitud para eliminar una rama.",
+      "b. Una solicitud para fusionar cambios de una rama a otra. ",
+      "c. Una solicitud para crear un nuevo repositorio.",
+      "d. Una solicitud para revertir cambios."
+    ],
+    "correct_answer": "b. Una solicitud para fusionar cambios de una rama a otra. "
+  },
+
+  "¿Qué significa \"full stack developer\"?": {
+    "question": "¿Qué significa \"full stack developer\"?",
+    "answers": [
+      "a. Un desarrollador que trabaja tanto en el frontend como en el backend de una aplicación web. ",
+      "b. Un desarrollador que solo se especializa en diseño gráfico.",
+      "c. Un desarrollador que trabaja solo con bases de datos.",
+      "d. Un desarrollador que solo trabaja con aplicaciones móviles."
+    ],
+    "correct_answer": "a. Un desarrollador que trabaja tanto en el frontend como en el backend de una aplicación web. "
+  },
+  "¿Qué es \"responsive web design\"?": {
+    "question": "¿Qué es \"responsive web design\"?",
+    "answers": [
+      "a. Un enfoque de diseño web que hace que las páginas web se vean bien en una variedad de dispositivos y tamaños de pantalla. ",
+      "b. Un lenguaje de programación.",
+      "c. Un protocolo de comunicación segura.",
+      "d. Un tipo de base de datos."
+    ],
+    "correct_answer": "a. Un enfoque de diseño web que hace que las páginas web se vean bien en una variedad de dispositivos y tamaños de pantalla. "
+  },
+  "¿Qué es \"WebAssembly\"?": {
+    "question": "¿Qué es \"WebAssembly\"?",
+    "answers": [
+      "a. Un formato binario para ejecutar código en navegadores web a velocidades cercanas a las nativas. ",
+      "b. Un protocolo de comunicación segura.",
+      "c. Un tipo de base de datos.",
+      "d. Un framework de desarrollo web."
+    ],
+    "correct_answer": "a. Un formato binario para ejecutar código en navegadores web a velocidades cercanas a las nativas. "
+  },
+  "¿Qué es \"WebSocket\"?": {
+    "question": "¿Qué es \"WebSocket\"?",
+    "answers": [
+      "a. Un tipo de base de datos.",
+      "b. Un protocolo que proporciona comunicación full-duplex sobre una sola conexión TCP. ",
+      "c. Un framework de desarrollo web.",
+      "d. Un lenguaje de programación."
+    ],
+    "correct_answer": "b. Un protocolo que proporciona comunicación full-duplex sobre una sola conexión TCP. "
+  },
+  "¿Qué es \"Headless CMS\"?": {
+    "question": "¿Qué es \"Headless CMS\"?",
+    "answers": [
+      "a. Un protocolo de comunicación segura.",
+      "b. Un tipo de base de datos.",
+      "c. Un framework de desarrollo web.",
+      "d. Un CMS que separa la gestión de contenido del frontend, permitiendo a los desarrolladores utilizar cualquier tecnología de frontend para mostrar el contenido. "
+    ],
+    "correct_answer": "d. Un CMS que separa la gestión de contenido del frontend, permitiendo a los desarrolladores utilizar cualquier tecnología de frontend para mostrar el contenido. "
+  },
+  "¿Qué es un \"commit\" en el contexto de Git?": {
+    "question": "¿Qué es un \"commit\" en el contexto de Git?",
+    "answers": [
+      "a. Una acción para guardar cambios en el repositorio. ",
+      "b. Un tipo de base de datos.",
+      "c. Una copia de seguridad de un archivo.",
+      "d. Una solicitud para fusionar cambios."
+    ],
+    "correct_answer": "a. Una acción para guardar cambios en el repositorio. "
+  },
+  "¿Qué significa el término \"responsive design\"?": {
+    "question": "¿Qué significa el término \"responsive design\"?",
+    "answers": [
+      "a. Un diseño que responde automáticamente a las entradas del usuario.",
+      "b. Un diseño que se adapta solo a pantallas grandes.",
+      "c. Un diseño que se adapta automáticamente al tamaño de la pantalla y al dispositivo del usuario. ",
+      "d. Un diseño que se adapta solo a dispositivos móviles."
+    ],
+    "correct_answer": "c. Un diseño que se adapta automáticamente al tamaño de la pantalla y al dispositivo del usuario. "
+  },
+  "¿Qué es \"GraphQL\"?": {
+    "question": "¿Qué es \"GraphQL\"?",
+    "answers": [
+      "a. Un protocolo de comunicación segura.",
+      "b. Un framework de desarrollo web.",
+      "c. Un tipo de base de datos.",
+      "d. Un lenguaje de consulta para APIs que proporciona una descripción completa y comprensible de los datos en su API. "
+    ],
+    "correct_answer": "d. Un lenguaje de consulta para APIs que proporciona una descripción completa y comprensible de los datos en su API. "
+  },
+  "¿Qué es \"SQL Injection\"?": {
+    "question": "¿Qué es \"SQL Injection\"?",
+    "answers": [
+      "a. Un ataque donde un atacante puede ejecutar comandos SQL maliciosos para manipular una base de datos. ",
+      "b. Un protocolo de comunicación segura.",
+      "c. Un tipo de base de datos.",
+      "d. Un lenguaje de programación."
+    ],
+    "correct_answer": "a. Un ataque donde un atacante puede ejecutar comandos SQL maliciosos para manipular una base de datos. "
+  },
+  "¿Qué es un \"branch\" en Git?": {
+    "question": "¿Qué es un \"branch\" en Git?",
+    "answers": [
+      "a. Una base de datos NoSQL.",
+      "b. Una copia de seguridad de un archivo.",
+      "c. Una rama que permite desarrollar características de manera aislada. ",
+      "d. Un protocolo de comunicación."
+    ],
+    "correct_answer": "c. Una rama que permite desarrollar características de manera aislada. "
+  },
+  "¿Qué es \"JAMstack\"?": {
+    "question": "¿Qué es \"JAMstack\"?",
+    "answers": [
+      "a. Un protocolo de comunicación segura.",
+      "b. Una arquitectura moderna para construir sitios web y aplicaciones que se basa en JavaScript, APIs y Markup. ",
+      "c. Un framework de desarrollo web.",
+      "d. Un tipo de base de datos."
+    ],
+    "correct_answer": "b. Una arquitectura moderna para construir sitios web y aplicaciones que se basa en JavaScript, APIs y Markup. "
+  },
+  "¿Qué es una \"cookie\" en el contexto del desarrollo web?": {
+    "question": "¿Qué es una \"cookie\" en el contexto del desarrollo web?",
+    "answers": [
+      "a. Un protocolo de comunicación segura.",
+      "b. Un lenguaje de programación.",
+      "c. Un archivo que almacena información del usuario en su dispositivo para ser utilizada por el sitio web. ",
+      "d. Un tipo de base de datos."
+    ],
+    "correct_answer": "c. Un archivo que almacena información del usuario en su dispositivo para ser utilizada por el sitio web. "
+  },
+  "¿Qué es \"OAuth\"?": {
+    "question": "¿Qué es \"OAuth\"?",
+    "answers": [
+      "a. Un estándar abierto para autorización que permite a los usuarios compartir sus recursos privados entre diferentes sitios web sin compartir sus credenciales. ",
+      "b. Un tipo de base de datos.",
+      "c. Un protocolo de comunicación segura.",
+      "d. Un lenguaje de programación."
+    ],
+    "correct_answer": "a. Un estándar abierto para autorización que permite a los usuarios compartir sus recursos privados entre diferentes sitios web sin compartir sus credenciales. "
+  },
+  "¿Qué es \"Cross-Site Scripting (XSS)\"?": {
+    "question": "¿Qué es \"Cross-Site Scripting (XSS)\"?",
+    "answers": [
+      "a. Un tipo de ataque donde un atacante puede inyectar scripts maliciosos en páginas web vistas por otros usuarios. ",
+      "b. Un tipo de base de datos.",
+      "c. Un protocolo de comunicación segura.",
+      "d. Un lenguaje de programación."
+    ],
+    "correct_answer": "a. Un tipo de ataque donde un atacante puede inyectar scripts maliciosos en páginas web vistas por otros usuarios. "
+  },
+  "¿Qué es un \"middleware\"?": {
+    "question": "¿Qué es un \"middleware\"?",
+    "answers": [
+      "a. Un lenguaje de programación.",
+      "b. Un tipo de base de datos.",
+      "c. Un software que actúa como intermediario entre diferentes sistemas y aplicaciones. ",
+      "d. Un protocolo de comunicación segura."
+    ],
+    "correct_answer": "c. Un software que actúa como intermediario entre diferentes sistemas y aplicaciones. "
+  },
+  "¿Qué es \"serverless computing\"?": {
+    "question": "¿Qué es \"serverless computing\"?",
+    "answers": [
+      "a. Un modelo de computación en la nube donde el proveedor ejecuta el servidor y gestiona la asignación de recursos dinámicamente. ",
+      "b. Un protocolo de comunicación segura.",
+      "c. Un tipo de base de datos.",
+      "d. Un lenguaje de programación."
+    ],
+    "correct_answer": "a. Un modelo de computación en la nube donde el proveedor ejecuta el servidor y gestiona la asignación de recursos dinámicamente. "
+  },
+  "¿Qué es \"CI/CD\"?": {
+    "question": "¿Qué es \"CI/CD\"?",
+    "answers": [
+      "a. Un protocolo de comunicación segura.",
+      "b. Un tipo de base de datos.",
+      "c. Un modelo de desarrollo que incluye Integración Continua y Entrega Continua/Despliegue Continuo. ",
+      "d. Un lenguaje de programación."
+    ],
+    "correct_answer": "c. Un modelo de desarrollo que incluye Integración Continua y Entrega Continua/Despliegue Continuo. "
+  },
+  
+  "¿Qué es \"SSL/TLS\"?": {
+    "question": "¿Qué es \"SSL/TLS\"?",
+    "answers": [
+      "a. Protocolos para establecer una conexión segura entre el cliente y el servidor. ",
+      "b. Un lenguaje de programación.",
+      "c. Un framework de desarrollo web.",
+      "d. Un tipo de base de datos."
+    ],
+    "correct_answer": "a. Protocolos para establecer una conexión segura entre el cliente y el servidor. "
+  },
+  "¿Qué es AJAX en el contexto del desarrollo web?.": {
+    "question": "¿Qué es AJAX en el contexto del desarrollo web?",
+    "answers": [
+      "a. Un lenguaje de programación.",
+      "b. Una biblioteca de CSS.",
+      "c. Un tipo de servidor web.",
+      "d. Una técnica para crear aplicaciones web más rápidas y dinámicas mediante el intercambio de datos con el servidor de manera asíncrona. "
+    ],
+    "correct_answer": "d. Una técnica para crear aplicaciones web más rápidas y dinámicas mediante el intercambio de datos con el servidor de manera asíncrona. "
+  },
+  "¿Qué es el índice de Fog?": {
+    "question": "¿Qué es el índice de Fog?",
+    "answers": [
+      "a. Longitude de código.",
+      "b. Complejidad ciclomática.",
+      "c. Índice de Fog. ",
+      "d. Longitud de los indicadores."
+    ],
+    "correct_answer": "c. Índice de Fog. "
+  },
+  "En ingeniería de software de sala limpia, ¿qué cajas se utilizan?": {
+    "question": "En ingeniería de software de sala limpia, ¿qué cajas se utilizan?",
+    "answers": [
+      "a. Caja blanca.",
+      "b. Caja negra, caja de estado, caja transparente. ",
+      "c. Caja de software, caja de revisión, caja de UML.",
+      "d. Caja de pruebas."
+    ],
+    "correct_answer": "b. Caja negra, caja de estado, caja transparente. "
+  },
+  "Elija un modelo basado en procesos": {
+    "question": "Elija un modelo basado en procesos",
+    "answers": [
+      "a. ISO 15504. ",
+      "b. ISO 7001.",
+      "c. Stanley.",
+      "d. Moderna."
+    ],
+    "correct_answer": "a. ISO 15504. "
+  },
+  "La herramienta CASE ERwin permite": {
+    "question": "La herramienta CASE ERwin permite",
+    "answers": [
+      "a. Genera caja amarilla.",
+      "b. Visualizar la estructura, los elementos importantes, y optimizar el diseño de la base de datos. ",
+      "c. Codifica usando Python.",
+      "d. Genera la tabla de datos desde un análisis recursivo de los diferentes objetos del sistema."
+    ],
+    "correct_answer": "b. Visualizar la estructura, los elementos importantes, y optimizar el diseño de la base de datos. "
+  },
+  "¿En qué época empezó a utilizarse el criterio de ingeniería de software?": {
+    "question": "¿En qué época empezó a utilizarse el criterio de ingeniería de software?",
+    "answers": [
+      "a. 1968. ",
+      "b. 1950.",
+      "c. 1982.",
+      "d. 1990."
+    ],
+    "correct_answer": "a. 1968. "
+  },
+  "En el enfoque Scrum como método ágil, ¿cómo se definen los ciclos?": {
+    "question": "En el enfoque Scrum como método ágil, ¿cómo se definen los ciclos?",
+    "answers": [
+      "a. Summer.",
+      "b. Sprint. ",
+      "c. Ciclo ágil.",
+      "d. Summit."
+    ],
+    "correct_answer": "b. Sprint. "
+  },
+  "Según el manifiesto ágil, ¿a qué se refiere la \"participación del cliente\"?": {
+    "question": "Según el manifiesto ágil, ¿a qué se refiere la \"participación del cliente\"?",
+    "answers": [
+      "a. El cliente siempre tiene la razón.",
+      "b. El cliente elige el modelo de desarrollo porque conoce el estado del negocio a realizar.",
+      "c. No tiene participación.",
+      "d. \"...el cliente debe intervenir estrechamente durante el proceso de desarrollo ofreciendo y priorizando nuevos requerimientos.\" "
+    ],
+    "correct_answer": "d. \"...el cliente debe intervenir estrechamente durante el proceso de desarrollo ofreciendo y priorizando nuevos requerimientos.\" "
+  },
+  "¿Cuál es el factor determinante que justifica la ingeniería de requerimientos?": {
+    "question": "¿Cuál es el factor determinante que justifica la ingeniería de requerimientos?",
+    "answers": [
+      "a. Requerimientos erróneos.",
+      "b. Cambios en el diseño de los elementos del software.",
+      "c. Costos elevados en la corrección de los errores. ",
+      "d. Scrum."
+    ],
+    "correct_answer": "c. Costos elevados en la corrección de los errores. "
+  },
+  "\"...son descripciones detalladas de las funcionalidades, los servicios y las restricciones operacionales del sistema de software\", ¿A qué concepto se está refiriendo?": {
+    "question": "\"...son descripciones detalladas de las funcionalidades, los servicios y las restricciones operacionales del sistema de software\", ¿A qué concepto se está refiriendo?",
+    "answers": [
+      "a. Requerimientos académicos.",
+      "b. Diseño funcional.",
+      "c. Requerimientos del sistema. ",
+      "d. Estructura de datos."
+    ],
+    "correct_answer": "c. Requerimientos del sistema. "
+  },
+  "¿Cómo se denomina la administración de la configuración y del cambio en RUP?": {
+    "question": "¿Cómo se denomina la administración de la configuración y del cambio en RUP?",
+    "answers": [
+      "a. Revisión de requerimientos del sistema.",
+      "b. Administración de la configuración y del cambio. ",
+      "c. Elaboración y diseño de la base de datos.",
+      "d. Incremento de desarrollo ágil."
+    ],
+    "correct_answer": "b. Administración de la configuración y del cambio. "
+  },
+  "¿Qué asegura la etapa de validación en los procesos de software?.": {
+    "question": "¿Qué asegura la etapa de validación en los procesos de software?",
+    "answers": [
+      "a. La adquisición de información.",
+      "b. El software construido sea lo que el cliente requiere. ",
+      "c. El software se ajuste a los parámetros de programación estructurada.",
+      "d. El desarrollo del modelo UML."
+    ],
+    "correct_answer": "b. El software construido sea lo que el cliente requiere. "
+  },
+  "¿A qué modelo se refiere el problema \"El proceso no es visible y los administradores tienen dificultades para medir avances al no tener entregas regulares\"?": {
+    "question": "¿A qué modelo se refiere el problema \"El proceso no es visible y los administradores tienen dificultades para medir avances al no tener entregas regulares\"?",
+    "answers": [
+      "a. Modelo XP.",
+      "b. Modelo PX.",
+      "c. Modelo de desarrollo por ciclos.",
+      "d. Modelo incremental. "
+    ],
+    "correct_answer": "d. Modelo incremental. "
+  },
+  "¿Cuál prueba se realiza para validar las entradas, salidas y la implementación del programa involucrados en su ejecución?": {
+    "question": "¿Cuál prueba se realiza para validar las entradas, salidas y la implementación del programa involucrados en su ejecución?",
+    "answers": [
+      "a. Prueba de análisis de resultados.",
+      "b. Prueba del modelo incremental.",
+      "c. Prueba de caja negra.",
+      "d. Prueba de caja blanca. "
+    ],
+    "correct_answer": "d. Prueba de caja blanca. "
+  },
+  "Elija uno de los modelos de mantenimiento de software": {
+    "question": "Elija uno de los modelos de mantenimiento de software",
+    "answers": [
+      "a. Modelo Microsoft.",
+      "b. Modelo Ubuntu.",
+      "c. Modelo Adaptativo. ",
+      "d. Modelo elíptico."
+    ],
+    "correct_answer": "c. Modelo Adaptativo. "
+  },
+  "¿Cómo se define el proceso de ingeniería de software?": {
+    "question": "¿Cómo se define el proceso de ingeniería de software?",
+    "answers": [
+      "a. Se lo define como el conjunto de actividades estructurales, acciones y tareas que se ejecutan cuando va a crearse algún producto software. ",
+      "b. Como el método de analizar antes de programar para entender de mejor manera la aplicación.",
+      "c. Como un modelo rígido que se debe cumplir paso a paso para que sea eficiente.",
+      "d. Se define como un proceso en la rama de los sistemas de cómputo."
+    ],
+    "correct_answer": "a. Se lo define como el conjunto de actividades estructurales, acciones y tareas que se ejecutan cuando va a crearse algún producto software. "
+  },
+  "¿Cuáles son los tipos de requerimientos del sistema?": {
+    "question": "¿Cuáles son los tipos de requerimientos del sistema?",
+    "answers": [
+      "a. Funcionales y eclépticos.",
+      "b. Funcionales y de desarrollo.",
+      "c. Funcionales y no funcionales. ",
+      "d. Requerimientos de acuerdo al software."
+    ],
+    "correct_answer": "c. Funcionales y no funcionales. "
+  },
+  "¿Cuál de los siguientes productos de software son personalizados?": {
+    "question": "¿Cuál de los siguientes productos de software son personalizados?",
+    "answers": [
+      "a. Microsoft Office 365.",
+      "b. PostgreSQL.",
+      "c. Linux.",
+      "d. Sistema de control de citas médicas. "
+    ],
+    "correct_answer": "d. Sistema de control de citas médicas. "
+  },
+  "En los productos de software genéricos, ¿quiénes controlan las especificaciones?": {
+    "question": "En los productos de software genéricos, ¿quiénes controlan las especificaciones?",
+    "answers": [
+      "a. La organización que desarrolla el software. ",
+      "b. La organización que compra el software.",
+      "c. La organización que desarrolla y compra el software.",
+      "d. La organización que comercializa el software."
+    ],
+    "correct_answer": "a. La organización que desarrolla el software. "
+  },
+  "¿Qué permiten los sistemas de procesamiento en lotes?": {
+    "question": "¿Qué permiten los sistemas de procesamiento en lotes?",
+    "answers": [
+      "a. Procesar grandes cantidades de datos como los sistemas de pago de salario. ",
+      "b. Controlar el software como por ejemplo de un teléfono celular móvil.",
+      "c. Sistemas de entretenimiento personal como juegos.",
+      "d. Procesar enlaces a intérpretes y compiladores."
+    ],
+    "correct_answer": "a. Procesar grandes cantidades de datos como los sistemas de pago de salario. "
+  },
+  "¿Qué etapa del proceso de software asegura que el software construido es lo que el cliente requiere?": {
+    "question": "¿Qué etapa del proceso de software asegura que el software construido es lo que el cliente requiere?",
+    "answers": [
+      "a. La adquisición de información.",
+      "b. El software construido se lo que el cliente requiere. ",
+      "c. El software se ajuste a los parámetros de programación estructurada.",
+      "d. El desarrollo del modelo UML."
+    ],
+    "correct_answer": "b. El software construido se lo que el cliente requiere. "
+  },
+  "¿A qué concepto se refiere la descripción '...son descripciones informáticas y de ingeniería del software detalladas de las funcionalidades, los servicios y las restricciones operacionales del sistema de software'?": {
+    "question": "¿A qué concepto se refiere la descripción '...son descripciones informáticas y de ingeniería del software detalladas de las funcionalidades, los servicios y las restricciones operacionales del sistema de software'?",
+    "answers": [
+      "a. Requerimientos académicos.",
+      "b. Diseño funcional.",
+      "c. Requerimientos del sistema. ",
+      "d. Estructura de datos."
+    ],
+    "correct_answer": "c. Requerimientos del sistema. "
+  },
+  "¿Cómo se denomina en sistemas e ingeniería del software la perspectiva del RUP que incluye fases, flujos de trabajo y mejores prácticas, entre otros elementos?": {
+    "question": "¿Cómo se denomina en sistemas e ingeniería del software la perspectiva del RUP que incluye fases, flujos de trabajo y mejores prácticas, entre otros elementos?",
+    "answers": [
+      "a. Revisión de requerimientos del sistema.",
+      "b. Administración de la configuración y del cambio. ",
+      "c. Elaboración y diseño de la base de datos.",
+      "d. Incremento de desarrollo ágil."
+    ],
+    "correct_answer": "b. Administración de la configuración y del cambio. "
+  },
+  "¿Qué asegura la etapa de validación en los procesos de software?": {
+    "question": "¿Qué asegura la etapa de validación en los procesos de software?",
+    "answers": [
+      "a. La adquisición de información.",
+      "b. El software construido se lo que el cliente requiere. ",
+      "c. El software se ajuste a los parámetros de programación estructurada.",
+      "d. El desarrollo del modelo UML."
+    ],
+    "correct_answer": "b. El software construido se lo que el cliente requiere. "
+  },
+  "¿A qué modelo se refiere el problema 'El proceso no es visible y los administradores tienen dificultades para medir avances al no tener entregas regulares' en sistemas y modelos de proceso de software?": {
+    "question": "¿A qué modelo se refiere el problema 'El proceso no es visible y los administradores tienen dificultades para medir avances al no tener entregas regulares' en sistemas y modelos de proceso de software?",
+    "answers": [
+      "a. Modelo XP.",
+      "b. Modelo PX.",
+      "c. Modelo de desarrollo por ciclos.",
+      "d. Modelo incremental. "
+    ],
+    "correct_answer": "d. Modelo incremental. "
+  },
+  "¿Qué tipo de prueba se realiza para validar las entradas, salidas y la implementación del programa en modelos y desarrollo de software?": {
+    "question": "¿Qué tipo de prueba se realiza para validar las entradas, salidas y la implementación del programa en modelos y desarrollo de software?",
+    "answers": [
+      "a. Prueba de análisis de resultados.",
+      "b. Prueba del modelo incremental.",
+      "c. Prueba de caja negra.",
+      "d. Prueba de caja blanca. "
+    ],
+    "correct_answer": "d. Prueba de caja blanca. "
+  },
+  "Elija uno de los modelos de mantenimiento de software en Ingeniería del Software": {
+    "question": "Elija uno de los modelos de mantenimiento de software en Ingeniería del Software",
+    "answers": [
+      "a. Modelo Microsoft.",
+      "b. Modelo Ubuntu.",
+      "c. Modelo Adaptativo. ",
+      "d. Modelo elíptico."
+    ],
+    "correct_answer": "c. Modelo Adaptativo. "
+  },
+  "¿Cómo se define el proceso de ingeniería de software en informática?": {
+    "question": "¿Cómo se define el proceso de ingeniería de software en informática?",
+    "answers": [
+      "a. Se lo define como el conjunto de actividades estructurales, acciones y tareas que se ejecutan cuando va a crearse algún producto software. ",
+      "b. Como el método de analizar antes de programar para entender de mejor manera la aplicación.",
+      "c. Como un modelo rígido que se debe cumplir paso a paso para que sea eficiente.",
+      "d. Se define como un proceso en la rama de los sistemas de cómputo."
+    ],
+    "correct_answer": "a. Se lo define como el conjunto de actividades estructurales, acciones y tareas que se ejecutan cuando va a crearse algún producto software. "
+  },
+  "¿Cuáles son los tipos de requerimientos del sistema en ingeniería del software y sistemas informáticos?": {
+    "question": "¿Cuáles son los tipos de requerimientos del sistema en ingeniería del software y sistemas informáticos?",
+    "answers": [
+      "a. Funcionales y eclépticos.",
+      "b. Funcionales y de desarrollo.",
+      "c. Funcionales y no funcionales. ",
+      "d. Requerimientos de acuerdo al software."
+    ],
+    "correct_answer": "c. Funcionales y no funcionales. "
+  },
+  "¿Cuál de los siguientes productos de software son personalizados en una empresa desarrolladora de software?": {
+    "question": "¿Cuál de los siguientes productos de software son personalizados en una empresa desarrolladora de software?",
+    "answers": [
+      "a. Microsoft Office 365.",
+      "b. PostgreSQL.",
+      "c. Linux.",
+      "d. Sistema de control de citas médicas. "
+    ],
+    "correct_answer": "d. Sistema de control de citas médicas. "
+  },
+  "¿Quiénes controlan las especificaciones en los productos de software genéricos en ingeniería del software?": {
+    "question": "¿Quiénes controlan las especificaciones en los productos de software genéricos en ingeniería del software?",
+    "answers": [
+      "a. La organización que desarrolla el software. ",
+      "b. La organización que compra el software.",
+      "c. La organización que desarrolla y compra el software.",
+      "d. La organización que comercializa el software."
+    ],
+    "correct_answer": "a. La organización que desarrolla el software. "
+  },
+  "¿Qué permiten los sistemas de procesamiento en lotes en el desarrollo de la ingeniería del software?": {
+    "question": "¿Qué permiten los sistemas de procesamiento en lotes en el desarrollo de la ingeniería del software?",
+    "answers": [
+      "a. Procesar grandes cantidades de datos como los sistemas de pago de salario. ",
+      "b. Controlar el software como por ejemplo de un teléfono celular móvil.",
+      "c. Sistemas de entretenimiento personal como juegos.",
+      "d. Procesar enlaces a intérpretes y compiladores."
+    ],
+    "correct_answer": "a. Procesar grandes cantidades de datos como los sistemas de pago de salario. "
+  },
+  "¿Cuáles de los siguientes serían requerimientos funcionales en un procesador de textos para ayuda y soporte de la Ingeniería del software?": {
+    "question": "¿Cuáles de los siguientes serían requerimientos funcionales en un procesador de textos para ayuda y soporte de la Ingeniería del software?",
+    "answers": [
+      "a. Realizar un informe del número de caracteres, palabras, párrafos y páginas que contiene el documento.",
+      "b. Verificar el tipo de archivo.",
+      "c. Copiar, pegar, guardar documento. ",
+      "d. Base de datos, procesamiento por lotes."
+    ],
+    "correct_answer": "c. Copiar, pegar, guardar documento. "
+  },
+  "¿Cómo se define al proceso de ingeniería de software en sistemas informáticos?": {
+    "question": "¿Cómo se define al proceso de ingeniería de software en sistemas informáticos?",
+    "answers": [
+      "a. Se lo define como el conjunto de actividades estructurales, acciones y tareas que se ejecutan cuando va a crearse algún producto software. ",
+      "b. Como el método de analizar antes de programar para entender de mejor manera la aplicación.",
+      "c. Como un modelo rígido que se debe cumplir paso a paso para que sea eficiente.",
+      "d. Se define como un proceso en la rama de los sistemas de cómputo."
+    ],
+    "correct_answer": "a. Se lo define como el conjunto de actividades estructurales, acciones y tareas que se ejecutan cuando va a crearse algún producto software. "
+  },
+  "En Ingeniería del software la programación extrema consisten en:": {
+    "question": "En Ingeniería del software la programación extrema consisten en:",
+    "answers": [
+      "A) Programar usando Java",
+      "B) Métodos que permiten invertir más tiempo en diseñar el sistema.",
+      "C) Un método ágil en donde los requerimientos se expresan como escenarios. ",
+      "D) Métodos con la función de maximizar los riesgos desarrollando software en lapsos de plazos largos."
+    ],
+    "correct_answer": "C) Un método ágil en donde los requerimientos se expresan como escenarios. "
+  },
+  "Dentro del escogimiento de ingeniería de software, elija una base de datos": {
+    "question": "Dentro del escogimiento de ingeniería de software, elija una base de datos",
+    "answers": [
+      "A) Linux",
+      "B) Microsoft 10",
+      "C) Solaris",
+      "D) MaríaDB "
+    ],
+    "correct_answer": "D) MaríaDB "
+  },
+  "Dentro de la ingeniería del software, elija uno de los software de bajo nivel": {
+    "question": "Dentro de la ingeniería del software, elija uno de los software de bajo nivel",
+    "answers": [
+      "A) Máquina virtual",
+      "B) Rubi",
+      "C) Phyton",
+      "D) Assembli "
+    ],
+    "correct_answer": "D) Assembli "
+  },
+  "¿Qué es un datawarehouse?, dentro de la Ingeniería del software..??": {
+    "question": "¿Qué es un datawarehouse?, dentro de la Ingeniería del software..??",
+    "answers": [
+      "A) Una tecnología de inteligencia artificial",
+      "B) Un lenguaje de programación",
+      "C) Una red social",
+      "D) Un repositorio de datos de fácil acceso "
+    ],
+    "correct_answer": "D) Un repositorio de datos de fácil acceso "
+  },
+  "El diseño estructurado, al proponer la clasificación por separado del sistema, es decir en módulos, se apoyó, en las mismas .......................................... del sistema.": {
+    "question": "El diseño estructurado, al proponer la clasificación por separado del sistema, es decir en módulos, se apoyó, en las mismas .......................................... del sistema.",
+    "answers": [
+      "A) funciones ",
+      "B) criterios",
+      "C) formatos",
+      "D) base de datos"
+    ],
+    "correct_answer": "A) funciones "
+  },
+  "En Ingeniería del Software y en el diseño estructurado, se alcanza una elevada ......................................, cuando cada módulo, es decir, función o procedimiento, ejecuta una única función, ocupándose de una sola configuración de datos": {
+    "question": "En Ingeniería del Software y en el diseño estructurado, se alcanza una elevada ......................................, cuando cada módulo, es decir, función o procedimiento, ejecuta una única función, ocupándose de una sola configuración de datos",
+    "answers": [
+      "A) cohesión ",
+      "B) Datos",
+      "C) Ingeniería",
+      "D) base de datos"
+    ],
+    "correct_answer": "A) cohesión "
+  },
+  "En Ingeniería de Software el acoplamiento consiste en la medición del ......................................  de relación de un módulo con los demás. Mientras menor sea el acoplamiento, mejor: el módulo en cuestión será más fácil de diseñar, programar, probar y mantener.": {
+    "question": "En Ingeniería de Software el acoplamiento consiste en la medición del ......................................  de relación de un módulo con los demás. Mientras menor sea el acoplamiento, mejor: el módulo en cuestión será más fácil de diseñar, programar, probar y mantener.",
+    "answers": [
+      "A) grado ",
+      "B) programa",
+      "C) software",
+      "D) base de datos relacional"
+    ],
+    "correct_answer": "A) grado "
+  },
+  "En la empresa PICA S.A. se aplica las capas de la ingeniería de software; entendiendo que los métodos de la ingeniería del software orientan cómo elaborar ..................................................  el software.": {
+    "question": "En la empresa PICA S.A. se aplica las capas de la ingeniería de software; entendiendo que los métodos de la ingeniería del software orientan cómo elaborar ..................................................  el software.",
+    "answers": [
+      "A) Técnicamente ",
+      "B) Hardware",
+      "C) software",
+      "D) base estructurada"
+    ],
+    "correct_answer": "A) Técnicamente "
+  },
+  "Las herramientas de la Ingeniería del software aportan un punto de vista automático o semi-automático para el .........................................  y para los métodos.": {
+    "question": "Las herramientas de la Ingeniería del software aportan un punto de vista automático o semi-automático para el .........................................  y para los métodos.",
+    "answers": [
+      "A) Proceso ",
+      "B) Herramienta",
+      "C) Vista",
+      "D) base estructurada"
+    ],
+    "correct_answer": "A) Proceso "
+  },
+  "El diseño del software se encuentra en el centro de la tecnología, de la correspondiente ingeniería y se adapta de forma independiente, al modelo de ...........................................  que se esté empleando.": {
+    "question": "El diseño del software se encuentra en el centro de la tecnología, de la correspondiente ingeniería y se adapta de forma independiente, al modelo de ...........................................  que se esté empleando.",
+    "answers": [
+      "A) Proceso",
+      "B) Software ",
+      "C) Ingeniería",
+      "D) Independiente"
+    ],
+    "correct_answer": "B) Software "
+  },
+  "En la empresa INSESA se determina que la ingeniería del software basada en componentes consiste en un procedimiento  que se enfoca en el  ............................ y construcción de programas basados en computadora que emplean «componentes» de software reutilizables.": {
+    "question": "En la empresa INSESA se determina que la ingeniería del software basada en componentes consiste en un procedimiento  que se enfoca en el  ............................ y construcción de programas basados en computadora que emplean «componentes» de software reutilizables.",
+    "answers": [
+      "A) Proceso",
+      "B) Diseño ",
+      "C) Componentes",
+      "D) Diseño"
+    ],
+    "correct_answer": "B) Diseño "
+  },
+  "En la empresa Softtext se determina que dentro de la Ingeniería del software basada en componentes; un .........................................  de software individual es un bloque de software, un servicio web, o un módulo que oculta un conjunto de datos.": {
+    "question": "En la empresa Softtext se determina que dentro de la Ingeniería del software basada en componentes; un .........................................  de software individual es un bloque de software, un servicio web, o un módulo que oculta un conjunto de datos.",
+    "answers": [
+      "A) Proceso Interno",
+      "B) Componente ",
+      "C) Individual",
+      "D) Web"
+    ],
+    "correct_answer": "B) Componente "
+  },
+  "Tendencias de la ingeniería de software; Las Tecnologías de la Información y la ......................................  son, en la actualidad, la manera más utilizada para llevar información relevante a la sociedad, para ofrecer servicios públicos de gran calidad y promover la calidad de vida según los servicios de información.": {
+    "question": "Tendencias de la ingeniería de software; Las Tecnologías de la Información y la ......................................  son, en la actualidad, la manera más utilizada para llevar información relevante a la sociedad, para ofrecer servicios públicos de gran calidad y promover la calidad de vida según los servicios de información.",
+    "answers": [
+      "A) Tendencia",
+      "B) Comunicación ",
+      "C) Actualidad",
+      "D) Servicios"
+    ],
+    "correct_answer": "B) Comunicación "
+  },
+  "En la actualidad es difícil pensar en alguna empresa sin el uso de las TIC, pues éstas le aportan un incremento económico en el ......................................................................................  además de la reducción de los costos de comunicación y operación y aumentando el rendimiento y la productividad que las impulsa a introducirse en mercados internacionales.": {
+    "question": "En la actualidad es difícil pensar en alguna empresa sin el uso de las TIC, pues éstas le aportan un incremento económico en el ......................................................................................  además de la reducción de los costos de comunicación y operación y aumentando el rendimiento y la productividad que las impulsa a introducirse en mercados internacionales.",
+    "answers": [
+      "A) Actualidad",
+      "B) Desarrollo a las empresas ",
+      "C) Empresa",
+      "D) Operación"
+    ],
+    "correct_answer": "B) Desarrollo a las empresas "
+  },
+  "En la actualidad es difícil pensar en alguna empresa sin el uso de las TIC, pues éstas le aportan un incremento económico en el ......................................................................................  además de la reducción de los costos de comunicación y operación y aumentando el rendimiento y la productividad que las impulsa a introducirse en mercados internacionales..": {
+    "question": "En la actualidad es difícil pensar en alguna empresa sin el uso de las TIC, pues éstas le aportan un incremento económico en el ......................................................................................  además de la reducción de los costos de comunicación y operación y aumentando el rendimiento y la productividad que las impulsa a introducirse en mercados internacionales.",
+    "answers": [
+      "A) Actualidad",
+      "B) Desarrollo a las empresas ",
+      "C) Empresa",
+      "D) Operación"
+    ],
+    "correct_answer": "B) Desarrollo a las empresas "
+  },
+  "Mitos de la ingeniería de software: La mayoría de los motivos de la dificultad del software se pueden encontrar en una mitología que surge en los años en que se ...............................................................": {
+    "question": "Mitos de la ingeniería de software: La mayoría de los motivos de la dificultad del software se pueden encontrar en una mitología que surge en los años en que se ...............................................................",
+    "answers": [
+      "A) Motivos",
+      "B) Software",
+      "C) Origina el software ",
+      "D) Mitología"
+    ],
+    "correct_answer": "C) Origina el software "
+  },
+  "Dentro de una empresa se pueden generar mitos de administración o gestión: Los administradores con compromiso sobre el software, como los..................................................................... en la mayoría de las especialidades, son sometidos a la presión de cumplir lo pautado en cuanto a los presupuestos, no permitir que se retrase el proyecto y mejorar la calidad.": {
+    "question": "Dentro de una empresa se pueden generar mitos de administración o gestión: Los administradores con compromiso sobre el software, como los..................................................................... en la mayoría de las especialidades, son sometidos a la presión de cumplir lo pautado en cuanto a los presupuestos, no permitir que se retrase el proyecto y mejorar la calidad.",
+    "answers": [
+      "A) Gestión",
+      "B) Compromiso",
+      "C) Administradores ",
+      "D) Presión"
+    ],
+    "correct_answer": "C) Administradores "
+  },
+  "Dentro de una empresa de venta de Software de sistemas Global PC, se puede genera un Mito: Si se fracasa en el proyecto, se pueden agregar más desarrolladores y recuperar el ................................................................. ....................................................  (el llamado algunas veces«concepto de la horda Mongoliana»)": {
+    "question": "Dentro de una empresa de venta de Software de sistemas Global PC, se puede genera un Mito: Si se fracasa en el proyecto, se pueden agregar más desarrolladores y recuperar el ................................................................. ....................................................  (el llamado algunas veces«concepto de la horda Mongoliana»)",
+    "answers": [
+      "A) Mito",
+      "B) Proyecto",
+      "C) Tiempo perdido ",
+      "D) Mongoliana"
+    ],
+    "correct_answer": "C) Tiempo perdido "
+  },
+  "Dentro de la reingeniería del Software de almacenes Su casa se genera  varios  mitos como lo son los Mitos del usuario o cliente: Un cliente requiere una aplicación de software, dicha persona, podría ser un compañero de trabajo, o bien un .....................    .......................................     de la sala de abajo, el departamento de ventas o una compañía exterior que solicita un software bajo contrato.": {
+    "question": "Dentro de la reingeniería del Software de almacenes Su casa se genera  varios  mitos como lo son los Mitos del usuario o cliente: Un cliente requiere una aplicación de software, dicha persona, podría ser un compañero de trabajo, o bien un .....................    .......................................     de la sala de abajo, el departamento de ventas o una compañía exterior que solicita un software bajo contrato.",
+    "answers": [
+      "A) Usuario",
+      "B) Cliente",
+      "C) Grupo técnico ",
+      "D) Departamento de ventas"
+    ],
+    "correct_answer": "C) Grupo técnico "
+  },
+  "En Ingeniería del Software se puede considerar como una Realidad:A una mala descripción básica es el motivo primordial del trabajo innecesario en software. Es fundamental una descripción explícita y con todos los  .......................... ................ .....................................  de la información, funciones, comportamiento, rendimiento, interfaces, ligaduras del diseño y criterios de validación.": {
+    "question": "En Ingeniería del Software se puede considerar como una Realidad:A una mala descripción básica es el motivo primordial del trabajo innecesario en software. Es fundamental una descripción explícita y con todos los  .......................... ................ .....................................  de la información, funciones, comportamiento, rendimiento, interfaces, ligaduras del diseño y criterios de validación.",
+    "answers": [
+      "A) Realidad",
+      "B) Trabajo",
+      "C) Detalles del entorno ",
+      "D) Funciones"
+    ],
+    "correct_answer": "C) Detalles del entorno "
+  },
+  "En la evolución  del software no es la excepción; en este caso los instrumentos se han llamado ....................... (Ingeniería De Software Asistida Por Computador).": {
+    "question": "En la evolución  del software no es la excepción; en este caso los instrumentos se han llamado ....................... (Ingeniería De Software Asistida Por Computador).",
+    "answers": [
+      "A) Método de investigación",
+      "B) Problema ",
+      "C) CASE ",
+      "D) Elementos de red"
+    ],
+    "correct_answer": "C) CASE "
   }
 } 
+
   
         
     
