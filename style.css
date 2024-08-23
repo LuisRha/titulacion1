@@ -43,11 +43,7 @@ h5 {
 
 /* Estilo para el formulario */
 
-#questionForm {
-  margin-bottom: 20px;
-  max-width: 800px; /* Por ejemplo, puedes definir el ancho máximo aquí */
-  width: 100%; /* Asegura que el formulario ocupe todo el ancho disponible */
-}
+
 
 label {
   display: block;
@@ -119,7 +115,7 @@ button:hover {
   border: 3px solid #4406d3;
   padding: 5px;
   margin-top: 5px;
-  max-height: 150px;
+  max-height: 100px;
   overflow-y: auto;
   background-color: #e0e6f8; /* Fondo blanco para el contenedor */
   border-radius: 5px; /* Bordes redondeados */
