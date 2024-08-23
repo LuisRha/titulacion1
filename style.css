@@ -15,8 +15,8 @@ body {
 
 /* Contenedor principal */
 .container {
-  width: 90%;
-  height: 100vh; /* Hace que el contenedor cubra toda la altura de la pantalla */
+  width: 99%;
+  height: 99vh; /* Hace que el contenedor cubra toda la altura de la pantalla */
   padding: 20px; /* Ajusta el padding para mejor presentación */
   border: 5px solid rgb(41, 29, 219);
   border-radius: 15px;
