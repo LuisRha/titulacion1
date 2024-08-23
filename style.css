@@ -8,17 +8,19 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh; /* Asegura que el fondo cubra al menos el 100% de la altura de la ventana */
-  padding-left: 20px;
-  border: 5px solid rgb(41, 29, 219);
-  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Alinea el contenido en la parte superior */
+  text-align: center; /* Centra el texto dentro de los elementos */
 }
 
-
-
 .container {
-  max-width: auto;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 20px auto; /* Añade un margen superior */
   padding: 20px;
+  border: 5px solid rgb(41, 29, 219);
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente para mayor contraste */
 }
 
 h1 {
@@ -42,9 +44,6 @@ h5 {
 }
 
 /* Estilo para el formulario */
-
-
-
 label {
   display: block;
   margin-bottom: 10px;
@@ -53,9 +52,10 @@ label {
 input[type="text"] {
   width: 97%;
   padding: 8px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   border: 3px solid #480c9b;
   border-radius: 4px;
+  text-align: center; /* Centra el texto dentro del campo */
 }
 
 button {
@@ -66,6 +66,7 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
+
 button[type="button"] {
   background-color: #f44336;
   margin-right: 10px;
@@ -75,7 +76,6 @@ button:hover {
   background-color: #96918f;
 }
 
-/* Estilo para mostrar la respuesta */
 #answerContainer {
   margin-top: 20px;
 }
@@ -85,31 +85,6 @@ button:hover {
   font-weight: bold;
 }
 
-#suggestionsContainer {
-    border: 1px solid #ccc;
-    max-height: 150px;
-    overflow-y: auto;
-    position: absolute;
-    background-color: white;
-    width: calc(100% - 22px); /* Ajusta el ancho para que coincida con el campo de entrada */
-    z-index: 1000;
-    margin-top: 5px; /* Añade un margen para separar las sugerencias del campo de entrada */
-}
-
-.suggestion-item {
-    padding: 8px;
-    cursor: pointer;
-}
-
-.suggestion-item:hover {
-    background-color: #f0f0f0;
-}
-
-.correct-answer {
-    font-weight: bold;
-    color: green;
-}
-
 /* Estilos para el contenedor de sugerencias */
 #suggestionsContainer {
   border: 3px solid #4406d3;
@@ -117,9 +92,9 @@ button:hover {
   margin-top: 5px;
   max-height: 100px;
   overflow-y: auto;
-  background-color: #e0e6f8; /* Fondo blanco para el contenedor */
-  border-radius: 5px; /* Bordes redondeados */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil para el contenedor */
+  background-color: #e0e6f8;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
 }
 
@@ -127,17 +102,71 @@ button:hover {
 .suggestion-item {
   padding: 8px;
   cursor: pointer;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #1d1af0;
   transition: background-color 0.3s ease;
 }
 
-/* Efecto al pasar el cursor sobre un elemento de sugerencia */
 .suggestion-item:hover {
-  background-color: #f0f0f0;
+  background-color: #caa6a6;
 }
 
 /* Estilo para la respuesta correcta */
 .correct-answer {
   color: green;
   font-weight: bold;
+}
+
+/* Hacer que la imagen de fondo cubra toda la pantalla en pantallas grandes */
+@media (min-width: 768px) {
+  body {
+    background-size: cover;
+  }
+}
+
+/* Ajustar tamaños de texto para pantallas pequeñas */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Ajustes adicionales para pantallas muy pequeñas */
+@media (max-width: 480px) {
+  body {
+    padding-left: 10px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+  
+  .container {
+    padding: 10px;
+  }
 }
