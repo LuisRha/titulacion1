@@ -87,12 +87,12 @@ button:hover {
 
 /* Estilos para el contenedor de sugerencias */
 #suggestionsContainer {
-  border: 3px solid #4406d3;
+  border: 3px solid #2f13a8;
   padding: 5px;
   margin-top: 5px;
   max-height: 100px;
   overflow-y: auto;
-  background-color: #e0e6f8;
+  background-color: #c2cae4;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -102,12 +102,12 @@ button:hover {
 .suggestion-item {
   padding: 8px;
   cursor: pointer;
-  border-bottom: 1px solid #1d1af0;
+  border-bottom: 3px solid #c2154f88;
   transition: background-color 0.3s ease;
 }
 
 .suggestion-item:hover {
-  background-color: #caa6a6;
+  background-color: #83df8a;
 }
 
 /* Estilo para la respuesta correcta */
