@@ -6,56 +6,24 @@
     <title>Consulta de Preguntas y Respuestas</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="iste.png" type="image/png">
-    <style>
-        /* Añade estilos para el contenedor de sugerencias */
-        #suggestionsContainer {
-            border: 1px solid #ddd;
-            padding: 5px;
-            margin-top: 5px;
-            max-height: 150px;
-            overflow-y: auto;
-        }
-
-        .suggestion-item {
-            padding: 5px;
-            cursor: pointer;
-        }
-
-        .suggestion-item:hover {
-            background-color: #f0f0f0;
-        }
-
-        .correct-answer {
-            color: green;
-        }
-    </style>
 </head>
 <body>
-    <div>
+    <div class="container">
         <h1>Web En Proceso</h1>
-        <!-- Agregamos un campo de selección para elegir el tema -->
         <label for="topic"></label>
         <select id="topic" name="topic">
-            <option value="all">Exmn Complexivo</option>
-            <!-- <option value="primer-parcial">Primer Parcial DAW 5to</option>
-            <option value="segundo-parcial">Segundo Parcial Quinto Semestre</option>
-            <option value="tercer-parcial">Tercer Parcial Quinto Semestre</option> -->
-            <!-- Puedes agregar más opciones de temas aquí -->
+            <option value="all">Examen Complexivo</option>
         </select>
 
-        <!-- Formulario para buscar una pregunta -->
         <form id="questionForm">
             <label for="question">Buscar pregunta:</label>
             <input type="text" id="question" placeholder="Ingrese su pregunta del examen aquí" required>
             <button type="button" id="updateButton">Reset</button>
             <button type="submit">Buscar</button>
 
-            <div id="suggestionsContainer"></div> <!-- Contenedor para sugerencias -->
-
-    
+            <div id="suggestionsContainer"></div>
         </form>
 
-        <!-- Contenedor para mostrar la respuesta -->
         <div id="answerContainer"></div>
 
         <script>
@@ -63,24 +31,26 @@
                 return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
             }
 
+            function normalizeQuestion(question) {
+                let normalized = question.replace(/[¿?.,:;!"1234567890]/g, '').toLowerCase().trim();
+                normalized = removeAccents(normalized);
+                normalized = normalized.replace(/\s+/g, ' '); // Reemplaza múltiples espacios o tabulaciones por un solo espacio
+                return normalized;
+            }
+
             function procesarPreguntasYRespuestas(data, question, answerContainer) {
-                // Normalizar la pregunta eliminando signos de puntuación y tildes
-                const normalizedQuestion = removeAccents(question.replace(/[¿?.,:;!"1234567890]/g, '').toLowerCase().trim());
+                const normalizedQuestion = normalizeQuestion(question);
 
                 let questionFound = false;
                 let answerHTML = '';
                 Object.keys(data).forEach(key => {
-                    // Normalizar la pregunta en el archivo JSON
-                    const normalizedStoredQuestion = removeAccents(data[key].question.replace(/[¿?.,:;!"1234567890]/g, '').toLowerCase().trim());
+                    const normalizedStoredQuestion = normalizeQuestion(data[key].question);
 
                     if (normalizedStoredQuestion.includes(normalizedQuestion)) {
                         questionFound = true;
                         answerHTML += `<h2>${data[key].question}</h2><ul>`;
-                        // Recorremos las respuestas de la pregunta
                         data[key].answers.forEach(answer => {
-                            // Verificamos si esta respuesta está marcada como correcta
                             const isCorrect = answer.includes("");
-                            // Si es correcta, la resaltamos
                             if (isCorrect) {
                                 answerHTML += `<li class="correct-answer">${answer}</li>`;
                             } else {
@@ -92,7 +62,6 @@
                 });
 
                 if (!questionFound) {
-                    // Si la pregunta no se encuentra en el objeto 'data', mostramos un mensaje de error
                     answerHTML = "<p>No se encontró una respuesta para esa pregunta o tema.</p>";
                 }
                 answerContainer.innerHTML = answerHTML;
@@ -101,11 +70,11 @@
             function mostrarSugerencias(suggestions) {
                 const suggestionsContainer = document.getElementById('suggestionsContainer');
                 suggestionsContainer.innerHTML = '';
-                
-                // Limitar a 5 sugerencias
+
                 const limitedSuggestions = suggestions.slice(0, 5);
-                
+
                 if (limitedSuggestions.length > 0) {
+                    suggestionsContainer.style.display = 'block'; // Mostrar el contenedor de sugerencias
                     limitedSuggestions.forEach(suggestion => {
                         const div = document.createElement('div');
                         div.className = 'suggestion-item';
@@ -113,10 +82,12 @@
                         div.addEventListener('click', () => {
                             document.getElementById('question').value = suggestion;
                             suggestionsContainer.innerHTML = '';
-                            document.getElementById('questionForm').dispatchEvent(new Event('submit')); // Dispara el formulario para buscar la pregunta seleccionada
+                            document.getElementById('questionForm').dispatchEvent(new Event('submit'));
                         });
                         suggestionsContainer.appendChild(div);
                     });
+                } else {
+                    suggestionsContainer.style.display = 'none'; // Ocultar el contenedor si no hay sugerencias
                 }
             }
 
@@ -126,24 +97,15 @@
                     .catch(error => console.error('Error al cargar el archivo JSON:', error));
             }
 
-            function cargarPreguntasYRespuestasPrimerParcial() {
-                return fetch('primer_parcial.json')
-                    .then(response => response.json())
-                    .catch(error => console.error('Error al cargar el archivo JSON:', error));
-            }
-
             document.getElementById('question').addEventListener('input', function() {
                 const question = this.value;
                 const topic = document.getElementById('topic').value;
-                
-                // Cargar las preguntas y respuestas según el tema
-                const loadQuestions = topic === 'primer-parcial' ? cargarPreguntasYRespuestasPrimerParcial : cargarPreguntasYRespuestas;
-                
-                loadQuestions().then(data => {
+
+                cargarPreguntasYRespuestas().then(data => {
                     const suggestions = [];
                     Object.keys(data).forEach(key => {
-                        const normalizedStoredQuestion = removeAccents(data[key].question.replace(/[¿?.,:;!"1234567890]/g, '').toLowerCase().trim());
-                        if (normalizedStoredQuestion.includes(removeAccents(question.replace(/[¿?.,:;!"1234567890]/g, '').toLowerCase().trim()))) {
+                        const normalizedStoredQuestion = normalizeQuestion(data[key].question);
+                        if (normalizedStoredQuestion.includes(normalizeQuestion(question))) {
                             suggestions.push(data[key].question);
                         }
                     });
@@ -152,28 +114,24 @@
             });
 
             document.getElementById('questionForm').addEventListener('submit', function(event) {
-                event.preventDefault(); // Evitar que el formulario se envíe automáticamente
+                event.preventDefault();
 
                 const question = document.getElementById('question').value;
-                const topic = document.getElementById('topic').value; // Obtener el tema seleccionado
+                const topic = document.getElementById('topic').value;
                 const answerContainer = document.getElementById('answerContainer');
 
-                // Verificar si el tema seleccionado es "primer-parcial"
-                const loadQuestions = topic === 'primer-parcial' ? cargarPreguntasYRespuestasPrimerParcial : cargarPreguntasYRespuestas;
-
-                loadQuestions().then(data => {
-                    // Procesar las preguntas y respuestas según el tema
+                cargarPreguntasYRespuestas().then(data => {
                     procesarPreguntasYRespuestas(data, question, answerContainer);
                 });
             });
 
-            // Función para actualizar la página
             document.getElementById('updateButton').addEventListener('click', function() {
-                location.reload();
+                document.getElementById('question').value = '';
+                document.getElementById('suggestionsContainer').style.display = 'none'; // Ocultar el contenedor de sugerencias
+                document.getElementById('answerContainer').innerHTML = ''; // Limpiar respuestas
             });
 
-            // Función para redirigir a la página de inicio de sesión después de un tiempo de inactividad
-            const inactivityTime = 10 * 60 * 1000; // 10 minutos en milisegundos
+            const inactivityTime = 10 * 60 * 1000;
             let timer;
 
             function redirectToLogin() {

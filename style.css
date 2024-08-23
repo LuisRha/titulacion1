@@ -7,22 +7,24 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  min-height: 100vh; /* Asegura que el fondo cubra al menos el 100% de la altura de la ventana */
+  height: 100vh; /* Asegura que el fondo cubra al menos el 100% de la altura de la ventana */
   display: flex;
-  justify-content: center;
-  align-items: flex-start; /* Alinea el contenido en la parte superior */
-  text-align: center; /* Centra el texto dentro de los elementos */
+  justify-content: center; /* Centra horizontalmente el contenedor */
+  align-items: center; /* Centra verticalmente el contenedor */
 }
 
+/* Contenedor principal */
 .container {
-  max-width: 100%;
-  margin: 20px auto; /* Añade un margen superior */
-  padding: 20px;
+  width: 90%;
+  height: 100vh; /* Hace que el contenedor cubra toda la altura de la pantalla */
+  padding: 20px; /* Ajusta el padding para mejor presentación */
   border: 5px solid rgb(41, 29, 219);
   border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente para mayor contraste */
+  background-color: rgba(255, 255, 255, 0.548); /* Fondo blanco semi-transparente para mayor contraste */
+  box-sizing: border-box; /* Incluye el padding y border dentro del cálculo de la altura */
 }
 
+/* Estilo para los encabezados */
 h1 {
   font-size: 24px;
   margin-bottom: 10px;
@@ -50,12 +52,13 @@ label {
 }
 
 input[type="text"] {
-  width: 97%;
+  width: 100%;
   padding: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 6px;
   border: 3px solid #480c9b;
   border-radius: 4px;
-  text-align: center; /* Centra el texto dentro del campo */
+  text-align: start; /* Centra el texto dentro del campo */
+  box-sizing: border-box; /* Asegura que el padding y el borde estén incluidos en el ancho total */
 }
 
 button {
@@ -65,28 +68,32 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  text-align: center;
 }
 
 button[type="button"] {
   background-color: #f44336;
   margin-right: 10px;
+  
 }
 
 button:hover {
   background-color: #96918f;
 }
 
+/* Contenedor de respuestas */
 #answerContainer {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .correct-answer {
-  color: #0505c2; /* Color verde agua */
+  color: #e62747; /* Color para respuestas correctas */
   font-weight: bold;
 }
 
 /* Estilos para el contenedor de sugerencias */
 #suggestionsContainer {
+  display: none; /* Oculta el contenedor por defecto */
   border: 3px solid #2f13a8;
   padding: 5px;
   margin-top: 5px;
@@ -95,7 +102,6 @@ button:hover {
   background-color: #c2cae4;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 100%;
 }
 
 /* Estilos para los elementos de sugerencias */
@@ -104,16 +110,11 @@ button:hover {
   cursor: pointer;
   border-bottom: 3px solid #c2154f88;
   transition: background-color 0.3s ease;
+  text-align: center; /* Centra el texto en los elementos de sugerencia */
 }
 
 .suggestion-item:hover {
   background-color: #83df8a;
-}
-
-/* Estilo para la respuesta correcta */
-.correct-answer {
-  color: green;
-  font-weight: bold;
 }
 
 /* Hacer que la imagen de fondo cubra toda la pantalla en pantallas grandes */
@@ -142,14 +143,29 @@ button:hover {
   }
 
   input[type="text"] {
-    width: 100%;
     padding: 8px;
   }
 
   button {
-    width: 100%;
-    margin-bottom: 10px;
+    width: 30%;
+    margin: 0 auto 10px; /* Centra el botón horizontalmente y añade un margen inferior */
+    display: block; /* Hace que el botón sea un elemento de bloque, permitiendo el centrado con márgenes automáticos */
+    padding: 10px 20px;
+    background-color: #4caf4e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
   }
+
+  button[type="button"] {
+    background-color: #f44336;
+    margin-right: 10px;
+    margin: 0 auto 10px;
+    color: white;
+    
+  }
+  
 }
 
 /* Ajustes adicionales para pantallas muy pequeñas */
@@ -165,8 +181,8 @@ button:hover {
   h2 {
     font-size: 16px;
   }
-  
+
   .container {
-    padding: 10px;
+    padding: 20px;
   }
 }
