@@ -9,7 +9,7 @@
 
 
     <script>
-        // Objeto que almacena los usuarios y contraseñas
+        // Objeto que almacena los usuarios y contraseñas?
         const users = {
             "Titulacion": "Titulacion",
             "1": "1",
@@ -25,9 +25,9 @@
             if (users[username] && users[username] === password) {
                 // Redirigir al usuario a index1.html después de iniciar sesión correctamente
                 window.location.href = "index1.html";
-                // Establecer un temporizador para cerrar la sesión después de 5 segundos de inactividad
+                // Establecer un temporizador para cerrar la sesión después de 5 segundos de inactividad 
                 setTimeout(function() {
-                    window.location.href = "index.html"; // Redirigir a index.html después de 5 segundos de inactividad
+                    window.location.href = "index.html"; // Redirigir a index.html después de 5 segundos de inactividad 
                 }, 5000);
             } else {
               alert("NOMBRE DE USUARIO O CONTRASEÑA INCORRECTOS");
