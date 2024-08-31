@@ -6,13 +6,48 @@
     <title>Consulta de Preguntas y Respuestas</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="iste.png" type="image/png">
+
+    <!-- Importar Firebase App y Firebase Auth -->
+    <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js';
+        import { getAuth, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js';
+
+        // Configuración de Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyBv62-z9LKIikndfyXgFkSR_wINPEO9bVw",
+            authDomain: "usuario1-1fcd3.firebaseapp.com",
+            projectId: "usuario1-1fcd3",
+            storageBucket: "usuario1-1fcd3.appspot.com",
+            messagingSenderId: "500930634822",
+            appId: "1:500930634822:web:2d4d7d1d6e975b169b1647",
+            measurementId: "G-9HRDEB1ZGT"
+        };
+
+        // Inicializar Firebase
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+
+        // Verificar el estado de autenticación del usuario
+        onAuthStateChanged(auth, (user) => {
+            if (!user) {
+                // Si el usuario no ha iniciado sesión, redirigir a la página de inicio de sesión
+                window.location.href = 'index.html';
+            } else if (!user.emailVerified) {
+                // Si el correo electrónico no está verificado, cerrar sesión y redirigir a login
+                auth.signOut().then(() => {
+                    alert('Por favor, verifica tu correo electrónico antes de acceder.');
+                    window.location.href = 'index.html';
+                });
+            }
+        });
+    </script>
 </head>
 <body>
     <div class="container">
         <h1>COMPLETO</h1>
         <label for="topic"></label>
         <select id="topic" name="topic">
-            <option value="all">Exmen Complv</option>
+            <option value="all">Examen Completo</option>
         </select>
 
         <form id="questionForm">
