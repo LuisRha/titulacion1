@@ -78,29 +78,11 @@
                 alert('Error al enviar el correo para restablecer la contraseña: ' + error.message);
             }
         };
-
-        // Función para volver a enviar el correo de verificación
-        window.resendVerificationEmail = async function() {
-            const email = document.getElementById("email").value;
-
-            try {
-                // Requiere autenticación del usuario
-                const userCredential = await signInWithEmailAndPassword(auth, email, ''); // El campo password es vacío
-                await sendEmailVerification(userCredential.user);
-                alert('Se ha enviado nuevamente el correo de verificación');
-            } catch (error) {
-                alert('Error al enviar el correo de verificación: ' + error.message);
-            }
-        };
     </script>
 </head>
 <body>
-    <video autoplay muted loop id="background-video">
-        <source src="gif.gif" type="gif.gif">
-    </video>
-    
     <div class="container">
-        <h1>Iniciar Sesión</h1>
+        <h1>Desarrollo Web</h1>
         <form>
             <label for="email">Usuario:</label>
             <input type="email" id="email" name="email" placeholder="email@mail.com" required>
@@ -112,8 +94,6 @@
             <button type="button2" onclick="register()">Registrarse</button>
             <br>
             <button type="button3" onclick="resetPassword()">Restablecer Contraseña</button>
-            <br>
-            <h6><a href="#" onclick="resendVerificationEmail()">Volver a enviar correo de verificación</a></h6>
         </form>
         <h2>Felicidades</h2>
     </div>
