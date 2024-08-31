@@ -135,6 +135,15 @@ label {
 }
 
 input[type="text"],
+input[type="email"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+input[type="text"],
 input[type="password"] {
   width: calc(100% - 20px);
   padding: 10px;
@@ -155,4 +164,18 @@ button[type="button"] {
 
 button[type="button"]:hover {
   background-color: #45a049;
+}
+
+button[type="button2"] {
+  background-color: #2618a5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="button2"]:hover {
+  background-color: #acee42;
 }
