@@ -97,7 +97,7 @@ button[type="button2"],
 button[type="button3"] {
   background-color: #4CAF50;
   color: white;
-  padding: 10px 20px;
+  padding:2px 10px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -113,12 +113,9 @@ button[type="button2"] {
   background-color: #2618a5;
 }
 
-button[type="button2"]:hover {
-  background-color: #1a0d7e;
-}
 
 button[type="button3"] {
-  background-color: #f44336;
+  background-color: #bb9390;
 }
 
 button[type="button3"]:hover {
