@@ -6,10 +6,9 @@ body {
   display: flex;
   flex-direction: column; /* Alinear elementos verticalmente */
   align-items: center; /* Centrar elementos horizontalmente */
-  justify-content: flex-start; /* Colocar elementos al inicio verticalmente */
+  justify-content: center; /* Centrar elementos verticalmente */
   height: 100vh;
 }
-
 
 /* Estilos para el video de fondo */
 #background-video {
@@ -22,110 +21,60 @@ body {
 }
 
 /* Estilos generales */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  padding-left: 20px;
-  border: 5px solid rgb(41, 29, 219);
-  border-radius: 15px;
+.container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
 }
 
-/* Resto de tus estilos */
 /* Definición de la animación de cambio de color */
 @keyframes colorChange {
-  0% {
-    color: #ff0000; /* Rojo */
-  }
-  10% {
-    color: #ff7f00; /* Naranja */
-  }
-  20% {
-    color: #ffff00; /* Amarillo */
-  }
-  30% {
-    color: #00ff00; /* Verde */
-  }
-  40% {
-    color: #0000ff; /* Azul */
-  }
-  50% {
-    color: #4b0082; /* Índigo */
-  }
-  60% {
-    color: #8b00ff; /* Violeta */
-  }
-  70% {
-    color: #00ffff; /* Cian */
-  }
-  80% {
-    color: #ff1493; /* Rosa fuerte */
-  }
-  90% {
-    color: #e711a7; /* Naranja */
-  }
-  100% {
-    color: #ff0000; /* Vuelve al rojo */
-  }
+  0% { color: #ff0000; }
+  10% { color: #ff7f00; }
+  20% { color: #ffff00; }
+  30% { color: #00ff00; }
+  40% { color: #0000ff; }
+  50% { color: #4b0082; }
+  60% { color: #8b00ff; }
+  70% { color: #00ffff; }
+  80% { color: #ff1493; }
+  90% { color: #e711a7; }
+  100% { color: #ff0000; }
 }
+
 /* Estilo para el h1 */
 h1 {
-  margin-top: 50px; /* Espacio entre el título y la parte superior */
+  margin-top: 20px; /* Espacio entre el título y la parte superior */
   animation: shake 2s infinite, colorChange 10s infinite; /* Aplica animación de temblor y cambio de color */
 }
 
 /* Definición de la animación de temblor */
 @keyframes shake {
-  0%, 100% {
-    transform: translateX(0); /* Posición original */
-  }
-  25% {
-    transform: translateX(-5px); /* Mueve 5px a la izquierda */
-  }
-  50% {
-    transform: translateX(5px); /* Mueve 5px a la derecha */
-  }
-  75% {
-    transform: translateX(-5px); /* Mueve 5px a la izquierda */
-  }
-}
-
-
-
-/* Definición de la animación de temblor */
-@keyframes shake {
-  0%, 100% {
-    transform: translateX(0); /* Posición original */
-  }
-  25% {
-    transform: translateX(-5px); /* Mueve 5px a la izquierda */
-  }
-  50% {
-    transform: translateX(5px); /* Mueve 5px a la derecha */
-  }
-  75% {
-    transform: translateX(-5px); /* Mueve 5px a la izquierda */
-  }
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
 }
 
 /* Estilo para el h2 */
 h2 {
   color: #3bcc28;
-  margin-top: 50px; /* Espacio entre el título y la parte superior */
+  margin-top: 20px; /* Espacio entre el título y la parte superior */
   animation: shake 0.5s infinite; /* Aplica la animación de temblor */
 }
-
-
-
 
 form {
   background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 300px;
-  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 label {
@@ -134,16 +83,7 @@ label {
   color: #666666;
 }
 
-input[type="text"],
-input[type="email"] {
-  width: calc(100% - 20px);
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #cccccc;
-  border-radius: 4px;
-}
-
-input[type="text"],
+input[type="email"],
 input[type="password"] {
   width: calc(100% - 20px);
   padding: 10px;
@@ -152,7 +92,9 @@ input[type="password"] {
   border-radius: 4px;
 }
 
-button[type="button"] {
+button[type="button"],
+button[type="button2"],
+button[type="button3"] {
   background-color: #4CAF50;
   color: white;
   padding: 10px 20px;
@@ -160,6 +102,7 @@ button[type="button"] {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s;
+  margin: 5px;
 }
 
 button[type="button"]:hover {
@@ -168,14 +111,29 @@ button[type="button"]:hover {
 
 button[type="button2"] {
   background-color: #2618a5;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s;
 }
 
 button[type="button2"]:hover {
-  background-color: #acee42;
+  background-color: #1a0d7e;
+}
+
+button[type="button3"] {
+  background-color: #f44336;
+}
+
+button[type="button3"]:hover {
+  background-color: #c62828;
+}
+
+h6 {
+  margin-top: 20px;
+}
+
+a {
+  color: #1e88e5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }

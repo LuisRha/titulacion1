@@ -100,26 +100,22 @@
     </video>
     
     <div class="container">
-        <!-- Tu contenido aquí -->
+        <h1>Iniciar Sesión</h1>
+        <form>
+            <label for="email">Usuario:</label>
+            <input type="email" id="email" name="email" placeholder="email@mail.com" required>
+            <br>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" placeholder="password" required>
+            <br>
+            <button type="button" onclick="login()">Iniciar Sesión</button>
+            <button type="button2" onclick="register()">Registrarse</button>
+            <br>
+            <button type="button6" onclick="resetPassword()">Restablecer Contraseña</button>
+            <br>
+            <h6><a href="#" onclick="resendVerificationEmail()">Volver a enviar correo de verificación</a></h6>
+        </form>
+        <h2>Felicidades</h2>
     </div>
-
-    <h1>Iniciar Sesión</h1>
-    <form>
-        <label for="email">Usuario:</label>
-        <input type="email" id="email" name="email" placeholder="email@mail.com" required>
-        <br>
-        <label for="password">Contraseña:</label>
-        <input type="password" id="password" name="password" placeholder="password" required>
-        <br>
-        <button type="button" onclick="login()">Iniciar Sesión</button>
-        <button type="button2" onclick="register()">Registrarse</button>
-        <br>
-        <br>
-        <button type="button3" onclick="resetPassword()">Restablecer Contraseña</button>
-        <br>
-        <h6><a href="#" onclick="resendVerificationEmail()">Volver a enviar correo de verificación</a> </h6>
-    </form>
-
-    <h2>Felicidades</h2>
 </body>
 </html>
